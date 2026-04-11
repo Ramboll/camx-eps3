@@ -1,0 +1,11 @@
+# MacOS files
+**/.DS_Store
+
+### Fortran ###
+# Compiled Object files
+*.o
+
+# Compiled executable
+/src/o3map
+
+/output*/

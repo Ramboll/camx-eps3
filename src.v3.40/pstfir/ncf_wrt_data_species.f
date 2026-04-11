@@ -1,0 +1,151 @@
+c**** NCF_WRT_DATA_SPECIES
+c
+      subroutine ncf_wrt_data_species(ierr,action,iounit,this_hour,
+     &                   num_cols,num_rows,num_lays,nspcs,spec_name)
+      implicit none
+c
+c-----------------------------------------------------------------------
+c    Description:
+c-----------------------------------------------------------------------
+c
+c   This routine writes the data for the timestep variables to the
+c    NetCDF file
+c
+c      Argument description:
+c       Inputs:
+c           action    C name of file to open
+c           iounit    I NetCDF file ID of file
+c           this_hour I index of current hour
+c           num_cols  I number of columns in this grid
+c           num_rows  I number of rows in this grid
+c           num_lays  I number of layers
+c           nspcs     I number of species in the file
+c       Outputs:
+c           ierr      I error code
+c
+c-----------------------------------------------------------------------
+c    LOG:
+c-----------------------------------------------------------------------
+c
+c-----------------------------------------------------------------------
+c    Include files:
+c-----------------------------------------------------------------------
+c
+      include 'param.inc'
+      include 'pstfirtot.inc'
+      include 'netcdf.inc'
+c
+c-----------------------------------------------------------------------
+c    Argument declarations:
+c-----------------------------------------------------------------------
+c
+      character*(*) action
+      integer       iounit
+      integer       this_hour
+      integer       num_cols
+      integer       num_rows
+      integer       num_lays
+      integer       nspcs
+      character*(*) spec_name(nspcs)
+c
+c-----------------------------------------------------------------------
+c    External functions:
+c-----------------------------------------------------------------------
+c
+      integer strmin
+c
+c-----------------------------------------------------------------------
+c    Local variables:
+c-----------------------------------------------------------------------
+c
+      character*14 this_var
+      integer      data_start(4), data_count(4), ispc, i, j, k
+      integer      ierr, this_varid
+      real,        allocatable, dimension(:,:,:) :: array_3d
+c
+c-----------------------------------------------------------------------
+c    Entry point:
+c-----------------------------------------------------------------------
+c
+c  --- set the position in the NetCDF variable to write ---
+c
+      data_start(1) = 1
+      data_count(1) = num_cols
+      data_start(2) = 1
+      data_count(2) = num_rows
+      data_start(3) = 1
+      data_count(3) = num_lays
+      data_start(4) = this_hour
+      data_count(4) = 1
+c
+c  --- allocate the array that will be used to write the data ---
+c
+      allocate( array_3d(num_cols,num_rows,num_lays) )
+c
+c  --- loop over all variables in this file ---
+c
+      do ispc=1,nspcs
+c
+c  --- get name for this variable, and get it's variable ID
+c      in this file ---
+c
+         this_var = spec_name(ispc)
+         call lftjst(this_var)
+         ierr = nf_inq_varid(iounit,this_var(:strmin(this_var)),this_varid)
+         if( ierr .NE. NF_NOERR ) goto 7000
+c
+c  --- load the data into the local array to write ---
+c
+         do k=1,num_lays
+            do j=1,num_rows
+              do i=1,num_cols
+                  if( ijcell3d(i,j,k) .LE. 0 ) then
+                     array_3d(i,j,k) = 0.
+                  else
+                     array_3d(i,j,k) = emiss3d(this_hour,ispc,ijcell3d(i,j,k))
+                  endif
+              enddo
+            enddo
+         enddo
+c
+         ierr = nf_put_vara_real(iounit,this_varid,data_start,data_count,array_3d)
+         if( ierr .NE. NF_NOERR ) goto 7001
+c
+      enddo
+c
+c  ---- deallocate the array ---
+c
+      deallocate( array_3d )
+c
+      ierr = ISUCES
+      goto 9999
+c
+c-----------------------------------------------------------------------
+c    Error messages:
+c-----------------------------------------------------------------------
+c
+ 7000 continue
+      write(*,'(//,a)') 'ERROR in NCF_WRT_DATA_SPECIES:'
+      write(*,'(A)') action(:strmin(action))
+      write(*,'(2A)') 'Cannot find variable id for: ',
+     &                                      this_var(:strmin(this_var))
+      write(*,'(A,I5,//)') 'NetCDF error code: ',ierr
+      ierr = IFAIL
+      goto 9999
+c
+ 7001 continue
+      write(*,'(//,a)') 'ERROR in NCF_WRT_DATA_SPECIES:'
+      write(*,'(A)') action(:strmin(action))
+      write(*,'(2A)') 'Cannot write data for the variable: ',
+     &                                      this_var(:strmin(this_var))
+      write(*,'(A,I5,//)') 'NetCDF error code: ',ierr
+      ierr = IFAIL
+      goto 9999
+c
+c-----------------------------------------------------------------------
+c    Return point:
+c-----------------------------------------------------------------------
+c
+ 9999 continue
+      return
+      end

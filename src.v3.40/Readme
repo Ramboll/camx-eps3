@@ -1,0 +1,58 @@
+In addition to the new 3D gridded NetCDF file option in PSTFIR and PSTHP,
+here is what you need to know about the changes in v3.30
+
+1. Updated all makefile to include support for IFORT and GFORTRAN
+	To invoke a different compiler use the syntax: make COMPILER=keyword,
+	where keyword is one of pgf90, ifort or gfortran
+	The default is PGF90.
+	For example, to build all from the main directory using Intel:
+		make clean
+		make COMPILER=ifort
+
+2. Fixed bug in writing header of CSV file for County/SCC table.
+
+3. Fixed bug in LBASE causing tables to have all zero values.
+
+4. Added GAS/PM flag to /SPECIES LIST/ packet.
+	Before:
+/SPECIES LIST/
+                   :NO         NO             46.0
+	After:
+/SPECIES LIST/
+                   :NO         NO             46.0 GAS
+If the flag is missing the default of GAS is used.
+
+5. Added projection parameters (last lines) to /REGION/ packet.
+
+Line 4:  21-30 Number of cells in X direction
+Line 4:  31-40 Number of cells in Y direction
+Line 5:  1-20  label (ignored)
+Line 5:  21-30 Projection type. Acceptable responses are:
+               UTM
+               LATLON
+               RPOLAR
+               LAMBERT
+               POLAR
+               MERCATOR
+Line 6+ depend on type of projection:
+
+/REGION/
+Domain Origin      :-2412.0   -1620.0
+UTM Zone           :0
+Cell Width         :36.0       36.0
+Number of Cells    :132        82
+Projection type    : LAMBERT
+Longitude pole     : -97.0
+Latitude pole      : 40.0
+1st true latitude  : 45.0
+2nd true latitude  : 33.0
+/END/
+
+	New lines do not need to be included. Defaults are:
+
+ Projection type   : Lambert Conformal
+ Longitude Pole    :   -93.000
+ Latitude Pole     :    40.000
+ 1st True Latitude :    45.000
+ 2nd True Latitude :    33.000
+ Number of counties:   30
