@@ -1,0 +1,267 @@
+
+                   EPS3 CHMSPL module v. 3.40 Apr 2022     
+
+             Input Files
+         USERIN file                   :../inputs/userin.test_problem
+         Input EMBR file               :../embr/embr.prepnt.test_problem
+         Splits file                   :../inputs/splitfac.VOC_to_TOG.std_profiles.cb4.eps3.15jan07
+         ASC-SCC/profile code XREF file:../inputs/chemical.speciation.xref.cb4.12Dec04
+
+             Output Files
+         Output EMBR file              :../embr/embr.chmspl.pts.test_problem
+         EMAR error file               :../error/emar.chmspl.pts.test_problem
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: NO will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: NO2 will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: OLE will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: PAR will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: TOL will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: XYL will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: FORM will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ALD2 will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ETH will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: MEOH will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ETOH will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ISOP will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: CO will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: Cannot find the /SPECIES TABLES/ packet of USERIN file.
+Only default tables for speciated pollutants will be written to the message file.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+                   EPS3 CHMSPL module v. 3.40 Apr 2022     11/25/26 22:31:40                       
+
+         File note                     :CAMx Modeling of Tx regional, 9/13/99
+         Episode date (Calander)       :990913
+         Episode date (Julian)         :99256
+         Beginning hour                :    0
+         Ending hour                   :   24
+         Use inconsistent species lists:YES
+         Write totals by profile code  :YES
+         Force profile match           :YES
+
+     **********************************************************************
+     *                                                                    *
+     *  NOTE: This version is compiled for profile codes of length: 14    *
+     *  Please verify that this is the correct length for your data.      *
+     *  The first record of your split factors file is shown below:       *
+     *                                                                    *
+     **********************************************************************
+
+
+0000  0.206E-02 0.276E-01 0.727E-03 0.433E-03 0.610E-03 0.140E-02 0.130E-02 0.508E-03 0.352E-03 0.680E-04 0.144E-01 0.984E-02
+
+
+ Number of species in the splits file:      12
+
+ Number of factors read from splits file:     373
+
+No default profile is available.
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING:  Some species in splits file are not found in /SPECIES LIST/ packet.
+          Species: NR
+A loss in total mass of emissions may result.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+     **********************************************************************
+     *                                                                    *
+     *  NOTE: This version is compiled for profile codes of length: 14    *
+     *  Please verify that this is the correct length for your data.      *
+     *  The first record of your XREF file is shown below:                *
+     *                                                                    *
+     **********************************************************************
+
+
+00000                         20101001  0000
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING:  EMBR file contains ASC/SCC codes that are mapped to 
+nonexistent profile codes.
+          ASC/SCC code:   20200202
+          Profile code: 1001          
+     All such records will be written to the error file.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING:  EMBR file contains ASC/SCC codes that are not in the speciation XREF file.
+          ASC/SCC code:   31000220
+     All such records will be written to the error file.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+ Number of EMBR records processed:    14331
+
+ Number of records written to EMAR:     9744
+
+
+
+          -------------------------------------------------------------
+          Note to the user:  The criteria pollutant emissions are 
+                             reported as the sum of all contributing 
+                             speciated emissions.
+           
+                             The speciated emissions are reported as 
+                             methane equivalent.  Therefore the output 
+                             criteria emissions may not match the input
+                             criteria emissions.
+          -------------------------------------------------------------
+
+           Total Criteria Emissions Processed
+                      English Tons
+
+                          NOX          CO         VOC      
+ ---------------------------------------------------------
+ Input Emissions        2406.0900   1071.8400    656.7800
+ Output Criteria         637.1000    237.6300       0.
+ Output Speciated        637.1000    237.6300       0.
+ Emissions Skipped          0.          0.          0.
+ Written to EMAR        1768.9900    834.2100    656.7800
+ ---------------------------------------------------------
+
+
+
+                              Emissions by Profile Code
+                                     English Tons
+
+
+    Profile       Input     Speciated     Input     Speciated     Input     Speciated   
+                   NOX         NOX          CO          CO         VOC         VOC      
+ --------------------------------------------------------------------------------------
+ Deflt            637.1038    637.1038    237.6280    237.6280       0.          0.
+ --------------------------------------------------------------------------------------
+ Total            637.1038    637.1038    237.6280    237.6280       0.          0.
+
+                                                                Output Speciated Emissions by Profile Code
+                                                                               English Tons
+
+    Profile         NO         NO2         OLE         PAR         TOL         XYL         FORM        ALD2        ETH         MEOH        ETOH        ISOP         CO      
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Deflt            573.3911     63.7094       0.          0.          0.          0.          0.          0.          0.          0.          0.          0.       237.6280
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Total            573.3911     63.7094       0.          0.          0.          0.          0.          0.          0.          0.          0.          0.       237.6280

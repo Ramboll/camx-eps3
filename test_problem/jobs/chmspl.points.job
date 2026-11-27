@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module CHMSPL
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+rm -f ../msg/msg.chmspl.pts.$SCENARIO
+rm -f ../embr/embr.chmspl.pts.$SCENARIO
+rm -f ../error/emar.chmspl.pts.$SCENARIO
+#
+echo "-------------------------------------------------"
+echo "    Running CHMSPL for $SCENARIO - area sources"
+echo "-------------------------------------------------"
+#
+$EXEC/chmspl.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO
+Input EMBR file    :../embr/embr.prepnt.$SCENARIO
+Splits file        :../inputs/splitfac.VOC_to_TOG.std_profiles.cb4.eps3.15jan07
+ASC profile XREF   :../inputs/chemical.speciation.xref.cb4.12Dec04
+Output Messages    :../msg/msg.chmspl.pts.$SCENARIO
+Output EMBR file   :../embr/embr.chmspl.pts.$SCENARIO
+EMAR error file    :../error/emar.chmspl.pts.$SCENARIO
+IEOF

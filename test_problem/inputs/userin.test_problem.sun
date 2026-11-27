@@ -1,0 +1,617 @@
+This is a sample USERIN file for running the EPS3 system.
+The file is separated into packets.  The packet identifier
+is a keyword surrounded by a forward slash (/) character.  The
+packet terminator is /END/.  The packet identifies are
+not case sensitive. A packet can be disabled by
+putting any non-blank character (for example a ; ) in the first
+column of the packet identifier.  Packets can appear in any
+order and any notes can be placed between packet identifiers.
+
+-----------------------------------------------------------------------
+This is the packet that defines the species list that will
+be generated in the inventory.  The species name and the
+molecular weight of the species are defined here, as well as
+the criteria pollutant associated with the species.  Only
+those species in the list will be included in the inventory.
+
+The fields are:
+
+ 1-20 label (ignored)
+21-30 species name
+31-40 name of associated criteria pollutant
+41-50 molecular weight
+
+/SPECIES LIST/
+                   :NO         NOX         46.0
+                   :NO2        NOX         46.0
+                   :OLE        VOC         32.0
+                   :PAR        VOC         16.0
+                   :TOL        VOC        112.0
+                   :XYL        VOC        128.0
+                   :FORM       VOC         16.0
+                   :ALD2       VOC         32.0
+                   :ETH        VOC         32.0
+                   :MEOH       VOC         16.0
+                   :ETOH       VOC         32.0
+                   :ISOP       VOC         80.0
+                   :CO         CO          28.0
+/END/
+
+-----------------------------------------------------------------------
+This is the packet that defines the data and time of the inventory.
+The date should be calendar date of the form yymmdd
+The beginning and ending time are 2 digit hours.
+
+The fields are:
+Line 1: 1-20 label (ignored)
+Line 1: 21-80 inventory note (arbitrary string)
+Line 2: 1-20 label (ignored)
+Line 2: 21-30 inventory date - yymmdd
+Line 2: 1-20 label (ignored)
+Line 2: 21-30 beginning time (0 = first hour of the day)
+Line 3: 1-20 label (ignored)
+Line 3: 21-30 ending time (24 = last hour of the day)
+
+/DATE/
+Inventory Note     :CAMx Modeling of Tx regional, Sunday 9/19/99
+Inventory Date     :990919
+Beginning Time     : 0
+Ending Time        : 24
+/END/
+
+----------------------------------------------------------------------
+This is the packet that defines the modeling domain.
+The units should be in km for UTM or Polar Stereographic 
+and Decimal degrees for Geodesic coordinates. 
+
+The fields are:
+Line 1:  1-20  label (ignored)
+Line 1:  21-30 Origin in X direction
+Line 1:  31-40 Origin in Y direction
+Line 2:  1-20  label (ignored)
+Line 2:  21-30 UTM zone (put 0 for non-UTM coordinates)
+Line 3:  1-20  label (ignored)
+Line 3:  21-30 Cell Width in X direction
+Line 3:  31-40 Cell Width in Y direction
+Line 4:  1-20  label (ignored)
+Line 4:  21-30 Number of cells in X direction
+Line 4:  31-40 Number of cells in Y direction
+
+/REGION/
+Domain Origin      :-108.00   -1584.00
+UTM Zone           :0
+Cell Width         :12.0      12.0
+Number of Cells    :135       138
+Projection Type    : LAMBERT
+Pole Longitude     :     -97.0
+Pole Latitude      :      40.0
+1st True Latitude  :      33.0
+2nd Tru Latitude   :      45.0
+/END/
+
+-----------------------------------------------------------------------
+This is the packet that defines the default split factors.  If a 
+constant value is used to split a species from its parent criteria
+pollutant then it should be placed here.  The splits file should
+be used for species that vary by source category.  If all species
+are split using constants then then it is not necessary to supply
+a splits file of lookup table file.  All of the data can be defined
+is this packet.  The CHMSPL program will only know about species
+found either here or in the splits file.
+
+The fields are:
+1-20   label (ignored)
+21-30  species to create
+31-40  the parent criteria pollutant from which to split it
+41-50  split factor (converts from grams of criteria to moles of species)
+
+/DEFAULT SPLITS/
+Nitrous Oxides     : NO       NOX       90
+Nitrous Oxides     : NO2      NOX       10
+Carbon Monoxide    : CO       CO        100
+/END/
+Sulfur Dioxide     : SO2      SOX       97
+Fine PM            : PFIN    PM25       100      
+Coarse PM          : PCRS    PM10       100      
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+This is the packet that is used to define the criteria pollutants
+that will be in the inventory files read by PREAM/PREPNT.  The
+information from this packet will be carried in the EMBR file so
+no other module needs to read it.  The fields are:
+
+ 1-20  label (ignored)
+21-30  name of criteria pollutant
+31-40  SAROAD code of this pollutant.
+
+The names can be arbitrary but the SAROAD codes must match the
+codes in the input inventory files.  Only these pollutants will
+be included in the output inventory.
+
+/CRITERIA POLLUTANT/
+Nitrous Oxides     : NOx       42603
+Carbon Dioxide     : CO        42101
+HydroCarbons       : VOC       43104
+/END/
+Sulfur             : SOX       42401
+Particulates > 10  : PM10      11101
+Particulates < 10  : PM25      81102
+/END/
+-----------------------------------------------------------------------
+
+-----------------------------------------------------------------------
+This is the packet that tells the modules what tables to produce for
+the criteria pollutants.  If the name of a module appears on the a
+line, then that module will produce the indicated table.  If the 
+packet is missing then only the default tables (brief summaries of
+processes emissions) will be produced.  By putting a comma next
+to the module name you can have the module produce a separate CSV
+file containing the table, in addition to the formatted table written
+to the message file.
+
+The module names can appear in any order on a line, in mixed case.  
+However, the order of the lines is important.  The order must be:
+
+By County
+By Source Category
+By County and Source Category
+By Hour
+Source Category and Hour
+County and Facility
+County, Facility and Stack
+County, Facility, Stack and Point
+
+The names of the modules should be:
+
+PREAM
+PREPNT
+CHMSPL
+CNTLEM
+TMPRL
+GRDEM
+PSTPNT
+
+/CRITERIA TABLES/
+County             : PrePNT Pream TMPRL CNTLEM
+Source Category    : Prepnt pream GRDEM
+County and Src Cat : Grdem,
+Hour               : Tmprl,
+Src Cat and Hour   : Lbase
+County and Facility: prepnt
+Cty, Fac and Stk   : prepnt
+Cty, Fac, Stk, Pnt : prepnt
+/END/
+
+----------------------------------------------------------------------------
+This is the packet that tells the modules what tables to produce for
+the model species.  If the name of a module appears on the a
+line, then that module will produce the indicated table.  If the
+packet is missing then only the default tables (brief summaries of
+processes emissions) will be produced.  By putting a comma next
+to the module name you can have the module produce a separate CSV
+file containing the table, in addition to the formatted table written
+to the message file.
+
+The module names can appear in any order on a line, in mixed case.  
+However, the order of the lines is important.  The order must be:
+
+
+By County
+By Source Category
+By County and Source Category
+By Hour
+Source Category and Hour
+County and Facility
+County, Facility and Stack
+County, Facility, Stack and Point
+
+The names of the modules should be:
+
+PREAM
+PREPNT
+CHMSPL
+CNTLEM
+TMPRL
+GRDEM
+PSTPNT
+
+;  /SPECIES TABLES/
+County             : 
+Source Category    : 
+County and Src Cat : 
+Hour               : 
+Src Cat and Hour   :
+County and Facility: 
+Cty, Fac and Stk   : 
+Cty, Fac, Stk, Pnt :
+/END/
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the TMPRL module.
+
+The fields are:
+
+Line 1:  1-20  Label (ignored)
+Line 1: 21-25  Day of the week for this inventory
+(MON, TUE, WED, THU, FRI, SAT, SUN)
+Line 2:  1-20  Label (ignored)
+Line 2: 21-25  Photochemical modeling time zone (zone under which the
+model will be run)
+(PST, MST, CST, EST, PDT, MDT, CDT, EDT) 
+
+/TMPRL/
+Day of Week        : SUN
+Time Zone          : CST
+/END/
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the PREPNT module.
+The first parameter determines whether the coordinates of the point
+source locations should be converted during the PREPNT processing.
+The only conversion supported is geodesic to UTM. The second parameter
+indicates whether records with missing stack parameters should be
+processed.  If this is set to YES, the other parameters define the default 
+stack parameters that will be used in place of the missing values
+on the input record.  The plume height cutoff determines the height
+at which a source is flagged as an elevated source.  This is used as
+an initial screening to minimize the number of elevated sources fed
+to the photochemical model.
+
+The fields are:
+Line 1:  1-20  Label (not used)
+Line 1: 21-25  Flag to determine if input stack coordinates should be converted
+Line 2:  1-20  Label (not used)
+Line 2: 21-25  Flag to determine if records with missing stacks will be processed
+Line 3:  1-20  Label (not used)
+Line 3: 21-30  Plume height cutoff (meters) 
+Line 4:  1-20  Label (not used)
+Line 4: 21-30  Default stack height (meters)
+Line 5:  1-20  Label (not used)
+Line 5: 21-30  Default stack diameter (meters)
+Line 6:  1-20  Label (not used)
+Line 6: 21-30  Default stack gas exit temperature (degrees K)
+Line 7:  1-20  Label (not used)
+Line 7: 21-30  Default stack gas exit velocity (meters/second)
+
+
+/PREPNT/
+Convert Coordinates: NO
+Process Missing stk: YES
+Plume ht Cutoff (M): 50.0
+Default stk ht (M) : 3.0
+Default diam (M)   : 0.2
+Default temp (K)   : 294.
+Default veloc (M/S): 0.5
+/END/
+
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the LBASE module.
+This flag determines if the input link-based emissions files contains
+grams or tons.
+
+The fields are:
+
+ 1-20  Label (ignored)
+21-25  Units for link-based emissions 
+       (GRAMS or TONS)
+
+/LBASE/
+Units of Input Emis:Grams
+/END/
+
+
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the CHMSPL module.
+Each is a flag.  The first flag determines if CHMSPL should process
+the inventory even if the species list is not an exact match with the
+species list in the split factors file. Typically, the split factors
+file contains additional species that are considered non-reactive.
+The second flag tells CHMSPL to print an emissions summary table
+by speciation profile code. The last flag will allow CHMSPL to process
+source categories that have no match in the speciation lookup table.
+If set to NO, any sources that have no match will be processed using
+the "overall average" profile which is designated as profile code 0000.
+
+The fields are:
+
+Line 1:  1-20  Label (not used)
+Line 1: 21-25  Flag for processing mismatched species lists
+Line 2:  1-20  Label (not used)
+Line 2: 21-25  Flag to print an emissions summary table by profile code
+Line 3:  1-20  Label (not used)
+Line 3: 21-25  Flag to force all source categories to be included in the
+               speciation lookup table
+
+/CHMSPL/
+Use Non-match Specs: YES
+Print Profile Table: YES
+Force Profile Match: YES
+/END/
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the GRDEM module.
+The first flag determines if the output should be a CAMx model-ready
+emissions file or an EPS3 EMBR file.  If set to YES, the inventory
+must at the proper stage of processing (speciated and temporally 
+allocated). The second flag determines if the secondary and tertiary
+surrogates should be used.
+
+The fields are:
+
+Line 1:  1-20  Label (not used)
+Line 1: 21-25  Flag for type of output file to create 
+               (YES = CAMx model ready)
+Line 2:  1-20  Label (not used)
+Line 2: 21-25  Flag to turn on secondary surrogates.
+
+/GRDEM/
+Output is CAMx     : YES
+Use Secondary Surgs: NO
+/END/
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the CNTLEM module.
+This flag determines if a tables of processed emissions should
+be written for each county. This can be a lot of data written to
+the message file, but is useful for analyzing a control strategy. 
+
+The fields are:
+
+Line 1:  1-20  Label (not used)
+Line 1: 21-25  Flag to determine if tables by county should be 
+               written to the message file
+
+/CNTLEM/
+Print County Tables: YES
+/END/
+
+----------------------------------------------------------------------------
+This packet contains the parameters specific to the CNTLEM module.
+This flag determines if the headers of the emissions files being
+merged should be checked for consistency, resulting in termination
+of inconsistencies are found. If this is turned off, the headers
+will still be checked but inconsistencies will only result in a
+warning, which is written to the message file.
+
+The fields are:
+
+Line 1:  1-20  Label (not used)
+Line 1: 21-25  Flag to determine if header inconsistencies result
+               in errors or warnings
+               (YES = inconsistency will terminate the program)
+
+/MRGUAM/
+Check Header flag  :NO
+/END/
+  
+----------------------------------------------------------------
+This packet contains the list of counties to be processed.  It
+is accessed by almost all of the modules and utilities. You must
+specify a 5-digit FIPS code and a time-zone identifier. Only 
+time zones in the US are supported.  The time zone is used by 
+the TMPRL module to shift to the time zone used in the 
+photochemical modeling.
+
+The fields are: 
+1-20  label (ignored)
+21-25 FIPS code of the county
+27-30 time zone for the county 
+(PST, MST, CST, EST, PDT, MDT, CDT, EDT) 
+
+/COUNTY/
+Anderson, TX       :48001 CST
+Angelina, TX       :48005 CST
+Aransas, TX        :48007 CST
+Archer, TX         :48009 CST
+Armstrong, TX      :48011 CST
+Atascosa, TX       :48013 CST
+Austin, TX         :48015 CST
+Bandera, TX        :48019 CST
+Bastrop, TX        :48021 CST
+Baylor, TX         :48023 CST
+Bee, TX            :48025 CST
+Bell, TX           :48027 CST
+Bexar, TX          :48029 CST
+Blanco, TX         :48031 CST
+Borden, TX         :48033 CST
+Bosque, TX         :48035 CST
+Bowie, TX          :48037 CST
+Brazoria, TX       :48039 CST
+Brazos, TX         :48041 CST
+Briscoe, TX        :48045 CST
+Brooks, TX         :48047 CST
+Brown, TX          :48049 CST
+Burleson, TX       :48051 CST
+Burnet, TX         :48053 CST
+Caldwell, TX       :48055 CST
+Calhoun, TX        :48057 CST
+Callahan, TX       :48059 CST
+Cameron, TX        :48061 CST
+Camp, TX           :48063 CST
+Carson, TX         :48065 CST
+Cass, TX           :48067 CST
+Chambers, TX       :48071 CST
+Cherokee, TX       :48073 CST
+Childress, TX      :48075 CST
+Clay, TX           :48077 CST
+Coke, TX           :48081 CST
+Coleman, TX        :48083 CST
+Collin, TX         :48085 CST
+Collingsworth, TX  :48087 CST
+Colorado, TX       :48089 CST
+Comal, TX          :48091 CST
+Comanche, TX       :48093 CST
+Concho, TX         :48095 CST
+Cooke, TX          :48097 CST
+Coryell, TX        :48099 CST
+Cottle, TX         :48101 CST
+Crockett, TX       :48105 CST
+Crosby, TX         :48107 CST
+Dallas, TX         :48113 CST
+Delta, TX          :48119 CST
+Denton, TX         :48121 CST
+DeWitt, TX         :48123 CST
+Dickens, TX        :48125 CST
+Dimmit, TX         :48127 CST
+Donley, TX         :48129 CST
+Duval, TX          :48131 CST
+Eastland, TX       :48133 CST
+Edwards, TX        :48137 CST
+Ellis, TX          :48139 CST
+Erath, TX          :48143 CST
+Falls, TX          :48145 CST
+Fannin, TX         :48147 CST
+Fayette, TX        :48149 CST
+Fisher, TX         :48151 CST
+Floyd, TX          :48153 CST
+Foard, TX          :48155 CST
+Fort Bend, TX      :48157 CST
+Franklin, TX       :48159 CST
+Freestone, TX      :48161 CST
+Frio, TX           :48163 CST
+Galveston, TX      :48167 CST
+Garza, TX          :48169 CST
+Gillespie, TX      :48171 CST
+Goliad, TX         :48175 CST
+Gonzales, TX       :48177 CST
+Gray, TX           :48179 CST
+Grayson, TX        :48181 CST
+Gregg, TX          :48183 CST
+Grimes, TX         :48185 CST
+Guadalupe, TX      :48187 CST
+Hall, TX           :48191 CST
+Hamilton, TX       :48193 CST
+Hansford, TX       :48195 CST
+Hardeman, TX       :48197 CST
+Hardin, TX         :48199 CST
+Harris, TX         :48201 CST
+Harrison, TX       :48203 CST
+Haskell, TX        :48207 CST
+Hays, TX           :48209 CST
+Hemphill, TX       :48211 CST
+Henderson, TX      :48213 CST
+Hidalgo, TX        :48215 CST
+Hill, TX           :48217 CST
+Hood, TX           :48221 CST
+Hopkins, TX        :48223 CST
+Houston, TX        :48225 CST
+Howard, TX         :48227 CST
+Hunt, TX           :48231 CST
+Hutchinson, TX     :48233 CST
+Irion, TX          :48235 CST
+Jack, TX           :48237 CST
+Jackson, TX        :48239 CST
+Jasper, TX         :48241 CST
+Jefferson, TX      :48245 CST
+Jim Hogg, TX       :48247 CST
+Jim Wells, TX      :48249 CST
+Johnson, TX        :48251 CST
+Jones, TX          :48253 CST
+Karnes, TX         :48255 CST
+Kaufman, TX        :48257 CST
+Kendall, TX        :48259 CST
+Kenedy, TX         :48261 CST
+Kent, TX           :48263 CST
+Kerr, TX           :48265 CST
+Kimble, TX         :48267 CST
+King, TX           :48269 CST
+Kinney, TX         :48271 CST
+Kleberg, TX        :48273 CST
+Knox, TX           :48275 CST
+Lamar, TX          :48277 CST
+Lampasas, TX       :48281 CST
+La Salle, TX       :48283 CST
+Lavaca, TX         :48285 CST
+Lee, TX            :48287 CST
+Leon, TX           :48289 CST
+Liberty, TX        :48291 CST
+Limestone, TX      :48293 CST
+Lipscomb, TX       :48295 CST
+Live Oak, TX       :48297 CST
+Llano, TX          :48299 CST
+McCulloch, TX      :48307 CST
+McLennan, TX       :48309 CST
+McMullen, TX       :48311 CST
+Madison, TX        :48313 CST
+Marion, TX         :48315 CST
+Mason, TX          :48319 CST
+Matagorda, TX      :48321 CST
+Maverick, TX       :48323 CST
+Medina, TX         :48325 CST
+Menard, TX         :48327 CST
+Milam, TX          :48331 CST
+Mills, TX          :48333 CST
+Mitchell, TX       :48335 CST
+Montague, TX       :48337 CST
+Montgomery, TX     :48339 CST
+Morris, TX         :48343 CST
+Motley, TX         :48345 CST
+Nacogdoches, TX    :48347 CST
+Navarro, TX        :48349 CST
+Newton, TX         :48351 CST
+Nolan, TX          :48353 CST
+Nueces, TX         :48355 CST
+Ochiltree, TX      :48357 CST
+Orange, TX         :48361 CST
+Palo Pinto, TX     :48363 CST
+Panola, TX         :48365 CST
+Parker, TX         :48367 CST
+Polk, TX           :48373 CST
+Rains, TX          :48379 CST
+Reagan, TX         :48383 CST
+Real, TX           :48385 CST
+Red River, TX      :48387 CST
+Refugio, TX        :48391 CST
+Roberts, TX        :48393 CST
+Robertson, TX      :48395 CST
+Rockwall, TX       :48397 CST
+Runnels, TX        :48399 CST
+Rusk, TX           :48401 CST
+Sabine, TX         :48403 CST
+San Augustine, TX  :48405 CST
+San Jacinto, TX    :48407 CST
+San Patricio, TX   :48409 CST
+San Saba, TX       :48411 CST
+Schleicher, TX     :48413 CST
+Scurry, TX         :48415 CST
+Shackelford, TX    :48417 CST
+Shelby, TX         :48419 CST
+Smith, TX          :48423 CST
+Somervell, TX      :48425 CST
+Starr, TX          :48427 CST
+Stephens, TX       :48429 CST
+Sterling, TX       :48431 CST
+Stonewall, TX      :48433 CST
+Sutton, TX         :48435 CST
+Tarrant, TX        :48439 CST
+Taylor, TX         :48441 CST
+Throckmorton, TX   :48447 CST
+Titus, TX          :48449 CST
+Tom Green, TX      :48451 CST
+Travis, TX         :48453 CST
+Trinity, TX        :48455 CST
+Tyler, TX          :48457 CST
+Upshur, TX         :48459 CST
+Uvalde, TX         :48463 CST
+Val Verde, TX      :48465 CST
+Van Zandt, TX      :48467 CST
+Victoria, TX       :48469 CST
+Walker, TX         :48471 CST
+Waller, TX         :48473 CST
+Washington, TX     :48477 CST
+Webb, TX           :48479 CST
+Wharton, TX        :48481 CST
+Wheeler, TX        :48483 CST
+Wichita, TX        :48485 CST
+Wilbarger, TX      :48487 CST
+Willacy, TX        :48489 CST
+Williamson, TX     :48491 CST
+Wilson, TX         :48493 CST
+Wise, TX           :48497 CST
+Wood, TX           :48499 CST
+Young, TX          :48503 CST
+Zapata, TX         :48505 CST
+Zavala, TX         :48507 CST
+/END/

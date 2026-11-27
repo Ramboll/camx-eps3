@@ -1,0 +1,466 @@
+00000         4 2102002000 Industrial                    Bituminous/Subbituminous Coa
+00000         4 2102004000 Industrial                    Distillate Oil              
+00000         4 2102005000 Industrial                    Residual Oil                
+00000         4 2102006000 Industrial                    Natural Gas                 
+00000         4 2102006001 Natural Gas                                       All Boil
+00000         4 2102007000 Industrial                    Liquified Petroleum Gas     
+00000         4 2102008000 Industrial                    Wood                        
+00000         4 2102010000 Industrial                    Process Gas                 
+00000         4 2103001000 Commercial/Institutional      Anthracite Coal             
+00000         4 2103002000 Commercial/Institutional      Bituminous/Subbituminous Coa
+00000         4 2103004000 Commercial/Institutional      Distillate Oil              
+00000         4 2103005000 Commercial/Institutional      Residual Oil                
+00000         4 2103006000 Commercial/Institutional      Natural Gas                 
+00000         4 2103007000 Commercial/Institutional      Liquified Petroleum Gas     
+00000         4 2103008000 Commercial/Institutional      Wood                        
+00000         4 2103011000 Commercial/Institutional      Kerosene                        
+00000         2 2104001000 Residential                   Anthracite Coal
+00000         2 2104002000 Residential                   Bituminous/Subbituminous Coa
+00000         2 2104004000 Residential                   Distillate Oil              
+00000         2 2104006000 Residential                   Natural Gas                 
+00000         2 2104007000 Residential                   Liquified Petroleum Gas     
+00000         2 2104008000 Residential                   Wood                        
+00000         2 2104008001 Wood                                              Fireplac
+00000         2 2104008050 Wood                                              Non-cata
+00000         2 2104011000 Residential                   Kerosene                    
+00000        15 2260001000 Recreational Vehicles                             
+00000        15 2260001020 Recreational Vehicles                             Snowmobi
+00000        15 2260001030 Recreational Vehicles                             All Terr
+00000        15 2260001060 Recreational Vehicles                             Speciali
+00000         4 2260002000 Construction Equipment                            Total
+00000         4 2260002006 Construction Equipment                            Tampers/
+00000         4 2260002009 Construction Equipment                            Plate Co
+00000         4 2260002021 Construction Equipment                            Paving E
+00000         4 2260002027 Construction Equipment                            Signal 
+00000         4 2260002039 Construction Equipment                            Concrete
+00000         4 2260002054 Construction Equipment                            Crushing
+00000         4 2260003000 Industrial Equipment                              Total
+00000         4 2260003030 Industrial Equipment                              Sweepers
+00000         4 2260003040 Industrial Equipment                              General
+00000         2 2260004000 Lawn & Garden Equipment                           All 
+00000         2 2260004015 Lawn & Garden Equipment                           Rotary 
+00000         2 2260004016
+00000         2 2260004020 Lawn & Garden Equipment                           Chain S
+00000         2 2260004021
+00000         2 2260004025 Lawn & Garden Equipment                            Trimmer
+00000         2 2260004026
+00000         2 2260004030 Lawn & Garden Equipment                            Leafblo
+00000         2 2260004031
+00000         2 2260004071
+00000         5 2260005035 Farm Equipment                                    Sprayers
+00000         5 2260005050 Agricultural Equipment                            Hydro
+00000         5 2260005055 Agricultural Equipment                            Other
+00000         4 2260006000 Light Commercial                                  
+00000         4 2260006005 Light Commercial                                  Generato
+00000         4 2260006010 Light Commercial                                  Pumps   
+00000         4 2260006015 Light Commercial                                  welders 
+00000         4 2260006020 Light Commercial                                  gas comp 
+00000        15 2260007000 Logging Equipment                                 
+00000        15 2260007005 Logging Equipment                                 Chain Sa
+00000         4 2260008000 GSE
+00000        15 2265001000 Recreational Vehicles                             Total
+00000        15 2265001030 Recreational Vehicles                             All Terr
+00000        15 2265001050 Recreational Vehicles                             Golf Car
+00000        15 2265001060 Recreational Vehicles                             Speciali
+00000         4 2265002003 Construction Equipment                            Asphalt 
+00000         4 2265002006 Construction Equipment                            Tampers/
+00000         4 2265002009 Construction Equipment                            Plate Co
+00000         4 2265002015 Construction Equipment                            Rollers 
+00000         4 2265002021 Construction Equipment                            Paving E
+00000         4 2265002024 Construction Equipment                            Surfacin
+00000         4 2265002027 Construction Equipment                            Signal B
+00000         4 2265002030 Construction Equipment                            Trencher
+00000         4 2265002033 Construction Equipment                            Bore/Dri
+00000         4 2265002039 Construction Equipment                            Concrete
+00000         4 2265002042 Construction Equipment                            Cement &
+00000         4 2265002045 Construction Equipment                            Cranes  
+00000         4 2265002054 Construction Equipment                            Crushing
+00000         4 2265002057 Construction Equipment                            Rough Te
+00000         4 2265002060 Construction Equipment                            Rubber T
+00000         4 2265002066 Construction Equipment                            Tractors
+00000         4 2265002072 Construction Equipment                            Skid Ste
+00000         4 2265002078 Construction Equipment                            Dumpers/
+00000         4 2265002081 Construction Equipment                            Other Co
+00000         4 2265003010 Industrial Equipment                              Aerial L
+00000         4 2265003020 Industrial Equipment                              Forklift
+00000         4 2265003030 Industrial Equipment                              Sweepers
+00000         4 2265003040 Industrial Equipment                              Other Ge
+00000         4 2265003050 Industrial Equipment                              Other Ma
+00000         2 2265003060
+00000         2 2265003070
+00000         2 2265004000 Lawn & Garden Equipment                           All
+00000         2 2265004001 Lawn & Garden Equipment                           
+00000         2 2265004002 Lawn & Garden Equipment                           
+00000         2 2265004010 Lawn & Garden Equipment                            Lawn mo
+00000         2 2265004011
+00000         2 2265004015 Lawn & Garden Equipment                            Rotary 
+00000         2 2265004016
+00000         2 2265004025 Lawn & Garden Equipment                            Trimmer
+00000         2 2265004026
+00000         2 2265004030 Lawn & Garden Equipment                            Leafblo
+00000         2 2265004031
+00000         2 2265004035 Lawn & Garden Equipment                            Snowblo
+00000         2 2265004040 Lawn & Garden Equipment                            Rear En
+00000         2 2265004041
+00000         2 2265004046
+00000         2 2265004051
+00000         2 2265004055 Lawn & Garden Equipment                            Lawn & 
+00000         2 2265004056
+00000         2 2265004066
+00000         2 2265004071
+00000         2 2265004075 Lawn & Garden Equipment                            Other L
+00000         2 2265004076
+00000         5 2265005000 4-Stroke Farm Equipment                           Total 
+00000         5 2265005010 Farm Equipment                                    2-Wheel 
+00000         5 2265005015 Farm Equipment                                    Agricult
+00000         5 2265005020
+00000         5 2265005025 Farm Equipment                                    Balers  
+00000         5 2265005030 Farm Equipment                                    Agricult
+00000         5 2265005035 Farm Equipment                                    Sprayers
+00000         5 2265005040 Farm Equipment                                    Tillers 
+00000         5 2265005045 Farm Equipment                                    Swathers
+00000         5 2265005050 Farm Equipment                                    Hydro Po
+00000         5 2265005055 Farm Equipment                                    Other Ag
+00000         5 2265005060
+00000         4 2265006000 Light Commercial                                  Total
+00000         4 2265006005 Light Commercial                                  Generato
+00000         4 2265006010 Light Commercial                                  Pumps   
+00000         4 2265006015 Light Commercial                                  Air Comp
+00000         4 2265006025 Light Commercial                                  Welders 
+00000         4 2265006030 Light Commercial                                  Pressure
+00000        15 2265007010 Logging Equipment                                 Shredder
+00000        15 2265007015 Logging Equipment                                 Skidders
+00000         1 2265008005 Airport Service Equipment                         Airport 
+00000        15 2265010010
+00000         6 2267001060
+00000         4 2267002003
+00000         4 2267002015
+00000         4 2267002021
+00000         4 2267002024
+00000         4 2267002030
+00000         4 2267002033
+00000         4 2267002039
+00000         4 2267002045
+00000         4 2267002054
+00000         4 2267002057
+00000         4 2267002060
+00000         4 2267002066
+00000         4 2267002072
+00000         4 2267002081
+00000         4 2267003010
+00000         4 2267003020
+00000         4 2267003030
+00000         4 2267003040
+00000         4 2267003050
+00000         4 2267003070
+00000         2 2267004066
+00000         5 2267005050
+00000         5 2267005055
+00000         5 2267005060
+00000         4 2267006005
+00000         4 2267006010
+00000         4 2267006015
+00000         4 2267006025
+00000         4 2267006030
+00000         1 2267008005 Airport Service Equipment                         Airport 
+00000         4 2268002081
+00000         4 2268003020
+00000         4 2268003030
+00000         4 2268003040
+00000         4 2268003060
+00000         4 2268003070
+00000         5 2268005050
+00000         5 2268005055
+00000         5 2268005060
+00000         4 2268006005
+00000         4 2268006010
+00000         4 2268006015
+00000         4 2268006020
+00000         4 2268010010
+00000        15 2270001000 Recreational Vehicles                             
+00000        15 2270001060 Recreational Vehicles                             Speciali
+00000         4 2270002000 Construction Equipment
+00000         4 2270002003 Construction Equipment                            Asphalt 
+00000         4 2270002009 Construction Equipment                            Plate Co
+00000         4 2270002015 Construction Equipment                            Rollers 
+00000         4 2270002018 Construction Equipment                            Scrapers
+00000         4 2270002021 Construction Equipment                            Paving E
+00000         4 2270002024 Construction Equipment                            Surfacin
+00000         4 2270002027 Construction Equipment                            Signal B
+00000         4 2270002030 Construction Equipment                            Trencher
+00000         4 2270002033 Construction Equipment                            Bore/Dri
+00000         4 2270002036 Construction Equipment                            Excavato
+00000         4 2270002039 Construction Equipment                            Concrete
+00000         4 2270002042 Construction Equipment                            Cement &
+00000         4 2270002045 Construction Equipment                            Cranes  
+00000         4 2270002048 Construction Equipment                            Graders 
+00000         4 2270002051 Construction Equipment                            Off-high
+00000         4 2270002054 Construction Equipment                            Crushing
+00000         4 2270002057 Construction Equipment                            Rough Te
+00000         4 2270002060 Construction Equipment                            Rubber T
+00000         4 2270002063 Construction Equipment                            Rubber T
+00000         4 2270002066 Construction Equipment                            Tractors
+00000         4 2270002069 Construction Equipment                            Crawler 
+00000         4 2270002072 Construction Equipment                            Skid Ste
+00000         4 2270002075 Construction Equipment                            Off-High
+00000         4 2270002078
+00000         4 2270002081 Construction Equipment                            Other Co
+00000        15 2270003000 Industrial Equipment
+00000        15 2270003010 Industrial Equipment                              Aerial L
+00000        15 2270003020 Industrial Equipment                              Forklift
+00000        15 2270003030 Industrial Equipment                              Sweepers
+00000        15 2270003040 Industrial Equipment                              Other Ge
+00000        15 2270003050 Industrial Equipment                              Other Ma
+00000         4 2270003060
+00000         4 2270003070
+00000         2 2270004000
+00000         2 2270004031
+00000         2 2270004041
+00000         2 2270004046
+00000         2 2270004056
+00000         2 2270004066
+00000         2 2270004071
+00000         2 2270004076
+00000         5 2270005000  
+00000         5 2270005005  
+00000         5 2270005010 2-Wheel Tractors
+00000         5 2270005015 Farm Equipment                                    Agricult
+00000         5 2270005020 Farm Equipment                                    Combines
+00000         5 2270005025 Balers 
+00000         5 2270005030 Agricultural Mowers
+00000         5 2270005035 Farm Equipment                                    Sprayers
+00000         5 2270005040 Tillers
+00000         5 2270005045 Farm Equipment                                    Swathers
+00000         5 2270005050 Farm Equipment                                    Hydro Po
+00000         5 2270005055 Farm Equipment                                    Other Ag
+00000         5 2270005060
+00000         4 2270006000 Light Commercial
+00000         4 2270006005 Light Commercial                                  Generato
+00000         4 2270006010 Light Commercial                                  Pumps   
+00000         4 2270006015 Light Commercial                                  Air Comp
+00000         4 2270006020 Light Commercial                                  Gas Comp
+00000         4 2270006025 Light Commercial                                  Welders 
+00000         4 2270006030 Light Commercial                                  Pressure
+00000        15 2270007000
+00000        15 2270007010
+00000        15 2270007015 Logging Equipment                                 Skidders
+00000         1 2270008000 Airport Service Equipment                         Total 
+00000         1 2270008005 Airport Service Equipment                         Airport 
+00000        15 2270009010 
+00000        15 2270010010
+00000         1 2275000000 Aircraft                      Mobile Sources              
+00000         1 2275001000 Aircraft                      Military Aircraft           
+00000         1 2275020000 Aircraft                      Commercial Aircraft         
+00000         1 2275050000 Aircraft                      General Aviation            
+00000         1 2275060000 Aircraft                      Air Taxi                    
+00000         1 2275085000 Aircraft                      Unpaved Airstrips           
+00000         1 2275900000 Aircraft                      Refueling: All Fuels        
+00000         1 2275900101 Refueling: All Fuels                              Displace
+00000        10 2280000000 Marine Vessels, Commercial    Diesel                      
+00000        10 2280002000 Marine Vessels, Commercial    Diesel                      
+48259        15 2280002000 Marine Vessels, Commercial    Diesel                      
+48319        15 2280002000 Marine Vessels, Commercial    Diesel                      
+00000        10 2280003000 Marine Vessels, Commercial    Residual                    
+48259        15 2280003000 Marine Vessels, Commercial    Residual                    
+48319        15 2280003000 Marine Vessels, Commercial    Residual                    
+00000        10 2280003010 Residual                                          Ocean-Go
+48259        15 2280003010 Residual                                          Ocean-Go
+48319        15 2280003010 Residual                                          Ocean-Go
+00000        10 2280003020 Residual                                          Harbor V
+48259        15 2280003020 Residual                                          Harbor V
+48319        15 2280003020 Residual                                          Harbor V
+00000        10 2280003030 Residual                                          Fishing 
+48259        15 2280003030 Residual                                          Fishing 
+48319        15 2280003030 Residual                                          Fishing 
+00000        10 2282005000 Pleasure Craft, All Fuels                         Total
+00000        10 2282005001 Pleasure Craft,                                   
+00000        10 2282005002 Pleasure Craft,                                   
+00000        10 2282005005 Pleasure Craft, Gasoline 2-Stroke                 Inboard 
+00000        10 2282005010 Pleasure Craft, Gasoline 2-Stroke                 Outboard
+48259        15 2282005010 Pleasure Craft, Gasoline 2-Stroke                 Outboard
+48319        15 2282005010 Pleasure Craft, Gasoline 2-Stroke                 Outboard
+00000        10 2282005015 Pleasure Craft, Gasoline 2-Stroke                 Sterndri
+48259        15 2282005015 Pleasure Craft, Gasoline 2-Stroke                 Sterndri
+48319        15 2282005015 Pleasure Craft, Gasoline 2-Stroke                 Sterndri
+00000        10 2282010000 Pleasure Craft
+00000        10 2282010005 Pleasure Craft, Gasoline 4-Stroke                 Inboards
+48259        15 2282010005 Pleasure Craft, Gasoline 4-Stroke                 Inboards
+48319        15 2282010005 Pleasure Craft, Gasoline 4-Stroke                 Inboards
+00000        10 2282020000 Pleasure Craft, Diesel
+00000        10 2282020005 Pleasure Craft, Diesel                            Inboards
+48259        15 2282020005 Pleasure Craft, Diesel                            Inboards
+48319        15 2282020005 Pleasure Craft, Diesel                            Inboards
+00000        10 2282020010 Pleasure Craft, Diesel                            Outboards
+00000        10 2282020025
+00000         4 2285000000 Railroads                     All Fuels           Total
+00000         4 2285002000 Railroads                     Diesel                      
+00000         4 2285002005 Diesel                                            Line Hau
+00000         4 2285002010 Diesel                                            Yard Loc
+00000         1 2285002015
+00000         4 2285002015 Railroad, Diesel                                  Maintena
+00000         1 2285004015
+00000         4 2285006015 Railroad, LPG                                     Maintena
+00000         2 2294000000 Paved Roads                   Mobile Sources              
+00000        15 2296000000 Unpaved Roads                 Mobile Sources              
+00000         4 2301010000 Chemical Manufacturing: SIC 28Industrial Inorganic Chemica
+00000         4 2301020000 Industrial Inorganic Chemical Mfg.                Sulfur R
+00000         4 2301030000 Industrial Inorganic Chemical Mfg.                Sulfur R
+00000         4 2301040000 Industrial Inorganic Chemical Mfg.                Sulfur R
+00000         4 2302050000 Food & Kindred Products: SIC 2Bakery Products             
+00000         2 2302070001 Food & Kindred Products: SIC  Breweries            
+00000         5 2302070005 Food & Kindred Products: SIC  Wineries            
+00000         2 2302070010 Food & Kindred Products: SIC  Distilleries            
+00000         4 2306000000 Petroleum Refining: SIC 29    Industrial Processes        
+00000        15 2310000000 Oil & Gas Production: SIC 13  Industrial Processes        
+00000        15 2310020000 Oil & Gas Production: SIC 13  Natural Gas
+00000         4 2311000100 Construction: SIC 15 - 17     General Building Constructio
+00000         4 2311010000 Construction: SIC 15 - 17     General Building Constructio
+00000         4 2311020000 Construction: SIC 15 - 17     Heavy Construction          
+00000         4 2311030000 Construction: SIC 15 - 17     Road Construction           
+00000         4 2325000000 Mining & Quarrying: SIC 14    Industrial Processes        
+00000         4 2399000000 Industrial Processes: NEC     Industrial Processes        
+00000         2 2401001000 Surface Coating               Architectural Coatings      
+00000         2 2401001999 Architectural Coatings                            Solvents
+00000         2 2401002000 Surface Coating               Architectural Coatings      
+00000         2 2401003000 Surface Coating               Architectural Coatings      
+00000         4 2401005000 Surface Coating               Auto Refinishing: SIC 7532  
+00000         4 2401008000 Surface Coating               Traffic Markings            
+00000         4 2401015000 Surface Coating               Factory Finished Wood: SIC 2
+00000         4 2401020000 Surface Coating               Wood Furniture: SIC 25      
+00000         4 2401025000 Surface Coating               Metal Furniture: SIC 25     
+00000         4 2401030000 Surface Coating               Paper: SIC 26               
+00000         4 2401040000 Surface Coating               Metal Cans: SIC 341         
+00000         4 2401045000 Surface Coating               Metal Coils: SIC 3498       
+00000         4 2401055000 Surface Coating               Machinery & Equipment: SIC 3
+00000         4 2401050000 Surface Coating               Machinery & Equipment: SIC 3
+00000         4 2401060000 Surface Coating               Large Appliances: SIC 363   
+00000         4 2401065000 Surface Coating               Electronic & Other Electrica
+00000         4 2401070000 Surface Coating               Motor Vehicles: SIC 371     
+00000         4 2401075000 Surface Coating               Aircraft: SIC 372           
+00000        10 2401080000 Surface Coating               Marine: SIC 373             
+48259        15 2401080000 Surface Coating               Marine: SIC 373             
+48319        15 2401080000 Surface Coating               Marine: SIC 373             
+00000         4 2401085000 Surface Coating               Railroad: SIC 374           
+00000         4 2401090000 Surface Coating               Misc. Manufacturing         
+00000         4 2401100000 Surface Coating               Industrial Maintenance Coati
+00000         4 2401200000 Surface Coating               Other Special Purpose Coatin
+00000         2 2406900000 
+00000         4 2415000000 Degreasing                    Solvent Utilization         
+00000         4 2415000999 All Processes/All Industries                      Solvents
+00000         4 2415030000
+00000         4 2415065000 
+00000         4 2415100000 Degreasing                    All Industries: Open Top Deg
+00000         4 2415105000 Degreasing                    Furniture & Fixtures (SIC 25
+00000         4 2415110000 Degreasing                    Primary Metal Industries (SI
+00000         4 2415120000 Degreasing                    Fabricated Metal Products (S
+00000         4 2415125000 Degreasing                    Industrial Machinery & Equip
+00000         4 2415130000 Degreasing                    Electronic & Other Elec. (SI
+00000         4 2415135000 Degreasing                    Transportation Equip. (SIC 3
+00000         4 2415140000 Degreasing                    Instruments & Related Produc
+00000         4 2415145000 Degreasing                    Miscellaneous Mfg. (SIC 39):
+00000         4 2415200000 Degreasing                    All Industries: Conveyerized
+00000         4 2415300000 Degreasing                    All Industries: Cold Cleanin
+00000         4 2415305000 Degreasing                    Furniture & Fixtures (SIC 25
+00000         4 2415310000 Degreasing                    Primary Metal Industries (SI
+00000         4 2415320000 Degreasing                    Fabricated Metal Products (S
+00000         4 2415325000 Degreasing                    Industrial Machinery & Equip
+00000         4 2415330000 Degreasing                    Electronic & Other Elec. (SI
+00000         4 2415335000 Degreasing                    Transportation Equip. (SIC 3
+00000         4 2415340000 Degreasing                    Instruments & Related Produc
+00000         4 2415345000 Degreasing                    Miscellaneous Mfg. (SIC 39):
+00000         4 2415355000 Degreasing                    Automotive Dealers (SIC 55):
+00000         4 2415360000 Degreasing                    Auto Repair Services (SIC 75
+00000         4 2415365000 Degreasing                    Miscellaneous Repair Service
+00000         2 2420000000 Dry Cleaning                  Solvent Utilization         
+00000         2 2420000370 All Processes                                     Special 
+00000         2 2420010000 Dry Cleaning                  Commercial/Industrial Cleane
+00000         2 2420010055 Commercial/Industrial Cleaners                    Perchlor
+00000         2 2420010370 Commercial/Industrial Cleaners                    Special 
+00000         2 2420020055 Coin-operated Cleaners                            Perchlor
+00000         4 2425000000 Graphic Arts                  Solvent Utilization         
+00000         4 2430000000 Rubber/Plastics               Solvent Utilization         
+00000         4 2440020000 Miscellaneous Industrial      Adhesive (Industrial) Applic
+00000         2 2460000000 Miscellaneous Non-Industrial: Solvent Utilization         
+00000         2 2460050000 Miscellaneous Non-Industrial: Solvent Utilization         
+00000         2 2460500000 Miscellaneous Non-Industrial: Solvent Utilization:coatings
+00000         5 2460800000 Miscellaneous Non-Industrial: Solvent Utilization:FIFRA
+00000         5 2460890000 Miscellaneous Non-Industrial: Solvent Utilization:FIFRA
+00000         2 2461021000 Miscellaneous Non-Industrial: Cutback Asphalt             
+00000         2 2461022000 Miscellaneous Non-Industrial: Emulsified Asphalt          
+00000         2 2461023000 Miscellaneous Non-Industrial: Asphalt Roofing
+00000         5 2461800000 Miscellaneous Non-Industrial: Pesticide Application: All P
+00000         5 2461850000
+00000         2 2465000000 Miscellaneous Non-Industrial: Solvent Utilization         
+00000         2 2465100000 Miscellaneous Non-Industrial: Personal Care Products      
+00000         2 2465200000 Miscellaneous Non-Industrial: Household Products          
+00000         2 2465400000 Miscellaneous Non-Industrial: Automotive Aftermarket Produ
+00000         2 2465600000 Miscellaneous Non-Industrial: Adhesives and Sealants      
+00000         2 2465800000 Miscellaneous Non-Industrial: Pesticide Application       
+00000         2 2465900000 Miscellaneous Non-Industrial: Miscellaneous Products: NEC 
+00000         4 2501000000 Petroleum & Petroleum Product Storage & Transport        
+00000         4 2501000030 Petroleum & Petroleum Product Storage&Transport:Breathing 
+00000         4 2501000120 Petroleum & Petroleum Product Storage&Transport:Breathing 
+00000         4 2501000150 Petroleum & Petroleum Product Storage&Transport:Breathing 
+00000         4 2501000180 Petroleum & Petroleum Product Storage&Transport:Breathing 
+00000         4 2501010000 Petroleum & Petroleum Product Commercial/Industrial: Breat
+00000         4 2501010090 Petroleum & Petroleum Product Commercial/Industrial: Breat
+00000         4 2501050000 Petroleum & Petroleum Product Bulk Stations/Terminals: Bre
+00000         4 2501050120 Bulk Stations/Terminals: Breathing Loss           Gasoline
+00000         2 2501060000 Petroleum & Petroleum Product Gasoline Service Stations   
+00000         2 2501060050 Gasoline Service Stations                         Stage 1:
+00000         2 2501060051 Gasoline Service Stations                         Stage 1:
+00000         2 2501060052 Gasoline Service Stations                         Stage 1:
+00000         2 2501060053 Gasoline Service Stations                         Stage 1:
+00000         2 2501060100 Gasoline Service Stations                         Stage 2:
+00000         2 2501060101 Gasoline Service Stations                         Stage 2:
+00000         2 2501060102 Gasoline Service Stations                         Stage 2:
+00000         2 2501060103 Gasoline Service Stations                         Stage 2:
+00000         2 2501060200 Gasoline Service Stations                         Undergro
+00000         2 2501060201 Gasoline Service Stations                         Undergro
+00000         4 2505000120 All Transport Types                               Gasoline
+00000        10 2505020000 Petroleum & Petroleum Product Marine Vessel               
+48259        15 2505020000 Petroleum & Petroleum Product Marine Vessel               
+48319        15 2505020000 Petroleum & Petroleum Product Marine Vessel               
+00000        10 2505020120 Marine Vessel                                     Gasoline
+48259        15 2505020120 Marine Vessel                                     Gasoline
+48319        15 2505020120 Marine Vessel                                     Gasoline
+00000        10 2505020900 Marine Vessel                                     Tank Cle
+48259        15 2505020900 Marine Vessel                                     Tank Cle
+48319        15 2505020900 Marine Vessel                                     Tank Cle
+00000         4 2505030120 Truck                                             Gasoline
+00000         4 2510995000 Organic Chemical Storage      All Storage Types: Working L
+00000         4 2601000000 On-Site Incineration          Waste Disposal, Treatment, &
+00000         4 2601010000 On-Site Incineration          Industrial                  
+00000         4 2601020000 On-Site Incineration          Commercial/Institutional    
+00000         2 2601030000 On-Site Incineration          Residential                 
+00000        15 2610000000 Open Burning: All Types
+00000        15 2610000100
+00000        15 2610000400
+00000        15 2610000500
+00000         2 2610030000 Open Burning                  Residential                 
+00000         4 2620000000 Landfills                     Waste Disposal, Treatment, &
+00000         2 2620030000 Landfills                     Municipal                   
+00000         4 2630010000 Wastewater Treatment          Industrial                  
+00000         2 2630020000 Wastewater Treatment          Public Owned                
+00000         4 2640000000 TSDFs                         Waste Disposal, Treatment, &
+00000         4 2660000000 Leaking Underground Storage TaWaste Disposal, Treatment, &
+00000         5 2730100000 Geogenic - Wind erosion
+00000         5 2801000000 Agriculture Production - CropsMiscellaneous Area Sources  
+00000         5 2801000003 Agriculture - Crops                               Tilling 
+00000         5 2801000005 Agriculture - Crops                               Harvesti
+00000         5 2801500000 Agriculture Production - CropsAgricultural Field Burning  
+00000         5 2805001000 Agriculture Production - LivesBeef Cattle Feedlots        
+00000        15 2810001000 Other Combustion              Forest Wildfires            
+00000        15 2810005000 Other Combustion              Managed Burning, Slash      
+00000        15 2810010000 Other Combustion              Miscellaneous Area Sources  
+00000        15 2810015000 Other Combustion              Managed Burning, Prescribed 
+00000         2 2810030000 Other Combustion              Structure Fires             
+00000         2 2810050000 Other Combustion              Motor Vehicle Fires  
+00000         1 2810150000
+00000         4 2830000000 Catastrophic/Accidential ReleaMiscellaneous Area Sources  
+00000        15   31000101
+00000        15   31000204
+00000         2   40400250
+00000         2   40400311
+00000         2   40400312
+00000         2   40600307 Service Stations: Underground Tank Breathing

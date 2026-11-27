@@ -1,0 +1,1528 @@
+
+                   EPS3 GRDEM module v. 3.40 Apr 2022      11/25/26 22:44:52                       
+
+             Input Files
+         USERIN file                   :../inputs/userin.test_problem.wkd
+         Input EMBR file               :../embr/embr.tmprl.ar.test_problem.wkd
+         Surg. XREF file               :../inputs/spatial.allocation.xref.Aug03
+         Gridded Surg. file            :../inputs/gridded.surrogates.TX.12km
+         No link definition data provided.
+
+             Output Files
+         Emissions file                :../emiss/emiss.ar.test_problem.wkd.bin
+         Grodded NetCDF file           :../emiss/emiss.ar.test_problem.wkd.nc
+         ASC/FIPS Emiss file           : Not requested.
+         ERROR file                    :../error/emar.grdem.ar.test_problem.wkd
+         Surrogate Report file         : Not requested.
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: NO will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: NO2 will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: OLE will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: PAR will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: TOL will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: XYL will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: FORM will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ALD2 will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ETH will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: MEOH will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ETOH will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: ISOP will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: By default, the species: CO will be treated as a GAS speicies.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+WARNING: Cannot find the /SPECIES TABLES/ packet of USERIN file.
+Only default tables for speciated pollutants will be written to the message file.
+
+/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\
+
+
+         Output is UAM                 :YES
+
+                   EPS3 GRDEM module v. 3.40 Apr 2022      11/25/26 22:44:52                       
+
+         File note                     :CAMx Modeling of Tx regional, 9/13/99
+         Episode date (Calander)       :990913
+         Episode date (Julian)         :99256
+         Beginning hour                :    0
+         Ending hour                   :   24
+         Grid origin (km)              : (  -108.000, -1584.000)
+         UTM zone                      :    0
+         Grid cell width (km)          : (    12.000,    12.000)
+         Number of cells               : (  135,  138)
+         Number of counties            :  213
+         Output file format            :NetCDF
+         Using secondary surrogate code:NO 
+
+         Number of ASC-SCC/surrogate XREF records read:      465
+
+
+         Number of grid cells in county 48001     :      32
+         Number of grid cells in county 48005     :      28
+         Number of grid cells in county 48007     :      22
+         Number of grid cells in county 48009     :      29
+         Number of grid cells in county 48011     :       5
+         Number of grid cells in county 48013     :      38
+         Number of grid cells in county 48015     :      23
+         Number of grid cells in county 48019     :      27
+         Number of grid cells in county 48021     :      29
+         Number of grid cells in county 48023     :      23
+         Number of grid cells in county 48025     :      28
+         Number of grid cells in county 48027     :      33
+         Number of grid cells in county 48029     :      37
+         Number of grid cells in county 48031     :      21
+         Number of grid cells in county 48033     :       4
+         Number of grid cells in county 48035     :      31
+         Number of grid cells in county 48037     :      29
+         Number of grid cells in county 48039     :      46
+         Number of grid cells in county 48041     :      22
+         Number of grid cells in county 48045     :      10
+         Number of grid cells in county 48047     :      23
+         Number of grid cells in county 48049     :      28
+         Number of grid cells in county 48051     :      23
+         Number of grid cells in county 48053     :      28
+         Number of grid cells in county 48055     :      23
+         Number of grid cells in county 48057     :      32
+         Number of grid cells in county 48059     :      25
+         Number of grid cells in county 48061     :      37
+         Number of grid cells in county 48063     :      10
+         Number of grid cells in county 48065     :       5
+         Number of grid cells in county 48067     :      26
+         Number of grid cells in county 48071     :      26
+         Number of grid cells in county 48073     :      32
+         Number of grid cells in county 48075     :      23
+         Number of grid cells in county 48077     :      34
+         Number of grid cells in county 48081     :      30
+         Number of grid cells in county 48083     :      35
+         Number of grid cells in county 48085     :      23
+         Number of grid cells in county 48087     :      25
+         Number of grid cells in county 48089     :      31
+         Number of grid cells in county 48091     :      21
+         Number of grid cells in county 48093     :      30
+         Number of grid cells in county 48095     :      24
+         Number of grid cells in county 48097     :      30
+         Number of grid cells in county 48099     :      32
+         Number of grid cells in county 48101     :      22
+         Number of grid cells in county 48105     :      18
+         Number of grid cells in county 48107     :      10
+         Number of grid cells in county 48113     :      29
+         Number of grid cells in county 48119     :      13
+         Number of grid cells in county 48121     :      27
+         Number of grid cells in county 48123     :      31
+         Number of grid cells in county 48125     :      25
+         Number of grid cells in county 48127     :      30
+         Number of grid cells in county 48129     :      25
+         Number of grid cells in county 48131     :      49
+         Number of grid cells in county 48133     :      28
+         Number of grid cells in county 48137     :      49
+         Number of grid cells in county 48139     :      31
+         Number of grid cells in county 48143     :      33
+         Number of grid cells in county 48145     :      25
+         Number of grid cells in county 48147     :      26
+         Number of grid cells in county 48149     :      31
+         Number of grid cells in county 48151     :      25
+         Number of grid cells in county 48153     :      10
+         Number of grid cells in county 48155     :      21
+         Number of grid cells in county 48157     :      27
+         Number of grid cells in county 48159     :      14
+         Number of grid cells in county 48161     :      29
+         Number of grid cells in county 48163     :      30
+         Number of grid cells in county 48167     :      31
+         Number of grid cells in county 48169     :      10
+         Number of grid cells in county 48171     :      28
+         Number of grid cells in county 48175     :      29
+         Number of grid cells in county 48177     :      33
+         Number of grid cells in county 48179     :      29
+         Number of grid cells in county 48181     :      28
+         Number of grid cells in county 48183     :      12
+         Number of grid cells in county 48185     :      26
+         Number of grid cells in county 48187     :      25
+         Number of grid cells in county 48191     :      25
+         Number of grid cells in county 48193     :      25
+         Number of grid cells in county 48195     :      10
+         Number of grid cells in county 48197     :      18
+         Number of grid cells in county 48199     :      27
+         Number of grid cells in county 48201     :      50
+         Number of grid cells in county 48203     :      29
+         Number of grid cells in county 48207     :      25
+         Number of grid cells in county 48209     :      24
+         Number of grid cells in county 48211     :      20
+         Number of grid cells in county 48213     :      29
+         Number of grid cells in county 48215     :      47
+         Number of grid cells in county 48217     :      32
+         Number of grid cells in county 48221     :      15
+         Number of grid cells in county 48223     :      24
+         Number of grid cells in county 48225     :      37
+         Number of grid cells in county 48227     :       5
+         Number of grid cells in county 48231     :      26
+         Number of grid cells in county 48233     :       8
+         Number of grid cells in county 48235     :      20
+         Number of grid cells in county 48237     :      24
+         Number of grid cells in county 48239     :      29
+         Number of grid cells in county 48241     :      32
+         Number of grid cells in county 48245     :      33
+         Number of grid cells in county 48247     :      31
+         Number of grid cells in county 48249     :      33
+         Number of grid cells in county 48251     :      19
+         Number of grid cells in county 48253     :      28
+         Number of grid cells in county 48255     :      28
+         Number of grid cells in county 48257     :      23
+         Number of grid cells in county 48259     :      22
+         Number of grid cells in county 48261     :      57
+         Number of grid cells in county 48263     :      25
+         Number of grid cells in county 48265     :      31
+         Number of grid cells in county 48267     :      33
+         Number of grid cells in county 48269     :      25
+         Number of grid cells in county 48271     :      38
+         Number of grid cells in county 48273     :      31
+         Number of grid cells in county 48275     :      24
+         Number of grid cells in county 48277     :      26
+         Number of grid cells in county 48281     :      24
+         Number of grid cells in county 48283     :      39
+         Number of grid cells in county 48285     :      32
+         Number of grid cells in county 48287     :      22
+         Number of grid cells in county 48289     :      34
+         Number of grid cells in county 48291     :      34
+         Number of grid cells in county 48293     :      29
+         Number of grid cells in county 48295     :      23
+         Number of grid cells in county 48297     :      33
+         Number of grid cells in county 48299     :      27
+         Number of grid cells in county 48307     :      30
+         Number of grid cells in county 48309     :      33
+         Number of grid cells in county 48311     :      31
+         Number of grid cells in county 48313     :      19
+         Number of grid cells in county 48315     :      17
+         Number of grid cells in county 48319     :      25
+         Number of grid cells in county 48321     :      45
+         Number of grid cells in county 48323     :      42
+         Number of grid cells in county 48325     :      37
+         Number of grid cells in county 48327     :      28
+         Number of grid cells in county 48331     :      31
+         Number of grid cells in county 48333     :      25
+         Number of grid cells in county 48335     :      20
+         Number of grid cells in county 48337     :      29
+         Number of grid cells in county 48339     :      32
+         Number of grid cells in county 48343     :      15
+         Number of grid cells in county 48345     :      25
+         Number of grid cells in county 48347     :      28
+         Number of grid cells in county 48349     :      31
+         Number of grid cells in county 48351     :      33
+         Number of grid cells in county 48353     :      25
+         Number of grid cells in county 48355     :      37
+         Number of grid cells in county 48357     :      23
+         Number of grid cells in county 48361     :      15
+         Number of grid cells in county 48363     :      23
+         Number of grid cells in county 48365     :      25
+         Number of grid cells in county 48367     :      25
+         Number of grid cells in county 48373     :      33
+         Number of grid cells in county 48379     :      11
+         Number of grid cells in county 48383     :       1
+         Number of grid cells in county 48385     :      23
+         Number of grid cells in county 48387     :      33
+         Number of grid cells in county 48391     :      28
+         Number of grid cells in county 48393     :      28
+         Number of grid cells in county 48395     :      28
+         Number of grid cells in county 48397     :       9
+         Number of grid cells in county 48399     :      30
+         Number of grid cells in county 48401     :      29
+         Number of grid cells in county 48403     :      22
+         Number of grid cells in county 48405     :      22
+         Number of grid cells in county 48407     :      20
+         Number of grid cells in county 48409     :      26
+         Number of grid cells in county 48411     :      32
+         Number of grid cells in county 48413     :      40
+         Number of grid cells in county 48415     :      20
+         Number of grid cells in county 48417     :      25
+         Number of grid cells in county 48419     :      26
+         Number of grid cells in county 48423     :      27
+         Number of grid cells in county 48425     :       9
+         Number of grid cells in county 48427     :      36
+         Number of grid cells in county 48429     :      27
+         Number of grid cells in county 48431     :      18
+         Number of grid cells in county 48433     :      25
+         Number of grid cells in county 48435     :      40
+         Number of grid cells in county 48439     :      25
+         Number of grid cells in county 48441     :      25
+         Number of grid cells in county 48447     :      25
+         Number of grid cells in county 48449     :      13
+         Number of grid cells in county 48451     :      39
+         Number of grid cells in county 48453     :      33
+         Number of grid cells in county 48455     :      25
+         Number of grid cells in county 48457     :      29
+         Number of grid cells in county 48459     :      19
+         Number of grid cells in county 48463     :      36
+         Number of grid cells in county 48465     :      39
+         Number of grid cells in county 48467     :      26
+         Number of grid cells in county 48469     :      28
+         Number of grid cells in county 48471     :      28
+         Number of grid cells in county 48473     :      20
+         Number of grid cells in county 48477     :      23
+         Number of grid cells in county 48479     :      88
+         Number of grid cells in county 48481     :      33
+         Number of grid cells in county 48483     :      22
+         Number of grid cells in county 48485     :      19
+         Number of grid cells in county 48487     :      27
+         Number of grid cells in county 48489     :      25
+         Number of grid cells in county 48491     :      33
+         Number of grid cells in county 48493     :      29
+         Number of grid cells in county 48497     :      30
+         Number of grid cells in county 48499     :      22
+         Number of grid cells in county 48503     :      25
+         Number of grid cells in county 48505     :      31
+         Number of grid cells in county 48507     :      30
+
+
+                Total Emissions Processed
+                      English Tons
+
+                          NOX          CO         VOC      
+ ---------------------------------------------------------
+ Input Emissions          11.8583     24.3515       0.
+ Output Emissions         11.8351     24.3280       0.
+ Elevated Emissions         0.          0.          0.
+ Mapped to Sec Surg         0.          0.          0.
+ Mapped to Tert Surg        0.          0.          0.
+ Written to EMAR            0.          0.          0.
+ Emissions Skipped          0.          0.          0.
+ ---------------------------------------------------------
+
+                                                                       Total Speciated Emissions Processed
+                                                                                  English Tons
+
+                           NO         NO2         OLE         PAR         TOL         XYL         FORM        ALD2        ETH         MEOH        ETOH        ISOP         CO      
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Input Emissions          10.6725      1.1858       0.          0.          0.          0.          0.          0.          0.          0.          0.          0.        24.3515
+ Output Emissions         10.6516      1.1835       0.          0.          0.          0.          0.          0.          0.          0.          0.          0.        24.3280
+ Elevated Emissions         0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.
+ Mapped to Sec Surg         0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.
+ Mapped to Tert Surg        0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.
+ Written to EMAR            0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.
+ Emissions Skipped          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.          0.
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+                   Criteria Pollutant Emissions by Source Category
+                                   English Tons/Day
+
+
+  Source Code     Input       Output      Input       Output      Input       Output    
+                   NOX         NOX          CO          CO         VOC         VOC      
+ --------------------------------------------------------------------------------------
+   2102004000       6.9871      6.9689      0.8940      0.8937       0.          0.
+   2102005000       2.1348      2.1338      0.1507      0.1507       0.          0.
+   2102006000       0.6000      0.5999      2.1316      2.1312       0.          0.
+   2102007000       0.4969      0.4958      0.1354      0.1349       0.          0.
+   2103004000       0.5568      0.5565      0.1265      0.1265       0.          0.
+   2103005000       0.1530      0.1530      1.3750      1.3750       0.          0.
+   2103006000       0.0050      0.0042      0.0046      0.0039       0.          0.
+   2103007000       0.1480      0.1479      2.7753      2.7753       0.          0.
+   2104006000       0.0050      0.0050      0.0024      0.0024       0.          0.
+   2104007000       0.7716      0.7701     15.7327     15.7302       0.          0.
+   2610000500        0.          0.         0.0007   0.100E-03       0.          0.
+   2810030000        0.          0.         1.0226      1.0036       0.          0.
+ --------------------------------------------------------------------------------------
+ Total             11.8583     11.8351     24.3515     24.3275       0.          0.
+
+
+
+                       Criteria Emissions by County/Source Category
+                                     English Tons/Day
+
+
+   County, Source      Input       Output      Input       Output      Input       Output    
+                        NOX         NOX          CO          CO         VOC         VOC      
+ -------------------------------------------------------------------------------------------
+   48001 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48001 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48001 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48001 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48001 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48001 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48005 2102004000      0.0270      0.0270      0.0050      0.0050       0.          0.
+   48005 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48005 2102007000       0.          0.         0.0006      0.0006       0.          0.
+   48005 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48005 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48005 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48007 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48007 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48007 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48007 2810030000       0.          0.         0.0040      0.0040       0.          0.
+   48009 2102006000       0.          0.         0.0002      0.0002       0.          0.
+   48009 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48009 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48009 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48009 2810030000       0.          0.         0.0016      0.0016       0.          0.
+   48011 2102004000       0.          0.         0.0001   0.188E-04       0.          0.
+   48011 2102005000      0.0002   0.339E-04       0.          0.          0.          0.
+   48011 2103006000      0.0007      0.0001      0.0007      0.0001       0.          0.
+   48011 2104007000      0.0003   0.307E-04       0.          0.          0.          0.
+   48011 2810030000       0.          0.         0.0004   0.455E-04       0.          0.
+   48013 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48013 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48013 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48013 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48013 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48015 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48015 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48015 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48015 2810030000       0.          0.         0.0041      0.0041       0.          0.
+   48019 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48019 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48019 2104006000      0.0006      0.0006      0.0003      0.0003       0.          0.
+   48019 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48019 2810030000       0.          0.         0.0031      0.0031       0.          0.
+   48021 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48021 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48021 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48021 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48021 2104007000       0.          0.         0.0010      0.0010       0.          0.
+   48021 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48023 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48023 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48023 2102006000      0.0004      0.0004       0.          0.          0.          0.
+   48023 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48023 2104007000      0.0005      0.0005       0.          0.          0.          0.
+   48023 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48025 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48025 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48025 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48025 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48027 2102004000      0.0630      0.0630      0.0100      0.0100       0.          0.
+   48027 2102005000      0.0270      0.0270       0.          0.          0.          0.
+   48027 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48027 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48027 2103007000       0.          0.         0.0002      0.0002       0.          0.
+   48027 2104007000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48029 2102005000      0.1260      0.1260      0.0100      0.0100       0.          0.
+   48029 2102007000      0.0450      0.0450      0.0100      0.0100       0.          0.
+   48029 2103004000      0.0450      0.0450      0.0200      0.0200       0.          0.
+   48029 2103007000      0.0090      0.0090       0.          0.          0.          0.
+   48031 2102006000      0.0005      0.0005       0.          0.          0.          0.
+   48031 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48031 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48031 2810030000       0.          0.         0.0015      0.0015       0.          0.
+   48033 2102004000      0.0003       0.          0.          0.          0.          0.
+   48035 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48035 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48035 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48035 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48035 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48035 2810030000       0.          0.         0.0030      0.0030       0.          0.
+   48037 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48037 2102007000       0.          0.         0.0007      0.0007       0.          0.
+   48037 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48037 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48037 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48039 2102004000      0.3420      0.3420      0.0250      0.0250       0.          0.
+   48039 2102005000      0.0360      0.0360       0.          0.          0.          0.
+   48039 2102006000      0.0810      0.0810      0.0100      0.0100       0.          0.
+   48039 2102007000      0.0270      0.0270      0.0050      0.0050       0.          0.
+   48039 2103004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48039 2103005000       0.          0.         0.0650      0.0650       0.          0.
+   48039 2103007000       0.          0.         0.0004      0.0004       0.          0.
+   48039 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48041 2102004000      0.0450      0.0450      0.0050      0.0050       0.          0.
+   48041 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48041 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48041 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48041 2103007000      0.0006      0.0006       0.          0.          0.          0.
+   48041 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48041 2810030000       0.          0.         0.0300      0.0300       0.          0.
+   48045 2102004000       0.          0.         0.0001   0.442E-04       0.          0.
+   48045 2102005000      0.0002   0.795E-04       0.          0.          0.          0.
+   48045 2102006000      0.0002   0.795E-04       0.          0.          0.          0.
+   48045 2103006000      0.0004      0.0002      0.0003      0.0001       0.          0.
+   48045 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48045 2810030000       0.          0.         0.0003      0.0003       0.          0.
+   48047 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48047 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48047 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48047 2810030000       0.          0.         0.0014      0.0014       0.          0.
+   48049 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48049 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48049 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48049 2104007000       0.          0.         0.0009      0.0009       0.          0.
+   48049 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48051 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48051 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48051 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48051 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48051 2810030000       0.          0.         0.0029      0.0029       0.          0.
+   48053 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48053 2102006000       0.          0.         0.0006      0.0006       0.          0.
+   48053 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48053 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48053 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48055 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48055 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48055 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48055 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48057 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48057 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48057 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48057 2810030000       0.          0.         0.0036      0.0036       0.          0.
+   48059 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48059 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48059 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48059 2810030000       0.          0.         0.0023      0.0023       0.          0.
+   48061 2102004000      0.0900      0.0900      0.0100      0.0100       0.          0.
+   48061 2102005000      0.0270      0.0270       0.          0.          0.          0.
+   48061 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48061 2103004000      0.0180      0.0180       0.          0.          0.          0.
+   48061 2103007000       0.          0.         0.0003      0.0003       0.          0.
+   48061 2104007000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48063 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48063 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48063 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48063 2810030000       0.          0.         0.0020      0.0020       0.          0.
+   48065 2102007000      0.0002   0.679E-04       0.          0.          0.          0.
+   48065 2104007000       0.          0.         0.0002   0.919E-04       0.          0.
+   48065 2810030000       0.          0.         0.0012      0.0006       0.          0.
+   48067 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48067 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48067 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48067 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48067 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48071 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48071 2102005000       0.          0.         0.0002      0.0002       0.          0.
+   48071 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48071 2103004000       0.          0.         0.0002      0.0002       0.          0.
+   48071 2103005000      0.0900      0.0900       0.          0.          0.          0.
+   48071 2103007000      0.0002      0.0002      0.0500      0.0500       0.          0.
+   48071 2104007000      0.0090      0.0090      4.6200      4.6200       0.          0.
+   48071 2810030000       0.          0.         0.0046      0.0046       0.          0.
+   48073 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48073 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48073 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48073 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48073 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48073 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48075 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48075 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48075 2810030000       0.          0.         0.0013      0.0013       0.          0.
+   48077 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48077 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48077 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48077 2810030000       0.          0.         0.0020      0.0020       0.          0.
+   48081 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48081 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48081 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48081 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48083 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48083 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48083 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48083 2810030000       0.          0.         0.0016      0.0016       0.          0.
+   48085 2102004000      0.3510      0.3510      0.0500      0.0500       0.          0.
+   48085 2102005000      0.0360      0.0360      0.0100      0.0100       0.          0.
+   48085 2102006000      0.1260      0.1260      0.0400      0.0400       0.          0.
+   48085 2102007000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48085 2103004000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48085 2103005000       0.          0.         0.3300      0.3300       0.          0.
+   48085 2103007000      0.0090      0.0090       0.          0.          0.          0.
+   48085 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48087 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48087 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48087 2104007000      0.0004      0.0005       0.          0.          0.          0.
+   48087 2810030000       0.          0.         0.0006      0.0006       0.          0.
+   48089 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48089 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48089 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48089 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48089 2810030000       0.          0.         0.0036      0.0036       0.          0.
+   48091 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48091 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48091 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48091 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48091 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48091 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48093 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48093 2102006000       0.          0.         0.0003      0.0003       0.          0.
+   48093 2102007000      0.0005      0.0005       0.          0.          0.          0.
+   48093 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48093 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48093 2810030000       0.          0.         0.0025      0.0025       0.          0.
+   48095 2102004000       0.          0.         0.0001   0.100E-03       0.          0.
+   48095 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48095 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48095 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48097 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48097 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48097 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48097 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48097 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48099 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48099 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48099 2102006000      0.0090      0.0090       0.          0.          0.          0.
+   48099 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48099 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48099 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48099 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48101 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48101 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48101 2104007000      0.0003      0.0003       0.          0.          0.          0.
+   48101 2810030000       0.          0.         0.0003      0.0003       0.          0.
+   48105 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48105 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48105 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48105 2810030000       0.          0.         0.0007      0.0006       0.          0.
+   48107 2102006000       0.          0.         0.0002   0.242E-04       0.          0.
+   48107 2102007000      0.0003   0.327E-04       0.          0.          0.          0.
+   48107 2103004000      0.0002   0.218E-04       0.          0.          0.          0.
+   48107 2104007000       0.          0.         0.0002   0.746E-04       0.          0.
+   48107 2810030000       0.          0.         0.0012      0.0004       0.          0.
+   48113 2102005000      0.4860      0.4860      0.0400      0.0400       0.          0.
+   48113 2103005000      0.0270      0.0270       0.          0.          0.          0.
+   48113 2103007000      0.0720      0.0720      0.0200      0.0200       0.          0.
+   48113 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48119 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48119 2102005000      0.0005      0.0004       0.          0.          0.          0.
+   48119 2102006000      0.0005      0.0004       0.          0.          0.          0.
+   48119 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48119 2104007000      0.0005      0.0005       0.          0.          0.          0.
+   48119 2810030000       0.          0.         0.0009      0.0009       0.          0.
+   48121 2102004000      0.2880      0.2880      0.0400      0.0400       0.          0.
+   48121 2102005000      0.0360      0.0360       0.          0.          0.          0.
+   48121 2102006000      0.1080      0.1080      0.0300      0.0300       0.          0.
+   48121 2102007000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48121 2103004000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48121 2103005000       0.          0.         0.2000      0.2000       0.          0.
+   48121 2103007000      0.0052      0.0052      2.3100      2.3100       0.          0.
+   48121 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48123 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48123 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48123 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48123 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48123 2810030000       0.          0.         0.0035      0.0035       0.          0.
+   48125 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48125 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48125 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48125 2104007000      0.0003      0.0003       0.          0.          0.          0.
+   48125 2810030000       0.          0.         0.0005      0.0005       0.          0.
+   48127 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48127 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48127 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48127 2810030000       0.          0.         0.0018      0.0018       0.          0.
+   48129 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48129 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48129 2102006000      0.0004      0.0004       0.          0.          0.          0.
+   48129 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48129 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48131 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48131 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48131 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48131 2810030000       0.          0.         0.0023      0.0023       0.          0.
+   48133 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48133 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48133 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48133 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48133 2810030000       0.          0.         0.0032      0.0032       0.          0.
+   48137 2102004000       0.          0.         0.0001   0.100E-03       0.          0.
+   48137 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48137 2104007000      0.0003      0.0003       0.          0.          0.          0.
+   48137 2810030000       0.          0.         0.0004      0.0004       0.          0.
+   48139 2102004000      0.0270      0.0270      0.0050      0.0050       0.          0.
+   48139 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48139 2102007000       0.          0.         0.0007      0.0007       0.          0.
+   48139 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48139 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48139 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48139 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48143 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48143 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48143 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48143 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48143 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48145 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48145 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48145 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48145 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48145 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48145 2810030000       0.          0.         0.0033      0.0033       0.          0.
+   48147 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48147 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48147 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48147 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48149 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48149 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48149 2810030000       0.          0.         0.0038      0.0038       0.          0.
+   48151 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48151 2102005000      0.0005      0.0005       0.          0.          0.          0.
+   48151 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48151 2104007000      0.0005      0.0005       0.          0.          0.          0.
+   48151 2810030000       0.          0.         0.0008      0.0008       0.          0.
+   48153 2102006000       0.          0.         0.0002   0.131E-04       0.          0.
+   48153 2102007000      0.0003   0.177E-04       0.          0.          0.          0.
+   48153 2103004000      0.0002   0.118E-04       0.          0.          0.          0.
+   48153 2104007000       0.          0.         0.0002   0.211E-04       0.          0.
+   48153 2810030000       0.          0.         0.0014      0.0001       0.          0.
+   48155 2102004000      0.0005      0.0005       0.          0.          0.          0.
+   48155 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48155 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48155 2103006000      0.0004      0.0004      0.0004      0.0004       0.          0.
+   48155 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48155 2810030000       0.          0.         0.0003      0.0003       0.          0.
+   48157 2102004000      0.1170      0.1170      0.0150      0.0150       0.          0.
+   48157 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48157 2102006000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48157 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48157 2103004000      0.0180      0.0180       0.          0.          0.          0.
+   48157 2103005000       0.          0.         0.1300      0.1300       0.          0.
+   48157 2103007000       0.          0.         0.0007      0.0007       0.          0.
+   48157 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48159 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48159 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48159 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48159 2810030000       0.          0.         0.0017      0.0017       0.          0.
+   48161 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48161 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48161 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48161 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48161 2810030000       0.          0.         0.0032      0.0032       0.          0.
+   48163 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48163 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48163 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48163 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48163 2810030000       0.          0.         0.0029      0.0029       0.          0.
+   48167 2102004000      0.1710      0.1710      0.0250      0.0250       0.          0.
+   48167 2102005000      0.0270      0.0270       0.          0.          0.          0.
+   48167 2102006000      0.0450      0.0450      0.0100      0.0100       0.          0.
+   48167 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48167 2103004000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48167 2103005000       0.          0.         0.2600      0.2600       0.          0.
+   48167 2103007000      0.0090      0.0090       0.          0.          0.          0.
+   48167 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48169 2102005000      0.0005   0.562E-04       0.          0.          0.          0.
+   48169 2102007000      0.0002   0.225E-04       0.          0.          0.          0.
+   48169 2104007000      0.0006   0.251E-04       0.          0.          0.          0.
+   48169 2810030000       0.          0.         0.0009   0.359E-04       0.          0.
+   48171 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48171 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48171 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48171 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48171 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48171 2810030000       0.          0.         0.0037      0.0037       0.          0.
+   48175 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48175 2104006000      0.0006      0.0006      0.0003      0.0003       0.          0.
+   48175 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48175 2810030000       0.          0.         0.0012      0.0012       0.          0.
+   48177 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48177 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48177 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48177 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48177 2810030000       0.          0.         0.0033      0.0033       0.          0.
+   48179 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48179 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48179 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48179 2810030000       0.          0.         0.0040      0.0040       0.          0.
+   48181 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48181 2102007000       0.          0.         0.0009      0.0009       0.          0.
+   48181 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48181 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48181 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48181 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48183 2102004000      0.0360      0.0360      0.0050      0.0050       0.          0.
+   48183 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48183 2102007000       0.          0.         0.0009      0.0009       0.          0.
+   48183 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48183 2103007000      0.0005      0.0005       0.          0.          0.          0.
+   48183 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48183 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48185 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48185 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48185 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48185 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48185 2810030000       0.          0.         0.0041      0.0041       0.          0.
+   48187 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48187 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48187 2102006000      0.0090      0.0090       0.          0.          0.          0.
+   48187 2102007000       0.          0.         0.0006      0.0006       0.          0.
+   48187 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48187 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48187 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48191 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48191 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48191 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48191 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48193 2102006000       0.          0.         0.0002      0.0002       0.          0.
+   48193 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48193 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48193 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48193 2810030000       0.          0.         0.0015      0.0015       0.          0.
+   48195 2102007000      0.0002   0.752E-04       0.          0.          0.          0.
+   48195 2104007000       0.          0.         0.0002      0.0001       0.          0.
+   48195 2810030000       0.          0.         0.0009      0.0006       0.          0.
+   48197 2102005000      0.0005      0.0004       0.          0.          0.          0.
+   48197 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48197 2104007000      0.0006      0.0006       0.          0.          0.          0.
+   48197 2810030000       0.          0.         0.0008      0.0008       0.          0.
+   48199 2102004000      0.0360      0.0360      0.0050      0.0050       0.          0.
+   48199 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48199 2102006000      0.0090      0.0090       0.          0.          0.          0.
+   48199 2102007000       0.          0.         0.0006      0.0006       0.          0.
+   48199 2103004000       0.          0.         0.0004      0.0004       0.          0.
+   48199 2103005000       0.          0.         0.0300      0.0300       0.          0.
+   48199 2103007000      0.0004      0.0004      0.1100      0.1100       0.          0.
+   48199 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48199 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48201 2102004000      3.4560      3.4560      0.4800      0.4800       0.          0.
+   48201 2102005000      0.4230      0.4230      0.0400      0.0400       0.          0.
+   48201 2103005000      0.0270      0.0270       0.          0.          0.          0.
+   48201 2104007000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48203 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48203 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48203 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48203 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48203 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48207 2102006000       0.          0.         0.0002      0.0002       0.          0.
+   48207 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48207 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48207 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48207 2810030000       0.          0.         0.0011      0.0011       0.          0.
+   48209 2102004000      0.0270      0.0270      0.0050      0.0050       0.          0.
+   48209 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48209 2102006000      0.0090      0.0090       0.          0.          0.          0.
+   48209 2102007000       0.          0.         0.0006      0.0006       0.          0.
+   48209 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48209 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48209 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48211 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48211 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48211 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48211 2810030000       0.          0.         0.0006      0.0006       0.          0.
+   48213 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48213 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48213 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48213 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48213 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48213 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48215 2102004000      0.1350      0.1350      0.0200      0.0200       0.          0.
+   48215 2102005000      0.0360      0.0360       0.          0.          0.          0.
+   48215 2102007000      0.0180      0.0180       0.          0.          0.          0.
+   48215 2103004000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48215 2103007000       0.          0.         0.0004      0.0004       0.          0.
+   48215 2104007000      0.0450      0.0450      0.0100      0.0100       0.          0.
+   48217 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48217 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48217 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48217 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48221 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48221 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48221 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48221 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48221 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48223 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48223 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48223 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48223 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48223 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48225 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48225 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48225 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48225 2810030000       0.          0.         0.0041      0.0041       0.          0.
+   48227 2102004000      0.0090       0.          0.          0.          0.          0.
+   48227 2102007000       0.          0.         0.0003       0.          0.          0.
+   48227 2103007000      0.0002       0.          0.          0.          0.          0.
+   48227 2104007000       0.          0.         0.0008   0.425E-05       0.          0.
+   48227 2810030000       0.          0.         0.0100   0.532E-04       0.          0.
+   48231 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48231 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48231 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48231 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48231 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48231 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48233 2102004000      0.0090   0.440E-04       0.          0.          0.          0.
+   48233 2102007000       0.          0.         0.0002   0.979E-06       0.          0.
+   48233 2104007000       0.          0.         0.0007   0.806E-05       0.          0.
+   48233 2810030000       0.          0.         0.0042   0.484E-04       0.          0.
+   48235 2102004000      0.0005      0.0005       0.          0.          0.          0.
+   48235 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48235 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48235 2810030000       0.          0.         0.0003      0.0003       0.          0.
+   48237 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48237 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48237 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48237 2810030000       0.          0.         0.0015      0.0015       0.          0.
+   48239 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48239 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48239 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48239 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48239 2810030000       0.          0.         0.0025      0.0025       0.          0.
+   48241 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48241 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48241 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48241 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48241 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48245 2102004000      0.2340      0.2340      0.0500      0.0500       0.          0.
+   48245 2102005000      0.0450      0.0450      0.0100      0.0100       0.          0.
+   48245 2102006000      0.0810      0.0810      0.0200      0.0200       0.          0.
+   48245 2102007000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48245 2103004000       0.          0.         0.0006      0.0006       0.          0.
+   48245 2103007000       0.          0.         0.0007      0.0007       0.          0.
+   48245 2104007000      0.0090      0.0090      5.2200      5.2200       0.          0.
+   48247 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48247 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48247 2104007000      0.0006      0.0006       0.          0.          0.          0.
+   48247 2810030000       0.          0.         0.0009      0.0009       0.          0.
+   48249 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48249 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48249 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48249 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48249 2104007000       0.          0.         0.0010      0.0010       0.          0.
+   48249 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48251 2102004000      0.0360      0.0360      0.0050      0.0050       0.          0.
+   48251 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48251 2102006000      0.0090      0.0090       0.          0.          0.          0.
+   48251 2102007000       0.          0.         0.0009      0.0009       0.          0.
+   48251 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48251 2103007000      0.0005      0.0005       0.          0.          0.          0.
+   48251 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48251 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48253 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48253 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48253 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48253 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48253 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48253 2810030000       0.          0.         0.0037      0.0037       0.          0.
+   48255 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48255 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48255 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48255 2810030000       0.          0.         0.0027      0.0027       0.          0.
+   48257 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48257 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48257 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48257 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48257 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48257 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48259 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48259 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48259 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48259 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48259 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48259 2810030000       0.          0.         0.0042      0.0042       0.          0.
+   48261 2102004000      0.0002      0.0002       0.          0.          0.          0.
+   48261 2103006000   0.900E-04   0.900E-04   0.100E-03   0.100E-03       0.          0.
+   48261 2610000500       0.          0.      0.100E-03   0.100E-03       0.          0.
+   48263 2102004000      0.0003      0.0003       0.          0.          0.          0.
+   48263 2810030000       0.          0.         0.0002      0.0002       0.          0.
+   48265 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48265 2102006000       0.          0.         0.0009      0.0009       0.          0.
+   48265 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48265 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48265 2104007000       0.          0.         0.0009      0.0009       0.          0.
+   48265 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48267 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48267 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48267 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48267 2104007000      0.0004      0.0005       0.          0.          0.          0.
+   48267 2810030000       0.          0.         0.0008      0.0008       0.          0.
+   48271 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48271 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48271 2102006000      0.0003      0.0003       0.          0.          0.          0.
+   48271 2103006000      0.0005      0.0005      0.0005      0.0005       0.          0.
+   48271 2104006000      0.0007      0.0007      0.0003      0.0003       0.          0.
+   48271 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48271 2810030000       0.          0.         0.0006      0.0006       0.          0.
+   48273 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48273 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48273 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48273 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48273 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48275 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48275 2102005000      0.0005      0.0004       0.          0.          0.          0.
+   48275 2102006000      0.0005      0.0004       0.          0.          0.          0.
+   48275 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48275 2104007000      0.0005      0.0005       0.          0.          0.          0.
+   48275 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48277 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48277 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48277 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48277 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48277 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48277 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48281 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48281 2102006000       0.          0.         0.0003      0.0003       0.          0.
+   48281 2102007000      0.0005      0.0005       0.          0.          0.          0.
+   48281 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48281 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48281 2810030000       0.          0.         0.0031      0.0031       0.          0.
+   48283 2102005000      0.0005      0.0004       0.          0.          0.          0.
+   48283 2102006000      0.0005      0.0004       0.          0.          0.          0.
+   48283 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48283 2104006000      0.0008      0.0008      0.0004      0.0004       0.          0.
+   48283 2104007000      0.0006      0.0006       0.          0.          0.          0.
+   48283 2810030000       0.          0.         0.0010      0.0010       0.          0.
+   48285 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48285 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48285 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48285 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48285 2810030000       0.          0.         0.0034      0.0034       0.          0.
+   48287 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48287 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48287 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48287 2810030000       0.          0.         0.0027      0.0027       0.          0.
+   48289 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48289 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48289 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48289 2810030000       0.          0.         0.0027      0.0027       0.          0.
+   48291 2102004000      0.0270      0.0270      0.0050      0.0050       0.          0.
+   48291 2102005000       0.          0.         0.0003      0.0003       0.          0.
+   48291 2102006000      0.0090      0.0090       0.          0.          0.          0.
+   48291 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48291 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48291 2103005000       0.          0.         0.0300      0.0300       0.          0.
+   48291 2103007000       0.          0.         0.0002      0.0002       0.          0.
+   48291 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48291 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48293 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48293 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48293 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48293 2810030000       0.          0.         0.0039      0.0039       0.          0.
+   48295 2102004000       0.          0.         0.0001   0.100E-03       0.          0.
+   48295 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48295 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48295 2810030000       0.          0.         0.0005      0.0005       0.          0.
+   48297 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48297 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48297 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48297 2810030000       0.          0.         0.0022      0.0022       0.          0.
+   48299 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48299 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48299 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48299 2810030000       0.          0.         0.0030      0.0030       0.          0.
+   48307 2102006000       0.          0.         0.0002      0.0002       0.          0.
+   48307 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48307 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48307 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48307 2810030000       0.          0.         0.0015      0.0015       0.          0.
+   48309 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48309 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48309 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48309 2103007000       0.          0.         0.0002      0.0002       0.          0.
+   48309 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48311 2102004000      0.0003      0.0003       0.          0.          0.          0.
+   48311 2103006000   0.900E-04   0.900E-04   0.100E-03      0.0001       0.          0.
+   48313 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48313 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48313 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48313 2810030000       0.          0.         0.0023      0.0023       0.          0.
+   48315 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48315 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48315 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48315 2810030000       0.          0.         0.0019      0.0019       0.          0.
+   48319 2102004000       0.          0.         0.0002      0.0001       0.          0.
+   48319 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48319 2102006000      0.0004      0.0004       0.          0.          0.          0.
+   48319 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48319 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48321 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48321 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48321 2104007000       0.          0.         0.0009      0.0009       0.          0.
+   48321 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48323 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48323 2102006000       0.          0.         0.0009      0.0009       0.          0.
+   48323 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48323 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48323 2104007000       0.          0.         0.0009      0.0009       0.          0.
+   48323 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48325 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48325 2102006000       0.          0.         0.0007      0.0007       0.          0.
+   48325 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48325 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48325 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48325 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48327 2102004000       0.          0.         0.0001   0.100E-03       0.          0.
+   48327 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48327 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48327 2103006000      0.0006      0.0006      0.0006      0.0006       0.          0.
+   48327 2104006000      0.0004      0.0004      0.0002      0.0002       0.          0.
+   48327 2104007000      0.0003      0.0003       0.          0.          0.          0.
+   48327 2810030000       0.          0.         0.0004      0.0004       0.          0.
+   48331 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48331 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48331 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48331 2810030000       0.          0.         0.0043      0.0043       0.          0.
+   48333 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48333 2102005000      0.0005      0.0004       0.          0.          0.          0.
+   48333 2102006000      0.0005      0.0004       0.          0.          0.          0.
+   48333 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48333 2104007000      0.0005      0.0005       0.          0.          0.          0.
+   48333 2810030000       0.          0.         0.0009      0.0009       0.          0.
+   48335 2102006000       0.          0.         0.0002      0.0002       0.          0.
+   48335 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48335 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48335 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48335 2810030000       0.          0.         0.0017      0.0017       0.          0.
+   48337 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48337 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48337 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48337 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48337 2810030000       0.          0.         0.0034      0.0034       0.          0.
+   48339 2102004000      0.0810      0.0810      0.0100      0.0100       0.          0.
+   48339 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48339 2102006000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48339 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48339 2103004000      0.0180      0.0180       0.          0.          0.          0.
+   48339 2103005000       0.          0.         0.1300      0.1300       0.          0.
+   48339 2103007000       0.          0.         0.0007      0.0007       0.          0.
+   48339 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48343 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48343 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48343 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48343 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48343 2810030000       0.          0.         0.0023      0.0023       0.          0.
+   48345 2102004000      0.0005      0.0005       0.          0.          0.          0.
+   48345 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48345 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48345 2810030000       0.          0.         0.0002      0.0002       0.          0.
+   48347 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48347 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48347 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48347 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48347 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48347 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48349 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48349 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48349 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48349 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48349 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48349 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48351 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48351 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48351 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48351 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48351 2810030000       0.          0.         0.0027      0.0027       0.          0.
+   48353 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48353 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48353 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48353 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48353 2810030000       0.          0.         0.0028      0.0028       0.          0.
+   48355 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48355 2103004000      0.0180      0.0180       0.          0.          0.          0.
+   48355 2103007000       0.          0.         0.0004      0.0004       0.          0.
+   48355 2104007000      0.0360      0.0360      0.0100      0.0100       0.          0.
+   48357 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48357 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48357 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48357 2810030000       0.          0.         0.0016      0.0016       0.          0.
+   48361 2102004000      0.1170      0.1170      0.0200      0.0200       0.          0.
+   48361 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48361 2102006000      0.0360      0.0360      0.0100      0.0100       0.          0.
+   48361 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48361 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48361 2103005000       0.          0.         0.0700      0.0700       0.          0.
+   48361 2103007000      0.0002      0.0002      0.1100      0.1100       0.          0.
+   48361 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48361 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48363 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48363 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48363 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48363 2810030000       0.          0.         0.0048      0.0048       0.          0.
+   48365 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48365 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48365 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48365 2810030000       0.          0.         0.0040      0.0040       0.          0.
+   48367 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48367 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48367 2102007000       0.          0.         0.0006      0.0006       0.          0.
+   48367 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48367 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48367 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48373 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48373 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48373 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48373 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48373 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48379 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48379 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48379 2810030000       0.          0.         0.0016      0.0016       0.          0.
+   48383 2102004000       0.          0.         0.0002       0.          0.          0.
+   48383 2102005000      0.0004       0.          0.          0.          0.          0.
+   48383 2102007000      0.0002       0.          0.          0.          0.          0.
+   48383 2104007000      0.0005   0.239E-06       0.          0.          0.          0.
+   48383 2610000500       0.          0.         0.0006       0.          0.          0.
+   48383 2810030000       0.          0.         0.0006   0.266E-06       0.          0.
+   48385 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48385 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48385 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48385 2104007000      0.0003      0.0003       0.          0.          0.          0.
+   48385 2810030000       0.          0.         0.0005      0.0005       0.          0.
+   48387 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48387 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48387 2102007000      0.0005      0.0005       0.          0.          0.          0.
+   48387 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48387 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48387 2810030000       0.          0.         0.0025      0.0025       0.          0.
+   48391 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48391 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48391 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48391 2810030000       0.          0.         0.0014      0.0014       0.          0.
+   48393 2102004000      0.0003      0.0003       0.          0.          0.          0.
+   48393 2103006000      0.0002      0.0002      0.0002      0.0002       0.          0.
+   48393 2810030000       0.          0.         0.0002      0.0002       0.          0.
+   48395 2102007000      0.0005      0.0005       0.          0.          0.          0.
+   48395 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48395 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48395 2810030000       0.          0.         0.0028      0.0028       0.          0.
+   48397 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48397 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48397 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48397 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48399 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48399 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48399 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48399 2810030000       0.          0.         0.0020      0.0020       0.          0.
+   48401 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48401 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48401 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48401 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48401 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48401 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48403 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48403 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48403 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48403 2810030000       0.          0.         0.0018      0.0018       0.          0.
+   48405 2102006000       0.          0.         0.0002      0.0002       0.          0.
+   48405 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48405 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48405 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48405 2810030000       0.          0.         0.0016      0.0016       0.          0.
+   48407 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48407 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48407 2102007000      0.0005      0.0005       0.          0.          0.          0.
+   48407 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48407 2104006000      0.0004      0.0005      0.0002      0.0002       0.          0.
+   48407 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48407 2810030000       0.          0.         0.0039      0.0039       0.          0.
+   48409 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48409 2102007000       0.          0.         0.0005      0.0005       0.          0.
+   48409 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48409 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48409 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48411 2102006000      0.0005      0.0005       0.          0.          0.          0.
+   48411 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48411 2104007000      0.0006      0.0006       0.          0.          0.          0.
+   48411 2810030000       0.          0.         0.0011      0.0011       0.          0.
+   48413 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48413 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48413 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48413 2810030000       0.          0.         0.0005      0.0005       0.          0.
+   48415 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48415 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48415 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48415 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48415 2810030000       0.          0.         0.0029      0.0029       0.          0.
+   48417 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48417 2102005000      0.0003      0.0003       0.          0.          0.          0.
+   48417 2104007000      0.0004      0.0004       0.          0.          0.          0.
+   48417 2810030000       0.          0.         0.0006      0.0006       0.          0.
+   48419 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48419 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48419 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48419 2810030000       0.          0.         0.0045      0.0045       0.          0.
+   48423 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48423 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48423 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48423 2103007000       0.          0.         0.0002      0.0002       0.          0.
+   48423 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48425 2102006000      0.0005      0.0005       0.          0.          0.          0.
+   48425 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48425 2104007000      0.0006      0.0006       0.          0.          0.          0.
+   48425 2810030000       0.          0.         0.0012      0.0012       0.          0.
+   48427 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48427 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48427 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48427 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48427 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48427 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48429 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48429 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48429 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48429 2810030000       0.          0.         0.0017      0.0017       0.          0.
+   48431 2102004000      0.0005      0.0004       0.          0.          0.          0.
+   48431 2103006000      0.0004      0.0004      0.0004      0.0004       0.          0.
+   48431 2104006000      0.0005      0.0005      0.0003      0.0003       0.          0.
+   48431 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48431 2810030000       0.          0.         0.0002      0.0002       0.          0.
+   48433 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48433 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48433 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48433 2103006000      0.0006      0.0006      0.0006      0.0006       0.          0.
+   48433 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48433 2810030000       0.          0.         0.0003      0.0003       0.          0.
+   48435 2102004000       0.          0.         0.0002      0.0002       0.          0.
+   48435 2102005000      0.0004      0.0004       0.          0.          0.          0.
+   48435 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48435 2104007000      0.0004      0.0005       0.          0.          0.          0.
+   48435 2810030000       0.          0.         0.0007      0.0007       0.          0.
+   48439 2102005000      0.2970      0.2970      0.0300      0.0300       0.          0.
+   48439 2102007000      0.1710      0.1710      0.0500      0.0500       0.          0.
+   48439 2103004000      0.1620      0.1620      0.0500      0.0500       0.          0.
+   48439 2103005000      0.0090      0.0090       0.          0.          0.          0.
+   48439 2103007000      0.0270      0.0270      0.0100      0.0100       0.          0.
+   48439 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48441 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48441 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48441 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48441 2103007000      0.0006      0.0006       0.          0.          0.          0.
+   48441 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48441 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48447 2102004000       0.          0.         0.0001      0.0001       0.          0.
+   48447 2102005000      0.0002      0.0002       0.          0.          0.          0.
+   48447 2102006000      0.0002      0.0002       0.          0.          0.          0.
+   48447 2103006000      0.0008      0.0008      0.0007      0.0007       0.          0.
+   48447 2104006000      0.0006      0.0006      0.0003      0.0003       0.          0.
+   48447 2104007000      0.0002      0.0002       0.          0.          0.          0.
+   48447 2810030000       0.          0.         0.0003      0.0003       0.          0.
+   48449 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48449 2102006000       0.          0.         0.0006      0.0006       0.          0.
+   48449 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48449 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48449 2810030000       0.          0.         0.0049      0.0049       0.          0.
+   48451 2102004000      0.0360      0.0360      0.0050      0.0050       0.          0.
+   48451 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48451 2102007000       0.          0.         0.0009      0.0009       0.          0.
+   48451 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48451 2103007000      0.0005      0.0005       0.          0.          0.          0.
+   48451 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48451 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48453 2102004000      0.1980      0.1980      0.0300      0.0300       0.          0.
+   48453 2102005000      0.0630      0.0630      0.0100      0.0100       0.          0.
+   48453 2102007000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48453 2103004000      0.0180      0.0180      0.0100      0.0100       0.          0.
+   48453 2103007000       0.          0.         0.0007      0.0007       0.          0.
+   48453 2104007000      0.0630      0.0630      0.0200      0.0200       0.          0.
+   48455 2102006000       0.          0.         0.0003      0.0003       0.          0.
+   48455 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48455 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48455 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48455 2810030000       0.          0.         0.0024      0.0024       0.          0.
+   48457 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48457 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48457 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48457 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48457 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48457 2810030000       0.          0.         0.0037      0.0037       0.          0.
+   48459 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48459 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48459 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48459 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48459 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48463 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48463 2102006000       0.          0.         0.0006      0.0006       0.          0.
+   48463 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48463 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48463 2810030000       0.          0.         0.0046      0.0046       0.          0.
+   48465 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48465 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48465 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48465 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48465 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48465 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48467 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48467 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48467 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48467 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48467 2104007000       0.          0.         0.0010      0.0010       0.          0.
+   48467 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48469 2102004000      0.0270      0.0270      0.0050      0.0050       0.          0.
+   48469 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48469 2102007000       0.          0.         0.0007      0.0007       0.          0.
+   48469 2103007000      0.0004      0.0004       0.          0.          0.          0.
+   48469 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48469 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48471 2102004000      0.0180      0.0180       0.          0.          0.          0.
+   48471 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48471 2102007000       0.          0.         0.0004      0.0004       0.          0.
+   48471 2103007000      0.0003      0.0003       0.          0.          0.          0.
+   48471 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48471 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48473 2102004000      0.0180      0.0180      0.0050      0.0050       0.          0.
+   48473 2102005000       0.          0.         0.0002      0.0002       0.          0.
+   48473 2102006000       0.          0.         1.9800      1.9800       0.          0.
+   48473 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48473 2103004000       0.          0.         0.0003      0.0003       0.          0.
+   48473 2103005000       0.          0.         0.1300      0.1300       0.          0.
+   48473 2103007000      0.0004      0.0004      0.1600      0.1600       0.          0.
+   48473 2104007000      0.0090      0.0090      5.7700      5.7700       0.          0.
+   48473 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48477 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48477 2102006000       0.          0.         0.0006      0.0006       0.          0.
+   48477 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48477 2104007000       0.          0.         0.0007      0.0007       0.          0.
+   48477 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48479 2102004000      0.0450      0.0450      0.0050      0.0050       0.          0.
+   48479 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48479 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48479 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48479 2103007000      0.0007      0.0007       0.          0.          0.          0.
+   48479 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48481 2102005000      0.0090      0.0090       0.          0.          0.          0.
+   48481 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48481 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48481 2104007000      0.0090      0.0090       0.          0.          0.          0.
+   48481 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48483 2102007000      0.0002      0.0002       0.          0.          0.          0.
+   48483 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48483 2810030000       0.          0.         0.0009      0.0009       0.          0.
+   48485 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48485 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48485 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48485 2103007000      0.0006      0.0006       0.          0.          0.          0.
+   48485 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48485 2810030000       0.          0.         0.0200      0.0200       0.          0.
+   48487 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48487 2102006000       0.          0.         0.0004      0.0004       0.          0.
+   48487 2102007000      0.0005      0.0004       0.          0.          0.          0.
+   48487 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48487 2104007000       0.          0.         0.0004      0.0004       0.          0.
+   48487 2810030000       0.          0.         0.0026      0.0026       0.          0.
+   48489 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48489 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48489 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48489 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48489 2810030000       0.          0.         0.0035      0.0035       0.          0.
+   48491 2102004000      0.0450      0.0450      0.0050      0.0050       0.          0.
+   48491 2102005000      0.0180      0.0180       0.          0.          0.          0.
+   48491 2102006000      0.0180      0.0180       0.          0.          0.          0.
+   48491 2102007000      0.0090      0.0090       0.          0.          0.          0.
+   48491 2103004000      0.0090      0.0090       0.          0.          0.          0.
+   48491 2103007000       0.          0.         0.0002      0.0002       0.          0.
+   48491 2104007000      0.0180      0.0180       0.          0.          0.          0.
+   48493 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48493 2102006000       0.          0.         0.0006      0.0006       0.          0.
+   48493 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48493 2104007000       0.          0.         0.0006      0.0006       0.          0.
+   48493 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48497 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48497 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48497 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48497 2104007000       0.          0.         0.0009      0.0009       0.          0.
+   48497 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48499 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48499 2102007000       0.          0.         0.0003      0.0003       0.          0.
+   48499 2103007000      0.0002      0.0002       0.          0.          0.          0.
+   48499 2104007000       0.          0.         0.0008      0.0008       0.          0.
+   48499 2810030000       0.          0.         0.0100      0.0100       0.          0.
+   48503 2102004000      0.0090      0.0090       0.          0.          0.          0.
+   48503 2102007000       0.          0.         0.0002      0.0002       0.          0.
+   48503 2103004000      0.0004      0.0004       0.          0.          0.          0.
+   48503 2104007000       0.          0.         0.0005      0.0005       0.          0.
+   48503 2810030000       0.          0.         0.0032      0.0032       0.          0.
+   48505 2102007000      0.0003      0.0003       0.          0.          0.          0.
+   48505 2103004000      0.0002      0.0002       0.          0.          0.          0.
+   48505 2104007000       0.          0.         0.0002      0.0002       0.          0.
+   48505 2810030000       0.          0.         0.0021      0.0021       0.          0.
+   48507 2102007000      0.0004      0.0004       0.          0.          0.          0.
+   48507 2103004000      0.0003      0.0003       0.          0.          0.          0.
+   48507 2104006000      0.0002      0.0002      0.0001   0.100E-03       0.          0.
+   48507 2104007000       0.          0.         0.0003      0.0003       0.          0.
+   48507 2810030000       0.          0.         0.0020      0.0020       0.          0.
+ -------------------------------------------------------------------------------------------
+ Total                  11.8583     11.8351     24.3515     24.3280       0.          0.

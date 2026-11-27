@@ -1,0 +1,25 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module EMBRET
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+rm -f ../msg/msg.embret.cntlem.ar.$SCENARIO
+rm -f ../emar/emar.embret.cntlem.ar.$SCENARIO
+#
+echo "-------------------------------------------------"
+echo "    Running EMBRET for $SCENARIO "
+echo "-------------------------------------------------"
+#
+$EXEC/embret << IEOF
+USERIN file        :../inputs/embret.input
+Input EMBR file    :../../../embr/embr.cntlem.ar.$SCENARIO
+Message file       :../msg/msg.embret.cntlem.ar.$SCENARIO
+Output EMAR file   :../emar/emar.embret.cntlem.ar.$SCENARIO
+IEOF
+
+
+

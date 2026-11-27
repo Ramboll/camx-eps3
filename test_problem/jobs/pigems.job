@@ -1,0 +1,31 @@
+#!/bin/csh
+#
+#   --- Sample job script for running the
+#       EPS3 module PIGEMS
+#
+set EXEC = /models/eps3
+#
+set SCENARIO = test_problem
+#
+foreach DAY (wkd sat sun)
+#
+rm -f ../msg/msg.pigems.$SCENARIO.$DAY
+rm -f ../emiss/ptsrce.$SCENARIO.$DAY.bin
+#
+echo "-------------------------------------------------"
+echo "    Running PIGEMS for $SCENARIO - point sources"
+echo "         Day - $DAY"
+echo "-------------------------------------------------"
+
+$EXEC/pigems.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO.$DAY
+Master Stack List  : ../emiss/stkhdr.pts.$SCENARIO.$DAY
+No Stack def. file :/END/
+Stack emiss files  : ../emiss/elvems.pts.$SCENARIO.$DAY
+                    /END/
+Threshold Mask file:
+Message file       :../msg/msg.pigems.$SCENARIO.$DAY
+Output Master Stack:
+Output Emissions   :../emiss/ptsrce.$SCENARIO.$DAY.bin
+IEOF
+end

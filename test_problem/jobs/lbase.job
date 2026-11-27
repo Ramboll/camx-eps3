@@ -1,0 +1,24 @@
+#!/bin/csh
+#
+#   --- Sample job script for running the
+#       EPS3 module LBASE
+#
+set EXEC = /models/eps3
+#
+set SCENARIO = test_problem.Hays
+set DAY = 990813
+#
+rm -f ../msg/msg.lbase.$SCENARIO.$DAY
+rm -f ../embr/embr.lbase.$SCENARIO.$DAY
+#
+#
+echo "-------------------------------------------------"
+echo "    Running LBASE for $SCENARIO $DAY"
+echo "-------------------------------------------------"
+#
+$EXEC/lbase.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO
+Input AMS file     :../inputs/LBASE_inputs.$SCENARIO.$DAY
+Output Messages    :../msg/msg.lbase.$SCENARIO.$DAY
+Output Mobile EMBR :../embr/embr.lbase.$SCENARIO.$DAY
+IEOF

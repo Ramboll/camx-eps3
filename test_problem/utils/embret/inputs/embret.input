@@ -1,0 +1,19 @@
+/COUNTY/
+Wilson, TX         :48493
+/END/
+
+; /SIC/
+Solvents Usage     :2401
+/END/
+
+; /SCC/
+Petroleum Transpot :2505030120
+/END/
+
+; /PLANT/
+Texas Utilities    :0012
+/END/
+
+; /SUBDRID/
+Middle of domain   :      10         30        14        31
+/END/

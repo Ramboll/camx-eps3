@@ -1,0 +1,36 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module GRDEM
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+for DAY in wkd sat sun; do
+#
+#
+rm -f ../msg/msg.grdem.ar.$SCENARIO.$DAY
+rm -f ../emiss/emiss.ar.$SCENARIO.$DAY.bin
+rm -f ../emiss/emiss.ar.$SCENARIO.$DAY.nc
+rm -f ../error/emar.grdem.ar.$SCENARIO.$DAY
+#
+echo "-------------------------------------------------"
+echo "    Running GRDEM for $SCENARIO - area sources"
+echo "         Day - $DAY"
+echo "-------------------------------------------------"
+
+$EXEC/grdem.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO.$DAY
+Input EMBR file    :../embr/embr.tmprl.ar.$SCENARIO.$DAY
+Surg. XREF file    :../inputs/spatial.allocation.xref.Aug03
+Gridded Surg. file :../inputs/gridded.surrogates.TX.12km
+Links data         :
+Output Messages    :../msg/msg.grdem.ar.$SCENARIO.$DAY
+Output Emissions   :../emiss/emiss.ar.$SCENARIO.$DAY.bin
+Output NetCDF file :../emiss/emiss.ar.$SCENARIO.$DAY.nc
+Output ASC/FIPS Ems:
+EMAR error file    :../error/emar.grdem.ar.$SCENARIO.$DAY
+Surrogate report   :
+IEOF
+done

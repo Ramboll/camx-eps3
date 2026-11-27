@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module PREAM
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+# --- sort the AMS file ---
+#
+sort -o ../inputs/AMS.area.$SCENARIO \
+                         ../inputs/AMS.area.$SCENARIO
+#
+rm -f ../embr/embr.pream.$SCENARIO
+rm -f ../error/error.pream.$SCENARIO
+rm -f ../msg/msg.pream.$SCENARIO
+#
+echo "-------------------------------------------------"
+echo "    Running PREAM for $SCENARIO"
+echo "-------------------------------------------------"
+#
+$EXEC/pream.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO
+Input AMS file     :../inputs/AMS.area.$SCENARIO
+Output Messages    :../msg/msg.pream.$SCENARIO
+Output  EMBR       :../embr/embr.pream.$SCENARIO
+EMAR error file    :../error/error.pream.$SCENARIO
+IEOF

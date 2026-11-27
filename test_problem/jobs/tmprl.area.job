@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module TMPRL
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+for DAY in wkd sat sun; do
+#
+rm -f ../msg/msg.tmprl.ar.$SCENARIO.$DAY
+rm -f ../embr/embr.tmprl.ar.$SCENARIO.$DAY
+rm -f ../error/emar.tmprl.ar.$SCENARIO.$DAY
+#
+echo "-------------------------------------------------"
+echo "    Running TMPRL for $SCENARIO - area sources"
+echo "         Day - $DAY"
+echo "-------------------------------------------------"
+#
+$EXEC/tmprl.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO.$DAY
+Input EMBR file    :../embr/embr.chmspl.ar.$SCENARIO
+ASC-SSC/tmprl XRF  :../inputs/temporal.allocation.xref_area.Aug03
+Temporal profiles  :../inputs/temporal.profiles.Aug03
+Output Messages    :../msg/msg.tmprl.ar.$SCENARIO.$DAY
+Output SCC/stacks  :../embr/embr.tmprl.ar.$SCENARIO.$DAY
+EMAR error file    :../error/emar.tmprl.ar.$SCENARIO.$DAY
+IEOF
+done

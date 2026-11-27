@@ -1,0 +1,25 @@
+#!/bin/csh
+#
+#   --- Sample job script for running the
+#       EPS3 module TMPFAC
+#
+set EXEC = /models/eps3/src
+#
+set SCENARIO = test_problem
+#
+rm -f ../msg/msg.tmpfac.$SCENARIO
+rm -f ../outputs/temporal.allocation.xref_points.$SCENARIO
+rm -f ../outputs/temporal.profiles.$SCENARIO
+#
+echo "-------------------------------------------------"
+echo "    Running TMPFAC for $SCENARIO "
+echo "-------------------------------------------------"
+#
+$EXEC/tmpfac/tmpfac << IEOF
+Input XREF file    :../../../inputs/temporal.allocation.xref_points.Aug03
+Input Profiles file:../../../inputs/temporal.profiles.Aug03
+Input AFS          :../../../inputs/AFS.points.$SCENARIO
+Output message     :../msg/msg.tmpfac.$SCENARIO
+Output XREF file   :../outputs/temporal.allocation.xref_points.$SCENARIO
+Ouput Profiles file:../outputs/temporal.profiles.$SCENARIO
+IEOF

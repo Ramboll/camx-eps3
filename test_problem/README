@@ -1,0 +1,105 @@
+This is the README file for the test problem distributed
+with the EPS3 system. 
+
+The directory contains a suite of data files and job
+scripts to run a small test case of the EPS3 system. The
+purpose is to provide templates of the job streams and 
+data files as well as provide some of the default lookup
+tables used by the EPS3 system.
+
+DEFAULT INPUT FILES
+
+The following are the default data files that can be used
+for most applications of EPS3.
+
+---------------------------------------------
+inputs/chemical.speciation.xref.cb4.12Dec04
+Lookup table for mapping a source category to a
+speciation profile code.
+Used by CHMSPL
+---------------------------------------------
+inputs/spatial.allocation.xref.Aug03
+Lookup table for mapping a source category to a
+gridded surrogate number.
+Used by GRDEM
+---------------------------------------------
+inputs/splitfac.TOG_to_TOG.std_profiles.cb4.eps3.15jan07
+inputs/splitfac.TOG_to_TOG.std_profiles.cb5.eps3.15jan07
+inputs/splitfac.TOG_to_VOC.std_profiles.cb4.eps3.15jan07
+inputs/splitfac.TOG_to_VOC.std_profiles.cb5.eps3.15jan07
+inputs/splitfac.VOC_to_TOG.std_profiles.cb4.eps3.15jan07
+inputs/splitfac.VOC_to_TOG.std_profiles.cb5.eps3.15jan07
+inputs/splitfac.VOC_to_VOC.std_profiles.cb4.eps3.15jan07
+inputs/splitfac.VOC_to_VOC.std_profiles.cb5.eps3.15jan07
+Split factors files used to convert criteria pollutants
+(VOC or TOG) to model ready species (i.e. PAR, TOL, etc.)
+Used by CHMSPL
+---------------------------------------------
+inputs/temporal.allocation.xref_area.Aug03
+inputs/temporal.allocation.xref_points.Aug03
+Lookup tables for mapping a source category to a
+set of temporal profiles.
+Used by TMPRL
+---------------------------------------------
+inputs/temporal.profiles.Aug03
+Data file containing the temporal profiles.
+Used by TMPRL
+---------------------------------------------
+
+
+The following are the application specific files. These
+are provided as templates.  They cannot be used for your
+application.
+
+---------------------------------------------
+inputs/userin.test_problem
+Global user input file (USERIN).
+Used by all modules
+---------------------------------------------
+inputs/AFS.points.test_problem
+Base inventory file for point sources.
+Used by PREPNT
+---------------------------------------------
+inputs/AMS.area.test_problem
+Base inventory file for point sources.
+Used by PREAM
+---------------------------------------------
+inputs/LBASE_inputs.test_problem.Hays.990813
+Base inventory file for link based mobile sources.
+Used by LBASE.
+---------------------------------------------
+inputs/control.factors.area.test_problem
+Sample control factors file, including examples
+of all packets.
+Used by CNTLEM
+---------------------------------------------
+
+JOB SCRIPTS
+
+In ./jobs directory you will find a set of scripts
+that can be utilized to run the EPS3 modules. You
+may have to modify the scripts to make them work on
+your system.  For example, you may have to change the
+EXEC variable to match the directory structure on your
+system. These scripts can also serve as templates for
+building your own application.  
+
+Here is the order you should run the scripts.
+
+jobs/pream.area.job
+jobs/prepnt.job
+jobs/lbase.job
+jobs/cntlem.area.job
+jobs/chmspl.area.job
+jobs/chmspl.points.job
+jobs/tmprl.area.job
+jobs/tmprl.points.job
+jobs/grdem.area.job
+jobs/grdem.pts.job
+jobs/pstpnt.job
+jobs/pigems.job
+jobs/mrguam.job
+
+The message files for this run will be found in the ./msg
+directory.  For comparison purposes, we have included a
+copy of the message files in the msg.distrib directory.

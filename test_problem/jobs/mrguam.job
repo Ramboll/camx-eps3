@@ -1,0 +1,28 @@
+#!/bin/csh
+#
+#   --- Sample job script for running the
+#       EPS3 module MRGUAM
+#
+set EXEC = /models/eps3
+#
+set SCENARIO = test_problem
+#
+foreach DAY (wkd sat sun)
+#
+rm -f ../msg/msg.mrguam.anthropogenic.$SCENARIO.$DAY
+rm -f ../emiss/emiss.anthropogenic.$SCENARIO.$DAY
+#
+echo "-------------------------------------------------"
+echo "    Running MRGUAM for $SCENARIO"
+echo "         Day - $DAY"
+echo "-------------------------------------------------"
+
+$EXEC/mrguam.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO.$DAY
+FILE 1             :../emiss/emiss.ar.$SCENARIO.$DAY
+FILE 2             :../emiss/emiss.pts.$SCENARIO.$DAY
+                   :/END/
+Output Messages    :../msg/msg.mrguam.anthropogenic.$SCENARIO.$DAY
+Merged emiss file  :../emiss/emiss.anthropogenic.$SCENARIO.$DAY
+IEOF
+end

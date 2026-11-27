@@ -1,0 +1,946 @@
+12
+NASN      1.0   
+PAR       16.0  
+OLE       32.0  
+TOL       112.0 
+XYL       128.0 
+FORM      16.0  
+ALD2      32.0  
+ETH       32.0  
+ISOP      80.0  
+MEOH      16.0  
+ETOH      32.0  
+NR        16.0  
+10000   cb4 olefin bond   1.00 2.00 3.00 4.00 5.00 6.00 7.00 8.00 9.0010.0011.0012.00  VOC1234.56789     cb4 olefin bond 
+10001   cb4 olefin bond   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 olefin bond 
+10002 cb4 paraffin bond   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 paraffin bond 
+10003   cb4 TOL species   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 TOL species 
+10004   cb4 XYL species   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 XYL species 
+10005  cb4 FORM species   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 FORM species 
+10006  cb4 ALD2 species   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 ALD2 species 
+10007   cb4 ETH species   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 ETH species 
+10012 Unspeciated Unrea   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    187.38     Unspeciated Unreactive compounds 
+43105 isomers of hexane   0.00 5.83 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17  VOC     86.18     isomers of hexane 
+43106 isomers of heptan   0.00 6.81 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.19  VOC    100.21     isomers of heptane 
+43107 isomers of octane   0.00 7.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC    114.23     isomers of octane (c8 paraffin) 
+43108 isomers of nonane   0.00 8.88 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13  VOC    128.26     isomers of nonane (c9 paraffin) 
+43109 isomers of decane   0.00 9.88 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13  VOC    142.29     isomers of decane (c10 paraffins) 
+43110 isomers of undeca   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     isomers of undecane (c11 paraffins) 
+43111 isomers of dodeca   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.34     isomers of dodecane (c12 paraffins) 
+43112 isomers of tridec   0.0012.88 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13  VOC    184.37     isomers of tridecane (c13 paraffins) 
+43113 isomers of tetrad   0.0014.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    198.39     isomers of tetradecane (c14 paraffins) 
+43114 isomers of pentad   0.0015.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    212.42     isomers of pentadecane (c15 paraffins) 
+43115 c7 cycloparaffins   0.00 6.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.33  VOC     98.19     c7 cycloparaffins 
+43116 c8 cycloparaffins   0.00 7.86 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.14  VOC    112.22     c8 cycloparaffins 
+43117 c9 cycloparaffins   0.00 8.86 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.14  VOC    126.24     c9 cycloparaffins 
+43118   mineral spirits   0.00 6.23 0.00 0.06 0.09 0.00 0.03 0.00 0.00 0.01 0.06 0.15  VOC    110.10     mineral spirits 
+43119 lactol spirits {v   0.00 6.23 0.00 0.06 0.09 0.00 0.03 0.00 0.00 0.01 0.06 0.15  VOC    110.10     lactol spirits {vm and p naphtha} 
+43120 isomers of butene   0.00 1.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     isomers of butene 
+43121 isomers of penten   0.00 2.40 0.20 0.00 0.00 0.20 1.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     isomers of pentene 
+43122 isomers of pentan   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.15     isomers of pentane 
+43123      monoterpenes   0.00 6.50 0.73 0.00 0.00 0.00 1.03 0.00 0.00 0.00 0.00 0.00  VOC    136.24     monoterpenes 
+43124        c9 olefins   0.00 5.67 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.33  VOC    126.24     c9 olefins 
+43125       c10 olefins   0.00 6.67 0.33 0.00 0.00 0.00 1.33 0.00 0.00 0.00 0.00 0.00  VOC    140.27     c10 olefins 
+43126 c8 alkyl cyclohex   0.00 7.80 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.20  VOC    112.22     c8 alkyl cyclohexanes 
+43127 c9 alkyl cyclohex   0.00 8.80 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.20  VOC    126.24     c9 alkyl cyclohexanes 
+43128 c5 substituted cy   0.0010.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC    154.30     c5 substituted cyclohexane 
+43129 c10 alkyl cyclohe   0.00 9.83 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17  VOC    140.27     c10 alkyl cyclohexanes 
+43130 c5 substituted cy   0.0010.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC    154.30     c5 substituted cyclohexane 
+43131 c6 substituted cy   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    168.32     c6 substituted cyclohexane 
+43132        aliphatics   0.00 8.47 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.22  VOC    122.89     aliphatics 
+43133 paraffins (c16-c3   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     paraffins (c16-c34) 
+43134 paraffins/olefins   0.0012.50 0.25 0.00 0.00 0.00 0.50 0.00 0.00 0.00 0.00 0.00  VOC    196.88     paraffins/olefins (c12-c16) 
+43135 isomers of decane   0.00 9.88 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13  VOC    142.29     isomers of decane (c10 paraffins) 
+43136 isomers of nonane   0.00 8.88 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13  VOC    128.26     isomers of nonane (c9 paraffin) 
+43137 c16 branched alka   0.0016.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    226.45     c16 branched alkanes 
+43138        c8 olefins   0.00 4.83 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.17  VOC    112.22     c8 olefins 
+43139 paraffins (c2-c7)   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     paraffins (c2-c7) 
+43140            c7-c16   0.00 6.23 0.00 0.06 0.09 0.00 0.03 0.00 0.00 0.01 0.06 0.15  VOC    110.10     c7-c16 
+43141 isomers of octane   0.00 7.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC    114.23     isomers of octane (c8 paraffin) 
+43142      c7 paraffins   0.00 6.81 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.19  VOC    100.21     c7 paraffins 
+43143 isomers of penten   0.00 2.40 0.20 0.00 0.00 0.20 1.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     isomers of pentene 
+43144       c5 paraffin   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.15     c5 paraffin 
+43145 c5 paraffin/olefi   0.00 3.79 0.20 0.00 0.00 0.00 0.40 0.00 0.00 0.00 0.00 0.00  VOC     70.93     c5 paraffin/olefin 
+43146       c11 olefins   0.00 8.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     c11 olefins 
+43147       c12 olefins   0.00 9.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    168.32     c12 olefins 
+43148  isomers of c9h16   0.00 6.33 0.67 0.00 0.00 0.00 0.67 0.00 0.00 0.00 0.00 0.00  VOC    124.23     isomers of c9h16 
+43149             c8h14   0.00 5.60 0.20 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    110.20     c8h14 
+43150 isomers of c10h18   0.00 8.75 0.25 0.00 0.00 0.00 0.25 0.00 0.00 0.00 0.00 0.25  VOC    138.25     isomers of c10h18 
+43151 isomers of c11h20   0.00 8.33 0.33 0.00 0.00 0.00 0.67 0.00 0.00 0.00 0.00 0.67  VOC    152.28     isomers of c11h20 
+43152            c12h22   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    166.31     c12h22 
+43153 isomers of c10h16   0.00 6.50 0.73 0.00 0.00 0.00 1.03 0.00 0.00 0.00 0.00 0.00  VOC    136.24     isomers of c10h16 
+43154             c7h12   0.00 3.33 0.17 0.00 0.00 0.00 1.67 0.00 0.00 0.00 0.00 0.00  VOC     96.17     c7h12 
+43155 isomers of heptad   0.0015.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    240.48     isomers of heptadecane (c17 paraffins) 
+43156 isomers of octade   0.0018.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    254.50     isomers of octadecane (c18 paraffins) 
+43201           methane   0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.99  TOG     16.04     methane 
+43202            ethane   0.00 0.40 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.60  TOG     30.07     ethane 
+43203          ethylene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00  VOC     28.05     ethylene 
+43204           propane   0.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.50  VOC     44.10     propane 
+43205         propylene   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     42.08     propylene 
+43206         acetylene   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     26.04     acetylene 
+43208  "1,2-propadiene"   0.00 0.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     40.07     "1,2-propadiene" 
+43209         1-propyne   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     40.07     1-propyne 
+43211 3-methyl-1-penten   0.00 4.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     3-methyl-1-pentene 
+43212          n-butane   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     58.12     n-butane 
+43213          1-butene   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     1-butene 
+43214 2-methylpropane;    0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     58.12     2-methylpropane; isobutane 
+43215 2-methylpropene (   0.00 3.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     2-methylpropene (isobutene) 
+43216    trans-2-butene   0.00 0.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     trans-2-butene 
+43217      cis-2-butene   0.00 0.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     cis-2-butene 
+43218   "1,3-butadiene"   0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     "1,3-butadiene" 
+43220         n-pentane   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.15     n-pentane 
+43221   2-methyl-butane   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.15     2-methyl-butane 
+43222 "2,2-dimethylprop   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     72.15     "2,2-dimethylpropane" 
+43223 3-methyl-1-butene   0.00 3.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     3-methyl-1-butene 
+43224         1-pentene   0.00 3.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     1-pentene 
+43225 2-methyl-1-butene   0.00 4.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     2-methyl-1-butene 
+43226   trans-2-pentene   0.00 1.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     trans-2-pentene 
+43227     cis-2-pentene   0.00 1.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     cis-2-pentene 
+43228 2-methyl-2-butene   0.00 3.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     2-methyl-2-butene 
+43229   2-methylpentane   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     2-methylpentane 
+43230   3-methylpentane   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     3-methylpentane 
+43231          n-hexane   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     n-hexane 
+43232         n-heptane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     n-heptane 
+43233          n-octane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     n-octane 
+43234 "2,3-dimethyl-1-b   0.00 5.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     "2,3-dimethyl-1-butene" 
+43235          n-nonane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     n-nonane 
+43238          n-decane   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     n-decane 
+43241        n-undecane   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     n-undecane 
+43242      cyclopentane   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     cyclopentane 
+43243          isoprene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00  VOC     68.12     isoprene 
+43245          1-hexene   0.00 4.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     1-hexene 
+43247 "2,4-dimethylpent   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     "2,4-dimethylpentane" 
+43248       cyclohexane   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     cyclohexane 
+43250 "2,2,4-trimethylp   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    114.23     "2,2,4-trimethylpentane" 
+43252 "2,3,4-trimethylp   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     "2,3,4-trimethylpentane" 
+43253   3-methylheptane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     3-methylheptane 
+43255        n-dodecane   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.34     n-dodecane 
+43256          a-pinene   0.00 6.00 0.50 0.00 0.00 0.00 1.50 0.00 0.00 0.00 0.00 0.00  VOC    136.24     a-pinene 
+43257          b-pinene   0.00 8.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     b-pinene 
+43258       n-tridecane   0.0013.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    184.37     n-tridecane 
+43259     n-tetradecane   0.0014.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    198.39     n-tetradecane 
+43260     n-pentadecane   0.0015.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    212.42     n-pentadecane 
+43261 methylcyclohexane   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     98.19     methylcyclohexane 
+43262 methylcyclopentan   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     methylcyclopentane 
+43263    2-methylhexane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     2-methylhexane 
+43264          heptenes   0.00 3.33 0.17 0.00 0.00 0.00 1.67 0.00 0.00 0.00 0.00 0.00  VOC     98.19     heptenes 
+43265          1-octene   0.00 6.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     1-octene 
+43266      cis-2-octene   0.00 4.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     cis-2-octene 
+43267          1-nonene   0.00 7.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     1-nonene 
+43269        1-undecene   0.00 9.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     1-undecene 
+43270 3-methyl-trans-2-   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     3-methyl-trans-2-pentene 
+43271 "2,2,4-trimethylh   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    128.26     "2,2,4-trimethylhexane" 
+43272 1-methylcyclopent   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     82.15     1-methylcyclopentene 
+43273       cyclohexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     82.15     cyclohexene 
+43274 "2,3-dimethylpent   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     "2,3-dimethylpentane" 
+43275    2-methylhexane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     2-methylhexane 
+43276 "2,3-dimethylbuta   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     "2,3-dimethylbutane" 
+43277 "2,4-dimethylhexa   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     "2,4-dimethylhexane" 
+43278 "2,5-dimethylhexa   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     "2,5-dimethylhexane" 
+43279  2-ethyl-1-butene   0.00 5.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     2-ethyl-1-butene 
+43280 "2,3,3-trimethylp   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    114.23     "2,3,3-trimethylpentane" 
+43281 1-butyne (ethylac   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     1-butyne (ethylacetylene) 
+43282          2-butyne   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     2-butyne 
+43283      cis-3-hexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     cis-3-hexene 
+43284 2-methyl-2-penten   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     2-methyl-2-pentene 
+43285         2-hexenes   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     2-hexenes 
+43286   Dimethylhexenes   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     Dimethylhexenes 
+43287 "2,2-dimethylhexa   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    114.23     "2,2-dimethylhexane" 
+43288  ethylcyclohexane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     ethylcyclohexane 
+43289 c6 olefins (hexen   0.00 3.00 0.33 0.00 0.00 0.00 1.17 0.00 0.00 0.00 0.00 0.00  VOC     84.16     c6 olefins (hexene isomers) 
+43290 "2,3-dimethylhexa   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     "2,3-dimethylhexane" 
+43291 "2,2-dimethylbuta   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     86.18     "2,2-dimethylbutane" 
+43292      cyclopentene   0.00 1.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     68.12     cyclopentene 
+43293 4-methyl-trans-2-   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     4-methyl-trans-2-pentene 
+43294        c7 olefins   0.00 4.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     c7 olefins 
+43295    3-methylhexane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     3-methylhexane 
+43296   2-methylheptane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     2-methylheptane 
+43297   4-methylheptane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     4-methylheptane 
+43298   3-methylheptane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     3-methylheptane 
+43299 1-methyl cyclohex   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.17     1-methyl cyclohexene 
+43301    methyl alcohol   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00  VOC     32.04     methyl alcohol 
+43302     ethyl alcohol   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00  VOC     46.07     ethyl alcohol 
+43303  n-propyl alcohol   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     60.10     n-propyl alcohol 
+43304 isopropyl alcohol   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     60.10     isopropyl alcohol 
+43305   n-butyl alcohol   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     74.12     n-butyl alcohol 
+43306  isobutyl alcohol   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     74.12     isobutyl alcohol 
+43308 butyl cellosolve    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     butyl cellosolve {2-butoxyethanol} {egbe} 
+43309 tert-butyl alcoho   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     74.12     tert-butyl alcohol 
+43310 2-methoxyethanol    0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     76.10     2-methoxyethanol {methyl cellosolve} {egme} 
+43311 2-ethoxyethanol {   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     90.12     2-ethoxyethanol {cellosolve} {egee} 
+43312 2-(2-butoxyethoxy   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    162.23     2-(2-butoxyethoxy)ethanol  {butyl carbitol} 
+43313 1-ethoxy-2-propan   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    104.15     1-ethoxy-2-propanol 
+43314 sec-butyl alcohol   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     74.12     sec-butyl alcohol 
+43317      cyclohexanol   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.16     cyclohexanol 
+43318 2-ethyl-1-hexanol   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     2-ethyl-1-hexanol 
+43319        n-pentanol   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.15     n-pentanol 
+43320 diacetone alcohol   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    116.16     diacetone alcohol (4-hydroxy-4-methyl-2-pentanone) 
+43322  "1,4-butanediol"   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     90.12     "1,4-butanediol" 
+43330 isoamyl alcohol (   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.15     isoamyl alcohol (3-methyl-1-butanol) 
+43331 "dimethylpentanol   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    116.20     "dimethylpentanol (2,3-dimethyl-1-pentanol)" 
+43332 "3,7-dimethyl-1-o   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    158.29     "3,7-dimethyl-1-octanol" 
+43333 "dimethylheptanol   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    144.26     "dimethylheptanol (2,6-dimethyl-2-heptanol)" 
+43334    methylheptanol   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     methylheptanol 
+43335 methyl carbitol {   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.15     methyl carbitol {2-(2-methoxyethoxy)ethanol} {degme} 
+43336   octanol isomers   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     octanol isomers 
+43337 2-(2-butoxyethoxy   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    162.23     2-(2-butoxyethoxy)ethanol  {butyl carbitol} 
+43350    dimethyl ether   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     46.07     dimethyl ether 
+43351       ethyl ether   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     74.12     ethyl ether 
+43367 "diethylene glyco   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.12     "diethylene glycol (2,2'-oxybisethanol)" 
+43368   ethylene glycol   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     62.07     ethylene glycol 
+43369  propylene glycol   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     76.10     propylene glycol 
+43370   ethylene glycol   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     62.07     ethylene glycol 
+43371 "hexylene glycol    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     "hexylene glycol (2-methylpentane-2,4-diol)" 
+43372     dibutyl ether   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     dibutyl ether 
+43373 "diethylene glyco   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.12     "diethylene glycol (2,2'-oxybisethanol)" 
+43374 diisopropylene gl   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    134.18     diisopropylene glycol 
+43375 triethylene glyco   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    150.18     triethylene glycol 
+43376 methyl t-butyl et   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     88.15     methyl t-butyl ether (mtbe) 
+43377 carbitol {degee}    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.18     carbitol {degee} {2-(2-ethoxyethoxy)ethanol} 
+43378 methyl carbitol {   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.15     methyl carbitol {2-(2-methoxyethoxy)ethanol} {degme} 
+43379 2-(2-butoxyethoxy   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    162.23     2-(2-butoxyethoxy)ethanol  {butyl carbitol} 
+43380          glycerol   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     92.10     glycerol 
+43381 polyethylene glyc   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     polyethylene glycol 
+43389         (blank 3)   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     (blank 3) 
+43391 2-butyltetrahydro   0.00 6.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    128.22     2-butyltetrahydrofuran 
+43392        ethylfuran   0.00 2.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.13     ethylfuran 
+43395            c7h12o   0.00 4.33 0.33 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    112.17     c7h12o 
+43396           c10h16o   0.00 3.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.50  VOC    152.24     c10h16o 
+43397 trimethylcyclohex   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.24     trimethylcyclohexanol 
+43399            c5h10o   0.00 3.80 0.00 0.00 0.00 0.00 0.60 0.00 0.00 0.00 0.00 0.00  VOC     86.13     c5h10o 
+43403       formic acid   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     46.03     formic acid 
+43404       acetic acid   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     60.05     acetic acid 
+43405    propionic acid   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     74.08     propionic acid 
+43407      acrylic acid   0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     72.06     acrylic acid 
+43408 palmitic acid {n-   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     palmitic acid {n-hexadecanoic acid} 
+43409       adipic acid   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    146.14     adipic acid 
+43410 palmitic acid {n-   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     palmitic acid {n-hexadecanoic acid} 
+43430    methyl formate   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     60.05     methyl formate 
+43432    methyl acetate   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     74.08     methyl acetate 
+43433     ethyl acetate   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     88.11     ethyl acetate 
+43434    propyl acetate   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    102.13     propyl acetate 
+43435   n-butyl acetate   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    116.16     n-butyl acetate 
+43437   methyl acrylate   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     86.09     methyl acrylate 
+43438    ethyl acrylate   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    100.12     ethyl acrylate 
+43440  n-butyl acrylate   0.00 4.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    128.17     n-butyl acrylate 
+43441 methyl methacryla   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    100.12     methyl methacrylate 
+43444 isopropyl acetate   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    102.13     isopropyl acetate 
+43445 methyl amyl aceta   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    144.21     methyl amyl acetate (4-methyl-2-pentanol acetate) 
+43446  isobutyl acetate   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    116.16     isobutyl acetate 
+43450 dimethyl formamid   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     73.10     dimethyl formamide 
+43451 isobutyl isobutyr   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    144.21     isobutyl isobutyrate 
+43452 2-ethoxyethyl ace   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    132.16     2-ethoxyethyl acetate {cellosolve acetate} 
+43453     vinyl acetate   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     86.09     vinyl acetate 
+43454 methyl palmitate    1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methyl palmitate {methyl hexadecanoate} 
+43455 methyl myristate    0.0014.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    242.40     methyl myristate {methyl tetradecanoate} 
+43456 methyl stearate {   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methyl stearate {methyl octadecanoate} 
+43457 dimethoxymethane    0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     76.10     dimethoxymethane (methylal) 
+43458 substituted c9 es   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    216.32     substituted c9 ester (c12) 
+43459          c5 ester   0.00 4.33 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.67  VOC    102.13     c5 ester 
+43460  methyl c11 ester   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    212.33     methyl c11 ester 
+43461  methyl c12 ester   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    228.38     methyl c12 ester 
+43462  methyl c13 ester   0.0014.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    242.40     methyl c13 ester 
+43463  methyl c14 ester   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methyl c14 ester 
+43464  methyl c15 ester   0.0016.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    270.46     methyl c15 ester 
+43465  methyl c19 ester   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methyl c19 ester 
+43466  methyl c20 ester   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methyl c20 ester 
+43467 c4 substituted cy   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.25     c4 substituted cyclohexanone 
+43468 isobutyl acrylate   0.00 4.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    128.17     isobutyl acrylate {2-propenoic acid} 
+43469 diethylene glycol   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    204.27     diethylene glycol butyl ether acetate {2-2-(butoxyethoxy)ethylacetate} 
+43470 methyl dodecanoat   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    214.35     methyl dodecanoate {methyl laurate} 
+43471 dimethyl succinat   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    146.14     dimethyl succinate (dimethyl butaneoate) 
+43472      butoxybutene   0.00 6.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.22     butoxybutene 
+43473 ethylhexanoate (e   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    144.21     ethylhexanoate (ethyl n-hexanoate) 
+43474 methylmethylprope   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methylmethylpropenoate 
+43475 methylethylpentan   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    144.21     methylethylpentanoate 
+43476 dimethyl adipate    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    174.20     dimethyl adipate (dimethylhexanedioate) 
+43477 "pentanedioic aci   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    160.17     "pentanedioic acid, dimethyl ester (dimethyl glutarate)" 
+43502      formaldehyde   0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     30.03     formaldehyde 
+43503      acetaldehyde   0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     44.05     acetaldehyde 
+43504   propionaldehyde   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     58.08     propionaldehyde 
+43505 acrolein (2-prope   0.00 0.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     56.06     acrolein (2-propenal) 
+43510     butyraldehyde   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     72.11     butyraldehyde 
+43511  isobutyraldehyde   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     72.11     isobutyraldehyde 
+43512 hexanal (hexanala   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    100.16     hexanal (hexanaladehyde) 
+43513           glyoxal   0.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     58.04     glyoxal 
+43514    methyl glyoxal   0.00 0.00 0.00 0.00 0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     72.06     methyl glyoxal 
+43515    crotonaldehyde   0.00 0.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     70.09     crotonaldehyde 
+43520 total c2-c5 aldeh   0.00 0.65 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     53.11     total c2-c5 aldehydes 
+43551           acetone   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  TOG     58.08     acetone 
+43552 methyl ethyl keto   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.11     methyl ethyl ketone (mek) (2-butanone) 
+43559 methyl n-butyl ke   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.16     methyl n-butyl ketone 
+43560 methyl isobutyl k   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.16     methyl isobutyl ketone 
+43561     cyclohexanone   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.15     cyclohexanone 
+43562 methyl amyl keton   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.19     methyl amyl ketone 
+43563 2-methyl-3-hexano   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.19     2-methyl-3-hexanone 
+43565 dimethylcyclobuta   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     98.15     dimethylcyclobutanone 
+43566 trimethylcyclopen   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.20     trimethylcyclopentanone 
+43567 "2,2,4,4-tetramet   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    142.24     "2,2,4,4-tetramethyl-3-pentanone" 
+43568          nonenone   0.00 7.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.23     nonenone 
+43569 methoxyethoxybuta   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     methoxyethoxybutanone 
+43570     alkene ketone   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     alkene ketone 
+43601    ethylene oxide   0.00 0.20 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.80  VOC     44.05     ethylene oxide 
+43602   propylene oxide   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     58.08     propylene oxide 
+43603  maleic anhydride   0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.06     maleic anhydride 
+43604  acetic anhydride   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    102.09     acetic anhydride 
+43650        oxygenates   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     oxygenates 
+43704     acrylonitrile   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     53.06     acrylonitrile 
+43721        ethylamine   0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     45.09     ethylamine 
+43740   trimethyl amine   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     59.11     trimethyl amine 
+43742 "morpholine (tetr   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     87.12     "morpholine (tetrahydro-1,4-oxazin)" 
+43776 hexamethylenediam   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    116.21     hexamethylenediamine 
+43777      ethanolamine   0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     61.08     ethanolamine 
+43778    ethyleneamines   0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     43.07     ethyleneamines 
+43779       caprolactam   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    113.16     caprolactam 
+43780 dimethyl alkyl am   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     59.11     dimethyl alkyl amines 
+43801   methyl chloride   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     50.49     methyl chloride 
+43802 dichloromethane {   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  TOG     84.93     dichloromethane {methylene chloride} 
+43803        chloroform   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    119.38     chloroform 
+43804 carbon tetrachlor   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    153.82     carbon tetrachloride 
+43805 methylene bromide   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    173.85     methylene bromide 
+43811 trichlorofluorome   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  TOG    137.37     trichlorofluoromethane 
+43812    ethyl chloride   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC     64.52     ethyl chloride 
+43813 "1,1-dichloroetha   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC     98.96     "1,1-dichloroethane" 
+43814 "1,1,1-trichloroe   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  TOG    133.41     "1,1,1-trichloroethane" 
+43815 ethylene dichlori   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC     98.96     ethylene dichloride 
+43817 perchloroethylene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  TOG    165.83     perchloroethylene 
+43820 "1,1,2-trichloroe   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    133.41     "1,1,2-trichloroethane" 
+43821 trichlorotrifluor   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  TOG    187.38     trichlorotrifluoroethane-f113 
+43822 trimethylfluorosi   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 3.00  VOC     92.19     trimethylfluorosilane 
+43823 dichlorodifluorom   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  TOG    120.91     dichlorodifluoromethane (f-12) 
+43824 trichloroethylene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00  VOC    131.39     trichloroethylene (tce) 
+43825 chlorodifluoromet   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  TOG     86.47     chlorodifluoromethane (f-22) 
+43826 chlorotrifluorome   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    104.46     chlorotrifluoromethane (f-13) 
+43827 chloropentafluoro   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    154.47     chloropentafluoroethane (f115) 
+43828 dichlorotetrafluo   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    170.92     dichlorotetrafluoroethane 
+43830 chlorofluorohydro   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    187.38     chlorofluorohydrocarbons 
+43835    1-chlorobutane   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     92.57     1-chlorobutane 
+43836 3-(chloromethyl)-   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    148.68     3-(chloromethyl)-heptane 
+43837 ethylene dibromid   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    187.87     ethylene dibromide 
+43838 propylene dichlor   0.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.50  VOC    112.99     propylene dichloride 
+43839 tetrafluoromethan   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     88.00     tetrafluoromethane {carbon tetrafluoride} {r 14} 
+43840 chlorodifluoromet   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  TOG     86.47     chlorodifluoromethane (f-22) 
+43841 dichlorotetrafluo   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    170.92     dichlorotetrafluoroethane 
+43842 chloropentafluoro   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    154.47     chloropentafluoroethane (f115) 
+43843 hexafluoroethane    0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    138.01     hexafluoroethane {f-116} 
+43844 trifluoromethane    0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     70.01     trifluoromethane (f-23) 
+43845 chlorotrifluorome   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    104.46     chlorotrifluoromethane (f-13) 
+43860    vinyl chloride   0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00  VOC     62.50     vinyl chloride 
+43862 "chloroprene (2-c   0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.54     "chloroprene (2-chloro-1,3-butadiene)" 
+43863   epichlorohydrin   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     92.53     epichlorohydrin 
+43901  methyl mercaptan   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     48.11     methyl mercaptan 
+43902   ethyl mercaptan   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     62.13     ethyl mercaptan 
+43915  dimethyl sulfide   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     62.13     dimethyl sulfide 
+43925 dimethyl disulfid   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     94.20     dimethyl disulfide 
+43933  carbonyl sulfide   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     60.07     carbonyl sulfide 
+43934  carbon disulfide   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     76.14     carbon disulfide 
+43950 octamethylcyclote   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8.00  VOC    296.62     octamethylcyclotetrasiloxane 
+43951          siloxane   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8.00  VOC    296.62     siloxane 
+43952 tetramethylsilane   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.23     tetramethylsilane 
+45101           naphtha   0.00 6.23 0.00 0.06 0.09 0.00 0.03 0.00 0.00 0.01 0.06 0.15  VOC    110.10     naphtha 
+45102 isomers of xylene   0.00 0.25 0.00 0.25 0.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.17     isomers of xylene 
+45104 ethyltoluenes {me   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     ethyltoluenes {methylethylbenzenes} 
+45105 Butylbenzene isom   0.00 2.90 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.10  VOC    134.22     Butylbenzene isomers 
+45106   diethylbenzenes   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     diethylbenzenes 
+45107 trimethylbenzenes   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     trimethylbenzenes 
+45108 Isomers of propyl   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     Isomers of propylbenzene 
+45109 c3/c4/c5 alkylben   0.00 2.22 0.00 0.26 0.74 0.00 0.00 0.00 0.00 0.00 0.00 0.02  VOC    133.24     c3/c4/c5 alkylbenzenes 
+45110     c10 aromatics   0.00 2.05 0.00 0.06 0.94 0.00 0.00 0.00 0.00 0.00 0.00 0.02  VOC    134.22     c10 aromatics 
+45111            c10h12   0.00 1.50 0.50 0.50 0.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    132.21     c10h12 
+45112 isomers of c10h10   0.00 1.00 0.50 0.25 0.75 0.25 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.19     isomers of c10h10 
+45113            c11h10   0.00 2.50 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC    142.20     c11h10 
+45201           benzene   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC     78.11     benzene 
+45202           toluene   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     92.14     toluene 
+45203      ethylbenzene   0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.17     ethylbenzene 
+45204          o-xylene   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.17     o-xylene 
+45205          m-xylene   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.17     m-xylene 
+45206          p-xylene   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.17     p-xylene 
+45207 "1,3,5-trimethylb   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     "1,3,5-trimethylbenzene" 
+45208 "1,2,4-trimethylb   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     "1,2,4-trimethylbenzene" 
+45209   n-propylbenzene   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     n-propylbenzene 
+45210 cumene (isopropyl   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     cumene (isopropyl benzene) 
+45211    o-ethyltoluene   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     o-ethyltoluene 
+45212    m-ethyltoluene   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     m-ethyltoluene 
+45213    p-ethyltoluene   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     p-ethyltoluene 
+45215    t-butylbenzene   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    134.22     t-butylbenzene 
+45216 (1-methylpropyl)b   0.00 3.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     (1-methylpropyl)benzene (sec-butyl benzene) 
+45217 "1,2-diethylbenze   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     "1,2-diethylbenzene (ortho)" 
+45218 "1,3-diethylbenze   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     "1,3-diethylbenzene (meta)" 
+45220           styrene   0.00 0.00 0.50 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    104.15     styrene 
+45221 methyl styrene (m   0.00 0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     methyl styrene (mixed) {vinyl toluene} 
+45225 "1,2,3-trimethylb   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     "1,2,3-trimethylbenzene" 
+45226 biphenyl {phenyl    0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    154.21     biphenyl {phenyl benzene} 
+45227 methyl biphenyl (   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    168.24     methyl biphenyl (mixed)  {phenyltoluene} 
+45228 ethyl styrene {et   0.00 1.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    132.21     ethyl styrene {ethylvinyl benzene} 
+45229 divinyl benzene {   0.00 0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.19     divinyl benzene {vinyl styrene} 
+45230 di(ethylphenyl)et   0.00 4.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    238.37     di(ethylphenyl)ethane 
+45231   n-pentylbenzene   0.00 4.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    148.25     n-pentylbenzene 
+45232 diphenyl ethane {   0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    182.27     diphenyl ethane {bibenzyl} 
+45233 ethyl-phenyl-phen   0.00 1.00 0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    210.32     ethyl-phenyl-phenyl-ethane 
+45235    n-butylbenzene   0.00 3.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     n-butylbenzene 
+45236 diisopropyl benze   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    162.28     diisopropyl benzene (mixed isomers) 
+45237 "1,2,3,4-tetramet   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     "1,2,3,4-tetramethylbenzene" 
+45238 ethyltoluenes {me   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     ethyltoluenes {methylethylbenzenes} 
+45241 4-phenyl-1-butene   0.00 1.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    132.21     4-phenyl-1-butene 
+45242 trans-1-phenylbut   0.00 1.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    132.21     trans-1-phenylbutene 
+45243 ethyldimethylbenz   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     ethyldimethylbenzenes 
+45244 tetramethylbenzen   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     tetramethylbenzenes 
+45245 c11 alkylbenzenes   0.00 3.33 0.00 0.33 0.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    148.25     c11 alkylbenzenes 
+45246 c11 unsaturated a   0.00 1.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     c11 unsaturated alkylbenzenes 
+45247 c12 dialkyl benze   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    162.28     c12 dialkyl benzenes 
+45248  c4 alkylstyrenes   0.00 1.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    160.26     c4 alkylstyrenes 
+45249 c13 alkyl benzene   0.00 5.33 0.00 0.33 0.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    176.30     c13 alkyl benzenes 
+45250   c3 alkylstyrene   0.00 1.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     c3 alkylstyrene 
+45300 phenol (carbolic    0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC     94.11     phenol (carbolic acid) 
+45301       nonylphenol   0.00 8.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    220.36     nonylphenol 
+45302 ethyldimethylphen   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    150.22     ethyldimethylphenol 
+45303  c10 alkylphenols   0.00 3.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    150.22     c10 alkylphenols 
+45304  c11 alkylphenols   0.00 4.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    164.25     c11 alkylphenols 
+45310        c8 phenols   0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    122.17     c8 phenols 
+45311        c9 phenols   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.19     c9 phenols 
+45320 dimethylbenzylalc   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.19     dimethylbenzylalcohol 
+45330 biphenylol {2-phe   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    170.21     biphenylol {2-phenylphenol} 
+45351         (blank 2)   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     (blank 2) 
+45401 xylene base acids   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     xylene base acids 
+45402      benzoic acid   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.00  VOC    122.12     benzoic acid 
+45403 terephthalic acid   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    166.13     terephthalic acid (p-benzenedicarboxylic acid) 
+45404 dimethylethylbenz   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    150.18     dimethylethylbenzoic acid 
+45450 dimethylterephtha   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    194.19     dimethylterephthalate 
+45451 dimethyl phthalat   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    194.19     dimethyl phthalate 
+45452 dibutyl phthalate   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    278.35     dibutyl phthalate 
+45454 dipropyl phthalat   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    250.30     dipropyl phthalate 
+45455  n-butyl benzoate   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.00  VOC    178.23     n-butyl benzoate 
+45456 butylisopropylpht   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    264.32     butylisopropylphthalate 
+45470 di-c8 alkyl phtha   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     di-c8 alkyl phthalate 
+45477 butylbenzylphthal   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     butylbenzylphthalate 
+45501      benzaldehyde   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.12     benzaldehyde 
+45502 p-tolualdehyde {4   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    120.15     p-tolualdehyde {4-methylbenzaldehyde} 
+45503        2-furfural   0.00 1.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     96.09     2-furfural 
+45550 methylacetophenon   0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    134.18     methylacetophenone 
+45601 phthalic anhydrid   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    148.12     phthalic anhydride 
+45604  furfuryl alcohol   0.00 1.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.10     furfuryl alcohol 
+45605           cresols   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    108.14     cresols 
+45610           c11h14o   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c11h14o 
+45701 aniline {aminoben   0.00 0.00 0.00 0.00 0.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     93.13     aniline {aminobenzene} 
+45702      nitrobenzene   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    123.11     nitrobenzene 
+45703 "2,2-dichloronitr   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    207.02     "2,2-dichloronitroaniline" 
+45704 "bromodinitroanil   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    262.03     "bromodinitroaniline {2,4-dinitro-6-bromoaniline}" 
+45705 bromodinitrobenze   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    247.01     bromodinitrobenzene 
+45706 n-phenylaniline {   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    169.23     n-phenylaniline {diphenylamine} 
+45730 methene(b)4-pheny   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.0015.00  VOC    250.26     methene(b)4-phenylisocyanate {methylenediphenyldiisocyanate} 
+45731 "2,4-toluene diis   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    174.16     "2,4-toluene diisocyanate {tdi}" 
+45732 toluene isocyanat   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8.00  VOC    133.15     toluene isocyanate 
+45740 total aromatic am   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     total aromatic amines 
+45750 "piperylene {1,3-   0.00 1.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     68.12     "piperylene {1,3-pentadiene} (mixed isomers)" 
+45801     chlorobenzene   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    112.56     chlorobenzene 
+45805 o-dichlorobenzene   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    147.00     o-dichlorobenzene 
+45806 "1,3-dichlorobenz   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    147.00     "1,3-dichlorobenzene  {m-dichlorobenzene}" 
+45807 p-dichlorobenzene   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    147.00     p-dichlorobenzene 
+45808  dichlorobenzenes   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    147.00     dichlorobenzenes 
+45810   benzyl chloride   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.59     benzyl chloride 
+45830 trichlorobenzenes   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    181.45     trichlorobenzenes (mixed) 
+45831 tetrachlorobenzen   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.00  VOC    215.89     tetrachlorobenzenes 
+46102 "9,10-anthraquino   0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    208.22     "9,10-anthraquinone" 
+46103 1-aminoanthraquin   0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    223.23     1-aminoanthraquinone 
+46111 "4,4-methylene di   0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    198.27     "4,4-methylene dianiline" 
+46112 phenyl isocyanate   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.00  VOC    119.12     phenyl isocyanate 
+46114   4-methylaniline   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    107.16     4-methylaniline 
+46115 dimethylnaphthyri   0.00 3.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    158.20     dimethylnaphthyridine 
+46202 Bicyclo[4.3.0]non   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    124.23     Bicyclo[4.3.0]nonane (octahydroindene) 
+46203 methoxynaphthalen   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    158.20     methoxynaphthalene 
+46204 dihydroxynapthale   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 3.00  VOC    190.16     dihydroxynapthalenedione 
+46210          creosote   0.00 2.52 0.00 0.61 0.39 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.51     creosote 
+46601 tetramethylthiour   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    132.23     tetramethylthiourea 
+46602     benzothiazole   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    135.19     benzothiazole 
+46701        napthalene   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.17     napthalene 
+46702 methylnaphthalene   0.00 2.50 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC    142.20     methylnaphthalenes 
+46703 dimethyl napthale   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.23     dimethyl napthalenes 
+46704 phenylnaphthalene   0.00 1.00 0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    204.27     phenylnaphthalenes 
+46705    acenaphthylene   0.00 0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    152.20     acenaphthylene 
+46706      acenaphthene   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.21     acenaphthene 
+46707          fluorene   0.00 5.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    166.22     fluorene 
+46708      phenanthrene   0.00 6.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    178.23     phenanthrene 
+46709        anthracene   0.00 2.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    178.23     anthracene 
+46710      fluoranthene   0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    202.26     fluoranthene 
+46711    c2 alkyl indan   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     c2 alkyl indan 
+46712            indene   0.00 0.00 0.50 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    116.16     indene 
+46713            pyrene   0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    202.26     pyrene 
+46714 benzo[ghi]fluoran   0.00 2.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    226.28     benzo[ghi]fluoranthene 
+46715          chrysene   0.00 2.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    228.29     chrysene 
+46716 benzo(a)anthracen   0.00 2.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    228.29     benzo(a)anthracene 
+46717 benzo(b)fluoranth   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     benzo(b)fluoranthene 
+46718 benzo(k)fluoranth   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     benzo(k)fluoranthene 
+46719    benzo(a)pyrene   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     benzo(a)pyrene 
+46720 "indeno(1,2,3-cd)   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     "indeno(1,2,3-cd)pyrene" 
+46721 "benzo(g,h,i)pery   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     "benzo(g,h,i)perylene" 
+46722 "dibenzo(a,h)anth   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     "dibenzo(a,h)anthracene" 
+46723          perylene   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     perylene 
+46724    benzo(e)pyrene   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     benzo(e)pyrene 
+46725      anthanthrene   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     anthanthrene 
+46726          coronene   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     coronene 
+46727 methylanthracenes   0.00 8.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    192.26     methylanthracenes 
+46728 methylphenanthren   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8.00  VOC    192.26     methylphenanthrenes 
+46729 c2 alkylanthracen   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 3.00  VOC    206.28     c2 alkylanthracenes 
+46730 c2 alkylphenanthr   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 3.00  VOC    206.28     c2 alkylphenanthrenes 
+46731 cyclopentaanthrac   0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    204.27     cyclopentaanthracenes 
+46732 cyclopentaphenant   0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    204.27     cyclopentaphenanthrenes 
+46733 methylfluoranthen   0.00 1.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    216.28     methylfluoranthenes 
+46734 cyclopenta[cd]pyr   0.00 2.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    228.29     cyclopenta[cd]pyrene 
+46735 benzo(c)phenanthr   0.00 2.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    228.29     benzo(c)phenanthrene 
+46736 methylbenzanthrac   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.0011.00  VOC    242.32     methylbenzanthracenes 
+46737 methylbenzphenant   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.0011.00  VOC    242.32     methylbenzphenanthrene 
+46738   methylchrysenes   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.0011.00  VOC    242.32     methylchrysenes 
+46739 c2 alkylbenzanthr   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c2 alkylbenzanthracene 
+46740 c2 alkylbenzophen   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c2 alkylbenzophenanthrene 
+46741 c2 alkylchrysenes   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c2 alkylchrysenes 
+46742      benzopyrenes   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     benzopyrenes 
+46743 dibenzanthracenes   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     dibenzanthracenes 
+46744 dibenzphenanthren   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     dibenzphenanthrenes 
+46745    dibenzopyrenes   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     dibenzopyrenes 
+46746 c2 alkylnaphthale   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.23     c2 alkylnaphthalene 
+46747      methylindans   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    132.21     methylindans 
+46748    methyldecalins   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    152.28     methyldecalins 
+46749 methyldihydronaph   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    144.22     methyldihydronaphthalene 
+46750    dimethylindans   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     dimethylindans 
+46751 dihydronaphthalen   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.19     dihydronaphthalene 
+46752    dimethylindene   0.00 1.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    144.22     dimethylindene 
+46753 "decalins (mixed    0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    138.25     "decalins (mixed cis,trans)" 
+46754        ethylindan   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     ethylindan 
+46755    trimethylindan   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    160.26     trimethylindan 
+70001         1-decanol   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    158.29     1-decanol 
+70002      diethylamine   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     73.14     diethylamine 
+70003 dimethylacetamide   0.00 0.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     87.12     dimethylacetamide 
+70004     dimethylamine   0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     45.09     dimethylamine 
+70005 diisopropylene gl   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    134.18     diisopropylene glycol 
+70006 4-methyl-2-pentan   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    102.18     4-methyl-2-pentanol (methyl isobutyl carbinol) 
+70007       methylamine   0.00 0.00 0.00 0.00 0.00 0.00 0.50 0.00 0.00 0.00 0.00 0.00  VOC     31.06     methylamine 
+70008 1-methyl-2-pyrrol   0.00 4.00 0.00 0.00 0.00 0.00 0.50 0.00 0.00 0.00 0.00 0.00  VOC     99.13     1-methyl-2-pyrrolidinone 
+70009 napththenic acids   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     napththenic acids 
+70010       oxalic acid   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC     90.04     oxalic acid 
+70011 propylene glycol    0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     90.12     propylene glycol methyl ether {1-methoxy-2-propanol} 
+70012 propylene glycol    0.00 3.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC    132.16     propylene glycol monomethyl ether acetate {2-(1-methoxy)propyl acetate} 
+70013          pyridine   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 4.00  VOC     79.10     pyridine 
+70014   tetrahydrofuran   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     72.11     tetrahydrofuran 
+70015     triethylamine   0.00 2.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    101.19     triethylamine 
+70016      acetonitrile   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC     41.05     acetonitrile 
+70017     amyl alcohols   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.15     amyl alcohols 
+70018 "acetal (1,1-diet   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     "acetal (1,1-diethoxyethane)" 
+70019    benzyl alcohol   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    108.14     benzyl alcohol 
+70020         2-Hexenal   0.00 0.00 0.00 0.00 0.00 0.00 3.00 0.00 0.00 0.00 0.00 0.00  VOC     98.15     2-Hexenal 
+70021 3-ethyl-2-pentene   0.00 5.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     3-ethyl-2-pentene 
+70022 1-methyl-2-tert-b   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    148.25     1-methyl-2-tert-butylbenzene 
+70023 "1-(1,1-dimethyle   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    162.28     "1-(1,1-dimethylethyl)-3,5-dimethylbenzene" 
+70025 "2,4,4-trimethyl-   0.00 5.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC    112.22     "2,4,4-trimethyl-2-pentene (beta diisobutylene)" 
+81000       misc. acids   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     misc. acids 
+81100    misc. alcohols   0.00 4.74 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.10  VOC     85.64     misc. alcohols 
+82200           terpene   0.00 6.50 0.73 0.00 0.00 0.00 1.03 0.00 0.00 0.00 0.00 0.00  VOC    136.24     terpene 
+82400      misc. esters   0.00 4.11 0.00 0.00 0.00 0.00 0.01 0.00 0.00 0.00 0.00 1.00  VOC    104.38     misc. esters 
+82800     misc. ketones   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     misc. ketones 
+83000        oxygenates   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     oxygenates 
+84001    diethanolamine   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    105.14     diethanolamine 
+84004 "n,n-dimethyletha   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     89.14     "n,n-dimethylethanolamine" 
+84005 4-vinylcyclohexen   0.00 4.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    108.18     4-vinylcyclohexene 
+84007 1-methyl-4-isopro   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     1-methyl-4-isopropylbenzene 
+84009 methyacrylic acid   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     86.09     methyacrylic acid 
+85000 1-hexanol (n-hexa   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    102.18     1-hexanol (n-hexanol) 
+85001 cumene hydroperox   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    152.19     cumene hydroperoxide 
+85005 diisopropyl ether   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    102.18     diisopropyl ether 
+85006 "1,2-Benzenedicar   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     "1,2-Benzenedicarboxylic acid bis-(1-ethylhexyl) ester" 
+85007      bis-phenol a   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.0010.00  VOC    228.29     bis-phenol a 
+85008 butyl methacrylat   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    142.20     butyl methacrylate 
+85013  ethylene diamine   0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00  VOC     60.10     ethylene diamine 
+85014  tert-butyl amine   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC     73.14     tert-butyl amine 
+85015 4-methyl-2-pentan   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    102.18     4-methyl-2-pentanol (methyl isobutyl carbinol) 
+85023      amyl acetate   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    130.19     amyl acetate 
+85024 2-ethylhexanoic a   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    144.21     2-ethylhexanoic acid 
+85025  ethylhexaldehyde   0.00 6.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    128.22     ethylhexaldehyde 
+85026         hexadiene   0.00 0.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     82.15     hexadiene 
+85027 n-pentanal (n-val   0.00 3.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     86.13     n-pentanal (n-valeraldehyde) 
+85028 ethylene glycol p   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    104.15     ethylene glycol propyl ether  {2-propoxyethanol} 
+85029 propylene glycol    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     propylene glycol n-propyl ether 
+85030     butanoic acid   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     88.11     butanoic acid 
+86000 2-Methylaminoetha   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     75.11     2-Methylaminoethanol 
+86001 "1,3-Dichloroprop   0.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.50  VOC    112.99     "1,3-Dichloropropane" 
+86002      n-Butylamine   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     73.14     n-Butylamine 
+86003      n-Hexylamine   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    101.19     n-Hexylamine 
+86004 Diisopropanolamin   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    133.19     Diisopropanolamine 
+86005 N-aminoethylpiper   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    129.21     N-aminoethylpiperazine 
+86006     cyclohexamine   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     99.18     cyclohexamine 
+86007 "2-N,N-Dibutylami   0.00 8.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    173.30     "2-N,N-Dibutylaminoethanol" 
+86008 diethyl aminoetha   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    117.19     diethyl aminoethanol 
+86009 diethylenetriamin   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    103.17     diethylenetriamine 
+86010 N-(2-Hydroxyethyl   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    104.15     N-(2-Hydroxyethyl)ethylenediamine 
+86011 "1,4-Diazabicyclo   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    112.18     "1,4-Diazabicyclo[2.2.2]octane" 
+86012 diglycolamine (2-   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    105.14     diglycolamine (2-(2-aminoethoxy)ethanol) 
+86013   triethanolamine   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    149.19     triethanolamine 
+86014    isopropylamine   0.00 1.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     59.11     isopropylamine 
+86015 triethylene tetra   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    146.24     triethylene tetramine 
+86016     dibutyl ether   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     dibutyl ether 
+86017 2-Ethyl-Hexyl Acr   0.00 6.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 3.00  VOC    184.28     2-Ethyl-Hexyl Acrylate 
+86018 dipropylene glyco   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    190.24     dipropylene glycol methyl ether acetate 
+86019 di(propylene glyc   0.00 5.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    148.20     di(propylene glycol) methyl ether 
+86020 2-butoxyethyl ace   0.00 5.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC    160.21     2-butoxyethyl acetate (ethylene glycol butyl ether acetate) 
+86021 2-Hexyloxyethanol   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    146.23     2-Hexyloxyethanol 
+86022 2-ethoxyethanol {   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     90.12     2-ethoxyethanol {cellosolve} {egee} 
+86023     "1,4-dioxane"   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.11     "1,4-dioxane" 
+86024    methyl bromide   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     94.94     methyl bromide 
+86025       Iodomethane   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    141.94     Iodomethane 
+86026  Benzoyl chloride   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.57     Benzoyl chloride 
+86027 "1,2-butadiene {m   0.00 1.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     "1,2-butadiene {methylallene}" 
+86028 "1,3-cyclopentadi   0.00 0.00 1.00 0.00 0.00 0.00 1.50 0.00 0.00 0.00 0.00 0.00  VOC     66.10     "1,3-cyclopentadiene" 
+86029 Tetraethylenepent   0.00 6.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    189.31     Tetraethylenepentamine 
+86030 hydroxyacetonitri   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     57.05     hydroxyacetonitrile 
+86031  pentene nitriles   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     pentene nitriles 
+86032 2-methyl-3-butene   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     81.12     2-methyl-3-butenenitrile 
+86033        dinitriles   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     dinitriles 
+86034 methyl glutaronit   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    108.14     methyl glutaronitrile 
+86035 dimethylacetamide   0.00 0.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     87.12     dimethylacetamide 
+86036 "N,N-Dimethylacet   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 2.00  VOC    129.16     "N,N-Dimethylacetoacetamide" 
+86037 hexamethyleneimin   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     99.18     hexamethyleneimine 
+86038 methene(b)4-pheny   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.0015.00  VOC    250.26     methene(b)4-phenylisocyanate {methylenediphenyldiisocyanate} 
+86039 "1,6-Diisocyanato   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    168.20     "1,6-Diisocyanatohexane" 
+86040       nitroethane   0.00 0.40 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.60  VOC     75.07     nitroethane 
+86041     Nitropropanes   0.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.50  VOC     89.09     Nitropropanes 
+86042         Thiophene   0.00 0.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.14     Thiophene 
+86043 Monomethyl Hydraz   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     46.07     Monomethyl Hydrazine 
+86044 hydroxypropyl acr   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    130.14     hydroxypropyl acrylate 
+86045 2-methylpropanola   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     2-methylpropanolamine 
+86046 3-Methylbutanoic    0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    102.13     3-Methylbutanoic acid 
+86047 "2-Ethyl-1,3-hexa   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    146.23     "2-Ethyl-1,3-hexanediol" 
+86048 4-methyl-2-pentan   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    102.18     4-methyl-2-pentanol (methyl isobutyl carbinol) 
+86049 "Trimethylnonanol   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    186.34     "Trimethylnonanolthreoerythro; 2,6,8-Trimethyl-4-nonanol" 
+86050           xylenol   0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    122.17     xylenol 
+86051 Phenylacetic Acid   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    136.15     Phenylacetic Acid 
+86052 n-Propyl Propiona   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    116.16     n-Propyl Propionate 
+86053 "4,4-Dimethyl-3-o   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC    116.20     "4,4-Dimethyl-3-oxahexane" 
+86054     Chloropropane   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     78.54     Chloropropane 
+86055 Glycerol alpha-mo   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    110.54     Glycerol alpha-monochlorohydrin 
+86056 Methyl Isopropyl    0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.13     Methyl Isopropyl Ketone 
+86057 "2,2,4-Trimethyl-   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    146.23     "2,2,4-Trimethyl-1,3-Pentanediol" 
+86058  Isobutyronitrile   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     69.11     Isobutyronitrile 
+86059     butyronitrile   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     69.11     butyronitrile 
+86060   isobutyric acid   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     88.11     isobutyric acid 
+86061 decabromodiphenyl   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     decabromodiphenyl oxide 
+86062 Isopropyl Formate   0.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     88.11     Isopropyl Formate 
+86063 "2,4-Dinitrotolue   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    182.14     "2,4-Dinitrotoluene" 
+86064   Diethyl Sulfate   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.19     Diethyl Sulfate 
+90001        1-Dodecene   0.0010.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    168.32     1-Dodecene 
+90002 "2,3,5-trimethylh   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,3,5-trimethylhexane" 
+90003 "2,4-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,4-dimethylheptane" 
+90004 "3,5-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "3,5-dimethylheptane" 
+90005 "2,5-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,5-dimethylheptane" 
+90006 "2,3-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,3-dimethylheptane" 
+90007 4-methyl-1-penten   0.00 4.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     4-methyl-1-pentene 
+90008    2-methyloctane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     2-methyloctane 
+90009 "2,4,5-trimethylh   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "2,4,5-trimethylheptane" 
+90010 m-xylene and p-xy   0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.17     m-xylene and p-xylene 
+90011 "1,2-butadiene {m   0.00 1.00 1.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     "1,2-butadiene {methylallene}" 
+90013      cis-2-octene   0.00 4.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     cis-2-octene 
+90014          1-decene   0.00 8.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     1-decene 
+90015    3-methyloctane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     3-methyloctane 
+90016    4-methyloctane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     4-methyloctane 
+90017 methylcyclooctane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     methylcyclooctane 
+90019        c6h18o3si3   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 6.00  VOC    222.47     c6h18o3si3 
+90020        c8h24o4si4   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 8.00  VOC    296.62     c8h24o4si4 
+90021 2-methylpropane;    0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     58.12     2-methylpropane; isobutane 
+90022 2-methylpropene (   0.00 3.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     2-methylpropene (isobutene) 
+90023      methylbutene   0.00 3.33 0.33 0.00 0.00 0.33 0.33 0.00 0.00 0.00 0.00 0.00  VOC     70.14     methylbutene 
+90024   methylbutadiene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00  VOC     68.12     methylbutadiene 
+90025    methylpentenes   0.00 3.50 0.50 0.00 0.00 0.00 0.75 0.00 0.00 0.00 0.00 0.00  VOC     84.16     methylpentenes 
+90026     methylpentane   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     methylpentane 
+90027 methylcyclopentad   0.00 0.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     80.13     methylcyclopentadiene 
+90028     methyl hexane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     methyl hexane 
+90029     methylhexenes   0.00 4.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     methylhexenes 
+90030        hexadecane   0.0016.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    226.45     hexadecane 
+90031     n-heptadecane   0.0017.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    240.48     n-heptadecane 
+90032        1-undecene   0.00 9.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     1-undecene 
+90033 cyclopentylcyclop   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    138.25     cyclopentylcyclopentane 
+90034    trans-2-nonene   0.00 5.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     trans-2-nonene 
+90035 normal pentene is   0.00 3.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     70.14     normal pentene isomers 
+90036         1-pentyne   0.00 3.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     68.12     1-pentyne 
+90037            hexyne   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     82.15     hexyne 
+90038 "cis-1,4-dimethyl   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     "cis-1,4-dimethylcyclohexane" 
+90039   methylhexadiene   0.00 3.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     96.17     methylhexadiene 
+90040 "3,3-dimethylpent   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    100.21     "3,3-dimethylpentane" 
+90041 methylcyclohexadi   0.00 1.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     94.16     methylcyclohexadiene 
+90042    trans-3-hexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     trans-3-hexene 
+90043     methylhexanal   0.00 5.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    114.19     methylhexanal 
+90044 methylheptyne (6-   0.00 6.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    110.20     methylheptyne (6-methyl-2-heptyne) 
+90045     methylheptane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     methylheptane 
+90046 methylcyclohexene   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.17     methylcyclohexene 
+90047      methylnonane   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     methylnonane 
+90048     methyldecanes   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     methyldecanes 
+90049    methylundecane   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.34     methylundecane 
+90050          camphene   0.00 8.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     camphene 
+90051           myrcene   0.00 4.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     myrcene 
+90052 b-phellandrene {1   0.00 6.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     b-phellandrene {1(7)-2-p-menthadiene} 
+90053        d-limonene   0.00 4.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     d-limonene 
+90054         pentenyne   0.00 1.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     66.10     pentenyne 
+90055 n-pentylcyclohexa   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     n-pentylcyclohexane 
+90056 c6 olefins (hexen   0.00 3.00 0.33 0.00 0.00 0.00 1.17 0.00 0.00 0.00 0.00 0.00  VOC     84.16     c6 olefins (hexene isomers) 
+90057         1-heptene   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     1-heptene 
+90058  "2,4-hexadienal"   0.00 0.00 0.00 0.00 0.00 0.00 3.00 0.00 0.00 0.00 0.00 0.00  VOC     96.13     "2,4-hexadienal" 
+90059 "trans, trans-2,4   0.00 1.00 0.00 0.00 0.00 0.00 3.00 0.00 0.00 0.00 0.00 0.00  VOC    110.16     "trans, trans-2,4-heptadienal" 
+90060    dimethylbutane   0.00 5.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC     86.18     dimethylbutane 
+90061    dimethylbutene   0.00 3.50 0.00 0.00 0.00 0.50 1.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     dimethylbutene 
+90062   dimethylpentane   0.00 6.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC    100.21     dimethylpentane 
+90063   dimethylpentene   0.00 4.25 0.75 0.00 0.00 0.00 0.50 0.00 0.00 0.00 0.00 0.25  VOC     98.19     dimethylpentene 
+90064 dimethylcyclopent   0.00 6.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC     98.19     dimethylcyclopentane 
+90065 dimethylcyclopent   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.17     dimethylcyclopentenes 
+90066         nonadiene   0.00 3.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    124.23     nonadiene 
+90067   dimethylhexanes   0.00 7.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.33  VOC    114.23     dimethylhexanes 
+90068 dimethylhexadiene   0.00 2.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    110.20     dimethylhexadiene 
+90069 dimethylethylcycl   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     dimethylethylcyclohexane 
+90070   dimethyloctanes   0.00 9.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.33  VOC    142.29     dimethyloctanes 
+90071 dimethylundecanes   0.0013.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    184.37     dimethylundecanes 
+90072 methyl propylcycl   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     methyl propylcyclohexanes 
+90073 isopropylmethylcy   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     isopropylmethylcyclohexane 
+90074    dimethyldecane   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.34     dimethyldecane 
+90075      ethyloctenes   0.00 7.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     ethyloctenes 
+90076   dimethylnonanes   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     dimethylnonanes 
+90077       ethyloctane   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     ethyloctane 
+90078      ethylpentene   0.00 5.00 0.50 0.00 0.00 0.00 0.50 0.00 0.00 0.00 0.00 0.00  VOC     98.19     ethylpentene 
+90079 ethylcyclopentene   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.17     ethylcyclopentene 
+90080 cis-1-methyl-3-et   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     cis-1-methyl-3-ethylcyclopentane 
+90081       ethylhexane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     ethylhexane 
+90082 ethylmethylhexane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     ethylmethylhexane 
+90083 ethylmethylcycloh   0.00 8.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC    126.24     ethylmethylcyclohexanes 
+90084      ethylheptane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     ethylheptane 
+90085 ethylmethyloctane   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     ethylmethyloctane 
+90086 ethylbicyclohepta   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    124.23     ethylbicycloheptane 
+90087 ethyldimethylpent   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     ethyldimethylpentane 
+90089 dimethylethylcycl   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     dimethylethylcyclohexane 
+90090 ethyl propylcyclo   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     ethyl propylcyclohexanes 
+90091 tetramethylcyclob   0.00 6.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    110.20     tetramethylcyclobutene 
+90092  trimethylpentane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    114.23     trimethylpentane 
+90093 trimethylpentadie   0.00 4.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    110.20     trimethylpentadiene 
+90094 trimethylheptanes   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    142.29     trimethylheptanes 
+90095   trimethylhexene   0.00 6.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    126.24     trimethylhexene 
+90096  trimethyloctanes   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     trimethyloctanes 
+90097   trimethyldecane   0.0013.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    184.37     trimethyldecane 
+90098 tetramethylcyclop   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    126.24     tetramethylcyclopentane 
+90099        octatriene   0.00 0.00 2.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    108.18     octatriene 
+90100        c9 olefins   0.00 5.67 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.33  VOC    126.24     c9 olefins 
+90101  butylcyclohexane   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     butylcyclohexane 
+90102 methylpropylnonan   0.0013.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    184.37     methylpropylnonane 
+90103  "1,4-pentadiene"   0.00 1.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     68.12     "1,4-pentadiene" 
+90104     methyloctanes   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     methyloctanes 
+90105 propenylcyclohexa   0.00 7.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    124.23     propenylcyclohexane 
+90106     methylnonenes   0.00 7.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     methylnonenes 
+90107     methyldecenes   0.00 8.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     methyldecenes 
+90108   methyldodecanes   0.0013.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    184.37     methyldodecanes 
+90109    propylheptenes   0.00 7.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     propylheptenes 
+90110 diethylmethylcycl   0.0010.50 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC    154.30     diethylmethylcyclohexanes 
+90111 isopropylmethylcy   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     isopropylmethylcyclohexane 
+90112    dimethyloctyne   0.00 8.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    138.25     dimethyloctyne 
+90113 pentylindenecyclo   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     pentylindenecyclohexane 
+90114 dimethylbutylcycl   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    168.32     dimethylbutylcyclohexane 
+90115  trimethylhexanes   0.00 8.40 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.60  VOC    128.26     trimethylhexanes 
+90116 isopropylcyclopen   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     isopropylcyclopentane 
+90117 dl-limonene {dipe   0.00 4.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     dl-limonene {dipentene} 
+90118 cis-bicyclo[3.3.0   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    110.20     cis-bicyclo[3.3.0]octane 
+90119      methylindene   0.00 0.00 1.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.19     methylindene 
+90120 propylcyclohexane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     propylcyclohexane 
+90121 methylethylheptan   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     methylethylheptane 
+90122 tetramethylhexane   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     tetramethylhexane 
+90123   trimethylnonene   0.0010.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    168.32     trimethylnonene 
+90124   dimethyloctenes   0.00 6.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     dimethyloctenes 
+90125       heneicosane   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     heneicosane 
+90126          eicosane   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     eicosane 
+90127        nonadecane   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    268.53     nonadecane 
+90128 isopropylcyclohex   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     isopropylcyclohexane (2-methylethyl cyclohexane) 
+90129 ethyldimethylocta   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.34     ethyldimethyloctane 
+90130     caryophyllene   0.00 9.00 3.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    204.36     caryophyllene 
+91003 1-methyl naphthal   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    142.20     1-methyl naphthalene 
+91009 c11 alkylbenzenes   0.00 3.33 0.00 0.33 0.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    148.25     c11 alkylbenzenes 
+98001 "2,3-dimethylbuta   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     "2,3-dimethylbutane" 
+98002  2-ethyl-1-butene   0.00 5.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     2-ethyl-1-butene 
+98003      cis-3-hexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     cis-3-hexene 
+98004 2-methyl-2-penten   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     2-methyl-2-pentene 
+98005         1-heptene   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     1-heptene 
+98010 methylnaphthalene   0.00 2.50 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.50  VOC    142.20     methylnaphthalenes 
+98011 ethylnaphthalenes   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.23     ethylnaphthalenes 
+98012 dimethyl napthale   0.00 4.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.23     dimethyl napthalenes 
+98013 propylnaphthalene   0.00 5.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.26     propylnaphthalene 
+98014 trimethylnaphthal   0.00 5.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.26     trimethylnaphthalene 
+98015        anthracene   0.00 2.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    178.23     anthracene 
+98016 methylanthracenes   0.00 8.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    192.26     methylanthracenes 
+98017    dimethylindans   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     dimethylindans 
+98018    dimethyl ether   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     46.07     dimethyl ether 
+98019 "1,2-dichloro-1,1   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    170.92     "1,2-dichloro-1,1,2,2-tetrafluoroethane {cfc-114}" 
+98021 o-cresol (2-methy   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    108.14     o-cresol (2-methyl-benzenol) 
+98025          a-pinene   0.00 6.00 0.50 0.00 0.00 0.00 1.50 0.00 0.00 0.00 0.00 0.00  VOC    136.24     a-pinene 
+98026          b-pinene   0.00 8.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     b-pinene 
+98027        d-limonene   0.00 4.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    136.24     d-limonene 
+98028 phthalic anhydrid   0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 7.00  VOC    148.12     phthalic anhydride 
+98030  carbon disulfide   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     76.14     carbon disulfide 
+98031  carbonyl sulfide   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     60.07     carbonyl sulfide 
+98032 "2,2,4-trimethylh   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    128.26     "2,2,4-trimethylhexane" 
+98033 "2,2,5-trimethylh   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    128.26     "2,2,5-trimethylhexane" 
+98034    trans-2-hexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     trans-2-hexene 
+98035      cis-2-hexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     cis-2-hexene 
+98036  isobutyraldehyde   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     72.11     isobutyraldehyde 
+98037 1-methyl cyclohex   0.00 5.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.17     1-methyl cyclohexene 
+98038        c9 olefins   0.00 5.67 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.33  VOC    126.24     c9 olefins 
+98039       c10 olefins   0.00 6.67 0.33 0.00 0.00 0.00 1.33 0.00 0.00 0.00 0.00 0.00  VOC    140.27     c10 olefins 
+98040 2-methyl-1-penten   0.00 5.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     2-methyl-1-pentene 
+98041 "3-heptene (mixed   0.00 3.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     "3-heptene (mixed cis,trans)" 
+98042 4-nonene (mixed i   0.00 5.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     4-nonene (mixed isomers) 
+98043 cumene (isopropyl   0.00 2.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     cumene (isopropyl benzene) 
+98044             indan   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     indan 
+98045 "1,3-diethylbenze   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     "1,3-diethylbenzene (meta)" 
+98046        napthalene   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.17     napthalene 
+98047 (2-methylpropyl)b   0.00 3.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     (2-methylpropyl)benzene 
+98048            indene   0.00 0.00 0.50 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    116.16     indene 
+98049 c9 alkyl benzenes   0.00 1.29 0.00 0.29 0.71 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     c9 alkyl benzenes 
+98050     c10 aromatics   0.00 2.05 0.00 0.06 0.94 0.00 0.00 0.00 0.00 0.00 0.00 0.02  VOC    134.22     c10 aromatics 
+98054 "2,4,4-trimethyl-   0.00 6.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    112.22     "2,4,4-trimethyl-1-pentene" 
+98055 "2,4,4-trimethyl-   0.00 5.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC    112.22     "2,4,4-trimethyl-2-pentene (beta diisobutylene)" 
+98056 isovaleraldehyde    0.00 3.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     86.13     isovaleraldehyde (3-methylbutanal) 
+98057 ethylcyclopentane   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.19     ethylcyclopentane 
+98058 trimethylcyclopen   0.00 7.33 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.67  VOC    112.22     trimethylcyclopentane 
+98059 dimethylcyclohexa   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     dimethylcyclohexanes 
+98060 "1,1,3-trimethylc   0.00 2.05 0.00 0.06 0.94 0.00 0.00 0.00 0.00 0.00 0.00 0.02  VOC    126.24     "1,1,3-trimethylcyclohexane" 
+98061  ethylcyclohexane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    112.22     ethylcyclohexane 
+98062 diethylcyclohexan   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    140.27     diethylcyclohexane 
+98063 n-pentylcyclohexa   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.30     n-pentylcyclohexane 
+98064 c8 alkyl cyclohex   0.00 7.80 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.20  VOC    112.22     c8 alkyl cyclohexanes 
+98065 c9 alkyl cyclohex   0.00 8.80 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.20  VOC    126.24     c9 alkyl cyclohexanes 
+98066 c10 alkyl cyclohe   0.00 9.83 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17  VOC    140.27     c10 alkyl cyclohexanes 
+98067 c5 substituted cy   0.0010.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC    154.30     c5 substituted cyclohexane 
+98068 c9 alkyl cyclohex   0.00 8.80 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.20  VOC    126.24     c9 alkyl cyclohexanes 
+98069 c10 alkyl cyclohe   0.00 9.83 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17  VOC    140.27     c10 alkyl cyclohexanes 
+98070 c10 alkyl cyclohe   0.00 9.83 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17  VOC    140.27     c10 alkyl cyclohexanes 
+98071 c5 substituted cy   0.0010.75 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.25  VOC    154.30     c5 substituted cyclohexane 
+98072 c6 substituted cy   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    168.32     c6 substituted cyclohexane 
+98073 butylcycloheptane   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     butylcycloheptanes 
+98074 butyl cellosolve    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    118.18     butyl cellosolve {2-butoxyethanol} {egbe} 
+98076 2-methyl-3-hexano   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.19     2-methyl-3-hexanone 
+98077         heptanone   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.19     heptanone 
+98078     alkene ketone   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     alkene ketone 
+98079         terpinene   0.00 6.00 0.50 0.00 0.00 0.00 1.50 0.00 0.00 0.00 0.00 0.00  VOC    136.24     terpinene 
+98080         butandiol   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     90.12     butandiol 
+98082      ethylheptene   0.00 7.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    126.24     ethylheptene 
+98083  trimethyldecenes   0.0010.00 0.50 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    182.35     trimethyldecenes 
+98084    c2 alkyl indan   0.00 3.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    146.23     c2 alkyl indan 
+98086  c2 alkyl decalin   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    166.31     c2 alkyl decalin 
+98087 carvomenthol (2-p   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.0010.00  VOC    156.27     carvomenthol (2-p-menthanol) (2-methyl-5-(1-methylethyl)-cyclohexanol) 
+98088           carvone   0.00 4.00 1.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC    150.22     carvone 
+98089 isopulegone (5-me   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.0010.00  VOC    152.24     isopulegone (5-methyl-2-(1-methylethenyl)-cyclohexanone) 
+98090    methyl heptene   0.00 5.33 0.67 0.00 0.00 0.00 0.67 0.00 0.00 0.00 0.00 0.00  VOC    112.22     methyl heptene 
+98091  dimethylheptanes   0.00 8.67 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.33  VOC    128.26     dimethylheptanes 
+98096 carbitol {degee}    0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.18     carbitol {degee} {2-(2-ethoxyethoxy)ethanol} 
+98097       a-terpineol   0.00 8.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    154.25     a-terpineol 
+98098 cb4 paraffin bond   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 paraffin bond 
+98099   cb4 olefin bond   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     cb4 olefin bond 
+98100          ethylene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00  VOC     28.05     ethylene 
+98101     carbonyl bond   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     carbonyl bond 
+98102     aromatic bond   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     aromatic bond 
+98103 Unspeciated Unrea   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    187.38     Unspeciated Unreactive compounds 
+98104    1-chlorobutane   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     92.57     1-chlorobutane 
+98105 3-(chloromethyl)-   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    148.68     3-(chloromethyl)-heptane 
+98106 ethyl isopropyl e   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     88.15     ethyl isopropyl ether 
+98107     dibutyl ether   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     dibutyl ether 
+98108 2-butyltetrahydro   0.00 6.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    128.22     2-butyltetrahydrofuran 
+98109 propylcyclohexano   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    140.23     propylcyclohexanone 
+98110 2-(2-butoxyethoxy   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    162.23     2-(2-butoxyethoxy)ethanol  {butyl carbitol} 
+98111 1-ethoxy-2-propan   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    104.15     1-ethoxy-2-propanol 
+98112 2-ethyl-1-hexanol   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    130.23     2-ethyl-1-hexanol 
+98113        1-heptanol   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    116.20     1-heptanol 
+98114 methyl isobutyrat   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    102.13     methyl isobutyrate 
+98115 isoamyl isobutyra   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    158.24     isoamyl isobutyrate 
+98116 substituted c7 es   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    216.32     substituted c7 ester (c12) 
+98117 substituted c9 es   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 5.00  VOC    216.32     substituted c9 ester (c12) 
+98118   methyl acrylate   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     86.09     methyl acrylate 
+98119     vinyl acetate   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     86.09     vinyl acetate 
+98121 methyl methacryla   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    100.12     methyl methacrylate 
+98130 "2,2-dimethylprop   0.00 4.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC     72.15     "2,2-dimethylpropane" 
+98131 1-butyne (ethylac   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     1-butyne (ethylacetylene) 
+98132   2-methyl-butane   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.15     2-methyl-butane 
+98133          2-butyne   0.00 2.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     54.09     2-butyne 
+98134          isoprene   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00  VOC     68.12     isoprene 
+98135 4-methyl-1-penten   0.00 4.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     4-methyl-1-pentene 
+98136    trans-3-hexene   0.00 2.00 0.00 0.00 0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00  VOC     84.16     trans-3-hexene 
+98137   Dimethylhexenes   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     Dimethylhexenes 
+98138 "2,2-dimethylhexa   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    114.23     "2,2-dimethylhexane" 
+98139 "2,3-dimethylhexa   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     "2,3-dimethylhexane" 
+98140   2-methylheptane   0.00 8.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    114.23     2-methylheptane 
+98141 "2,3,5-trimethylh   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,3,5-trimethylhexane" 
+98142 "2,4-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,4-dimethylheptane" 
+98143 "2,5-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,5-dimethylheptane" 
+98144 "3,5-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "3,5-dimethylheptane" 
+98145 "2,3-dimethylhept   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     "2,3-dimethylheptane" 
+98146    2-methyloctane   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     2-methyloctane 
+98147 "2,4,5-trimethylh   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "2,4,5-trimethylheptane" 
+98148   unk c9 paraffin   0.00 9.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    128.26     unk c9 paraffin 
+98149 "2,4-dimethylocta   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "2,4-dimethyloctane" 
+98150 isomers of decane   0.00 9.88 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.13  VOC    142.29     isomers of decane (c10 paraffins) 
+98151 "3,4-dimethylocta   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "3,4-dimethyloctane" 
+98152 1-methyl-3n-propy   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     1-methyl-3n-propylbenzene 
+98153 1-methyl-3-isopro   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     1-methyl-3-isopropylbenzene 
+98154 "1,2-diethylbenze   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     "1,2-diethylbenzene (ortho)" 
+98155    2-methyldecane   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     2-methyldecane 
+98156    crotonaldehyde   0.00 0.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC     70.09     crotonaldehyde 
+98157      benzaldehyde   0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    106.12     benzaldehyde 
+98159 hexanal (hexanala   0.00 4.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00  VOC    100.16     hexanal (hexanaladehyde) 
+99008  maleic anhydride   0.00 0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     98.06     maleic anhydride 
+99013 "1,1-dichloroethe   0.00 2.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     96.94     "1,1-dichloroethene {vinylidene chloride}" 
+99014 ethylene dibromid   0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 2.00  VOC    187.87     ethylene dibromide 
+99021          3-carene   0.00 6.00 0.50 0.00 0.00 0.00 1.50 0.00 0.00 0.00 0.00 0.00  VOC    136.24     3-carene 
+99101 c1 compounds (die   0.00 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.99  TOG     16.04     c1 compounds (diesel exhaust) 
+99102 c2 compounds (die   0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00  VOC     28.05     c2 compounds (diesel exhaust) 
+99103 c3 compounds (die   0.00 1.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     42.08     c3 compounds (diesel exhaust) 
+99104 c4 compounds (die   0.00 2.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     56.11     c4 compounds (diesel exhaust) 
+99105 c5 compounds (die   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     72.15     c5 compounds (diesel exhaust) 
+99106 c6 compounds (die   0.00 6.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC     86.18     c6 compounds (diesel exhaust) 
+99107 c7 compounds (die   0.00 7.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    100.21     c7 compounds (diesel exhaust) 
+99108 c8 compounds (die   0.00 7.93 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.07  VOC    113.22     c8 compounds (diesel exhaust) 
+99109 c9 compounds (die   0.00 8.93 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.07  VOC    127.24     c9 compounds (diesel exhaust) 
+99110 c10 compounds (di   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     c10 compounds (diesel exhaust) 
+99111 c11 compounds (di   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     c11 compounds (diesel exhaust) 
+99112 c12 compounds (di   0.0012.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    170.34     c12 compounds (diesel exhaust) 
+99113 c13 compounds (di   0.0012.83 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.17  VOC    184.37     c13 compounds (diesel exhaust) 
+99114 c14 compounds (di   0.0014.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    198.39     c14 compounds (diesel exhaust) 
+99115 c15 compounds (di   0.0015.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    212.42     c15 compounds (diesel exhaust) 
+99116 c16 compounds (di   0.0016.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    226.45     c16 compounds (diesel exhaust) 
+99117 c17 compounds (di   0.0014.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 3.00  VOC    240.48     c17 compounds (diesel exhaust) 
+99118 c18 compounds (di   0.0018.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    254.50     c18 compounds (diesel exhaust) 
+99119 c19 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c19 compounds (diesel exhaust) 
+99120 c20 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c20 compounds (diesel exhaust) 
+99121 c21 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c21 compounds (diesel exhaust) 
+99122 c22 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c22 compounds (diesel exhaust) 
+99123 c23 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c23 compounds (diesel exhaust) 
+99124 c24 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c24 compounds (diesel exhaust) 
+99125 c25 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c25 compounds (diesel exhaust) 
+99126 c26 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c26 compounds (diesel exhaust) 
+99127 c27 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c27 compounds (diesel exhaust) 
+99128 c28 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c28 compounds (diesel exhaust) 
+99129 c29 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c29 compounds (diesel exhaust) 
+99130 c30 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c30 compounds (diesel exhaust) 
+99131 c31 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c31 compounds (diesel exhaust) 
+99132 c32 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c32 compounds (diesel exhaust) 
+99133 c33 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c33 compounds (diesel exhaust) 
+99134 c34 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c34 compounds (diesel exhaust) 
+99135 c35 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c35 compounds (diesel exhaust) 
+99136 c36 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c36 compounds (diesel exhaust) 
+99137 c37 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c37 compounds (diesel exhaust) 
+99138 c38 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c38 compounds (diesel exhaust) 
+99139 c39 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c39 compounds (diesel exhaust) 
+99140 c40 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c40 compounds (diesel exhaust) 
+99141 c41 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c41 compounds (diesel exhaust) 
+99142 c42 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c42 compounds (diesel exhaust) 
+99143 c43 compounds (di   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     c43 compounds (diesel exhaust) 
+99908 "2,3-dimethylocta   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "2,3-dimethyloctane" 
+99909 "2,6-dimethylocta   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "2,6-dimethyloctane" 
+99910 "2,4-dimethylocta   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "2,4-dimethyloctane" 
+99911 "3,4-dimethylocta   0.0010.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    142.29     "3,4-dimethyloctane" 
+99912    m-ethyltoluene   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     m-ethyltoluene 
+99913    o-ethyltoluene   0.00 1.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    120.20     o-ethyltoluene 
+99915 (2-methylpropyl)b   0.00 3.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     (2-methylpropyl)benzene 
+99916 1-methyl-3n-propy   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     1-methyl-3n-propylbenzene 
+99917 1-methyl-3-isopro   0.00 2.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    134.22     1-methyl-3-isopropylbenzene 
+99918    2-methyldecane   0.0011.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC    156.31     2-methyldecane 
+99933        denaturant   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     denaturant 
+99997 t-amylmethylether   0.00 5.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.00  VOC    102.18     t-amylmethylether (tame) 
+99998 ethyl t-butyl eth   0.00 3.00 0.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 0.00 1.00  VOC    102.18     ethyl t-butyl ether 
+99999      unidentified   1.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00  VOC      1.00     unidentified 

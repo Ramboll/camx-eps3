@@ -1,0 +1,34 @@
+#!/bin/csh
+#
+#   --- Sample job script for running the
+#       EPS3 module CHMSPL
+#
+#
+set EXEC = /models/eps3/src
+#
+set SCENARIO = June14.2007
+#
+foreach mech (cb4 cb5 )
+foreach f (VOC_to_VOC VOC_to_TOG TOG_to_VOC TOG_to_TOG)
+#
+echo "-------------------------------------------------"
+echo "    Running EMSCVT for $SCENARIO "
+echo "        $mech and $f"
+echo "-------------------------------------------------"
+#
+rm -f ../msg/msg.emscvt.$f.std_profiles.$mech.eps3.$SCENARIO
+rm -f ../outputs/splitfac.$f.std_profiles.$mech.eps3.$SCENARIO
+
+$EXEC/emscvt/emscvt << IEOF
+User Input file    :../inputs/emscvtin.udt.$mech.$f
+Input Profiles     :../inputs/emscvt.std_profiles.eps3
+Compound Database  :../inputs/compound.database.eps3.$mech.wTOG.$SCENARIO
+Input XREF file    :
+Input Split Factors:
+Control Factors    :
+Output Message file:../msg/msg.emscvt.$f.std_profiles.$mech.eps3.$SCENARIO
+Output XREF file   :
+Output Split Factor:../outputs/splitfac.$f.std_profiles.$mech.eps3.$SCENARIO
+IEOF
+end
+end

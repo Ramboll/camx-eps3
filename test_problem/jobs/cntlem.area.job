@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module CNTLEM
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+rm -f ../msg/msg.cntlem.ar.$SCENARIO
+rm -f ../embr/embr.cntlem.ar.$SCENARIO
+#
+#
+echo "-------------------------------------------------"
+echo "    Running CNTLEM for $SCENARIO - area sources"
+echo "-------------------------------------------------"
+#
+$EXEC/cntlem.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO
+Input EMBR file    :../embr/embr.pream.$SCENARIO
+Control factors    :../inputs/control.factors.area.$SCENARIO
+Output Messages    :../msg/msg.cntlem.ar.$SCENARIO
+Output EMBR file   :../embr/embr.cntlem.ar.$SCENARIO
+IEOF

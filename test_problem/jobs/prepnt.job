@@ -1,0 +1,34 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module PREPNT
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+# --- sort the AFS file ---
+#
+sort -o ../inputs/AFS.points.$SCENARIO \
+-t^ +0.12 -0.16 +0.40 -0.49 +0.51 \
+   -0.60 +0.62 -0.71 +0.29 -0.38 +0.176 -0.180 \
+                         ../inputs/AFS.points.$SCENARIO
+#
+#
+rm -f ../msg/msg.prepnt.$SCENARIO
+rm -f ../embr/embr.prepnt.$SCENARIO
+rm -f ../reports/stkrpt.prepnt.$SCENARIO
+rm -f ../error/error.prepnt.$SCENARIO
+#
+echo "-------------------------------------------------"
+echo "    Running PREPNT for $SCENARIO"
+echo "-------------------------------------------------"
+#
+$EXEC/prepnt.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO
+Input AMS file     :../inputs/AFS.points.$SCENARIO
+Output Messages    :../msg/msg.prepnt.$SCENARIO
+Output EMBR        :../embr/embr.prepnt.$SCENARIO
+Stack Report       :../reports/stkrpt.prepnt.$SCENARIO
+EMAR error file    :../error/error.prepnt.$SCENARIO
+IEOF

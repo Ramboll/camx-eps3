@@ -1,0 +1,31 @@
+#!/usr/bin/bash
+#
+#   --- Sample job script for running the
+#       EPS3 module PSTPNT
+#
+EXEC=/models/eps3
+#
+SCENARIO=test_problem
+#
+for DAY in wkd sat sun; do
+#
+rm -f ../emiss/elvems.pts.$SCENARIO.$DAY
+rm -f ../emiss/stkhdr.pts.$SCENARIO.$DAY
+rm -f ../error/emar.pstpnt.pts.$SCENARIO.$DAY
+rm -f ../msg/msg.pstpnt.pts.$SCENARIO.$DAY
+#
+echo "-------------------------------------------------"
+echo "    Running PSTPNT for $SCENARIO - point sources"
+echo "         Day - $DAY"
+echo "-------------------------------------------------"
+
+$EXEC/pstpnt.exe << IEOF
+USERIN file        :../inputs/userin.$SCENARIO.$DAY
+Input EMBR file    :../embr/embr.tmprl.pts.$SCENARIO.$DAY
+Output Messages    :../msg/msg.pstpnt.pts.$SCENARIO.$DAY
+Output Emissions   :../emiss/elvems.pts.$SCENARIO.$DAY
+Output Stack/HDR   :../emiss/stkhdr.pts.$SCENARIO.$DAY
+Output Stack/SCC   :
+EMAR error file    :../error/emar.pstpnt.pts.$SCENARIO.$DAY
+IEOF
+done
